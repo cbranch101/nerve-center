@@ -1,0 +1,1247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c62c11106dcf401fa66fc0aac879703, type: 3}
+  m_Name: LauHoWi-a
+  m_EditorClassIdentifier: 
+  asciiChars:
+  - id: 33
+    uMin: .755859375
+    uMax: .802734375
+    vMin: .505859375
+    vMax: .623046875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .315789461
+    height: .789473712
+    advance: .184210524
+    kerningIds: 
+    kernings: []
+  - id: 34
+    uMin: .146484375
+    uMax: .208984375
+    vMin: .013671875
+    vMax: .080078125
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .421052635
+    height: .447368413
+    advance: .236842111
+    kerningIds: 
+    kernings: []
+  - id: 35
+    uMin: .080078125
+    uMax: .189453125
+    vMin: .169921875
+    vMax: .271484375
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .736842096
+    height: .684210539
+    advance: .605263174
+    kerningIds: 
+    kernings: []
+  - id: 36
+    uMin: .001953125
+    uMax: .103515625
+    vMin: .861328125
+    vMax: .998046875
+    xOffset: -.105263159
+    yOffset: 0
+    width: .684210539
+    height: .921052635
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 37
+    uMin: .705078125
+    uMax: .787109375
+    vMin: .279296875
+    vMax: .388671875
+    xOffset: -.0789473653
+    yOffset: -.105263159
+    width: .552631557
+    height: .736842096
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 38
+    uMin: .529296875
+    uMax: .626953125
+    vMin: .509765625
+    vMax: .623046875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .657894731
+    height: .763157904
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 39
+    uMin: .263671875
+    uMax: .306640625
+    vMin: .013671875
+    vMax: .076171875
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .289473683
+    height: .421052635
+    advance: .157894731
+    kerningIds: 
+    kernings: []
+  - id: 40
+    uMin: .611328125
+    uMax: .681640625
+    vMin: .392578125
+    vMax: .505859375
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .473684222
+    height: .763157904
+    advance: .315789461
+    kerningIds: 
+    kernings: []
+  - id: 41
+    uMin: .931640625
+    uMax: 1.00195312
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .473684222
+    height: .789473712
+    advance: .315789461
+    kerningIds: 
+    kernings: []
+  - id: 42
+    uMin: .314453125
+    uMax: .400390625
+    vMin: .080078125
+    vMax: .166015625
+    xOffset: -.0789473653
+    yOffset: -.157894731
+    width: .578947365
+    height: .578947365
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 43
+    uMin: .091796875
+    uMax: .166015625
+    vMin: .087890625
+    vMax: .166015625
+    xOffset: -.0789473653
+    yOffset: -.210526317
+    width: .5
+    height: .526315808
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 44
+    uMin: .212890625
+    uMax: .259765625
+    vMin: .017578125
+    vMax: .080078125
+    xOffset: -.0789473653
+    yOffset: -.526315808
+    width: .315789461
+    height: .421052635
+    advance: .184210524
+    kerningIds: 
+    kernings: []
+  - id: 45
+    uMin: .775390625
+    uMax: .845703125
+    vMin: .037109375
+    vMax: .080078125
+    xOffset: -.0789473653
+    yOffset: -.289473683
+    width: .473684222
+    height: .289473683
+    advance: .342105269
+    kerningIds: 
+    kernings: []
+  - id: 46
+    uMin: .724609375
+    uMax: .771484375
+    vMin: .029296875
+    vMax: .080078125
+    xOffset: -.0789473653
+    yOffset: -.526315808
+    width: .315789461
+    height: .342105269
+    advance: .210526317
+    kerningIds: 
+    kernings: []
+  - id: 47
+    uMin: .880859375
+    uMax: .947265625
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .447368413
+    height: .842105269
+    advance: .315789461
+    kerningIds: 
+    kernings: []
+  - id: 48
+    uMin: .427734375
+    uMax: .525390625
+    vMin: .509765625
+    vMax: .623046875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .657894731
+    height: .763157904
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  - id: 49
+    uMin: .333984375
+    uMax: .396484375
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .421052635
+    height: .815789461
+    advance: .289473683
+    kerningIds: 
+    kernings: []
+  - id: 50
+    uMin: .447265625
+    uMax: .552734375
+    vMin: .283203125
+    vMax: .388671875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .710526347
+    height: .710526347
+    advance: .552631557
+    kerningIds: 
+    kernings: []
+  - id: 51
+    uMin: .185546875
+    uMax: .267578125
+    vMin: .384765625
+    vMax: .498046875
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .552631557
+    height: .763157904
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 52
+    uMin: .033203125
+    uMax: .123046875
+    vMin: .501953125
+    vMax: .615234375
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .605263174
+    height: .763157904
+    advance: .473684222
+    kerningIds: 
+    kernings: []
+  - id: 53
+    uMin: .830078125
+    uMax: .951171875
+    vMin: .392578125
+    vMax: .501953125
+    xOffset: -.105263159
+    yOffset: -.0789473653
+    width: .815789461
+    height: .736842096
+    advance: .631578922
+    kerningIds: 
+    kernings: []
+  - id: 54
+    uMin: .064453125
+    uMax: .150390625
+    vMin: .275390625
+    vMax: .380859375
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .578947365
+    height: .710526347
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 55
+    uMin: .001953125
+    uMax: .107421875
+    vMin: .619140625
+    vMax: .736328125
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .710526347
+    height: .789473712
+    advance: .552631557
+    kerningIds: 
+    kernings: []
+  - id: 56
+    uMin: .607421875
+    uMax: .685546875
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .526315808
+    height: .789473712
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 57
+    uMin: .689453125
+    uMax: .767578125
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .526315808
+    height: .789473712
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 58
+    uMin: .263671875
+    uMax: .310546875
+    vMin: .080078125
+    vMax: .166015625
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .315789461
+    height: .578947365
+    advance: .184210524
+    kerningIds: 
+    kernings: []
+  - id: 59
+    uMin: .001953125
+    uMax: .052734375
+    vMin: .013671875
+    vMax: .083984375
+    xOffset: -.0789473653
+    yOffset: -.473684222
+    width: .342105269
+    height: .473684222
+    advance: .210526317
+    kerningIds: 
+    kernings: []
+  - id: 60
+    uMin: .017578125
+    uMax: .087890625
+    vMin: .087890625
+    vMax: .162109375
+    xOffset: -.0263157897
+    yOffset: -.184210524
+    width: .473684222
+    height: .5
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 61
+    uMin: .056640625
+    uMax: .142578125
+    vMin: .017578125
+    vMax: .083984375
+    xOffset: -.0789473653
+    yOffset: -.236842111
+    width: .578947365
+    height: .447368413
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 62
+    uMin: .169921875
+    uMax: .259765625
+    vMin: .083984375
+    vMax: .166015625
+    xOffset: -.105263159
+    yOffset: -.184210524
+    width: .605263174
+    height: .552631557
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 63
+    uMin: .529296875
+    uMax: .607421875
+    vMin: .392578125
+    vMax: .505859375
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .526315808
+    height: .763157904
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 64
+    uMin: .630859375
+    uMax: .751953125
+    vMin: .509765625
+    vMax: .623046875
+    xOffset: -.0789473653
+    yOffset: -.105263159
+    width: .815789461
+    height: .763157904
+    advance: .710526347
+    kerningIds: 
+    kernings: []
+  - id: 65
+    uMin: .416015625
+    uMax: .513671875
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: 0
+    width: .657894731
+    height: .842105269
+    advance: .526315808
+    kerningIds: 4600000054000000560000006a000000
+    kernings:
+    - -.0263157897
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+  - id: 66
+    uMin: .212890625
+    uMax: .330078125
+    vMin: .744140625
+    vMax: .861328125
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .789473712
+    height: .789473712
+    advance: .631578922
+    kerningIds: 
+    kernings: []
+  - id: 67
+    uMin: .341796875
+    uMax: .443359375
+    vMin: .279296875
+    vMax: .384765625
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .684210539
+    height: .710526347
+    advance: .552631557
+    kerningIds: 
+    kernings: []
+  - id: 68
+    uMin: .326171875
+    uMax: .423828125
+    vMin: .505859375
+    vMax: .619140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .657894731
+    height: .763157904
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  - id: 69
+    uMin: .271484375
+    uMax: .353515625
+    vMin: .388671875
+    vMax: .501953125
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .552631557
+    height: .763157904
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 70
+    uMin: .111328125
+    uMax: .216796875
+    vMin: .619140625
+    vMax: .736328125
+    xOffset: -.105263159
+    yOffset: -.0263157897
+    width: .710526347
+    height: .789473712
+    advance: .5
+    kerningIds: 4100000053000000610000006400000065000000670000006d0000006e0000006f0000007000000071000000720000007300000075000000760000007700000078000000790000007a000000
+    kernings:
+    - -.0789473653
+    - -.184210524
+    - -.0789473653
+    - -.0789473653
+    - -.105263159
+    - -.105263159
+    - -.0263157897
+    - -.0263157897
+    - -.105263159
+    - -.0789473653
+    - -.105263159
+    - -.0526315793
+    - -.0789473653
+    - -.0526315793
+    - -.0263157897
+    - -.0526315793
+    - -.0263157897
+    - -.0263157897
+    - -.0789473653
+  - id: 71
+    uMin: .220703125
+    uMax: .322265625
+    vMin: .623046875
+    vMax: .740234375
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .684210539
+    height: .789473712
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 72
+    uMin: .619140625
+    uMax: .708984375
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: 0
+    width: .605263174
+    height: .842105269
+    advance: .473684222
+    kerningIds: 
+    kernings: []
+  - id: 73
+    uMin: .806640625
+    uMax: .857421875
+    vMin: .505859375
+    vMax: .623046875
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .342105269
+    height: .789473712
+    advance: .210526317
+    kerningIds: 
+    kernings: []
+  - id: 74
+    uMin: .791015625
+    uMax: .884765625
+    vMin: .279296875
+    vMax: .388671875
+    xOffset: -.105263159
+    yOffset: -.0789473653
+    width: .631578922
+    height: .736842096
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 75
+    uMin: .326171875
+    uMax: .419921875
+    vMin: .623046875
+    vMax: .740234375
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .631578922
+    height: .789473712
+    advance: .473684222
+    kerningIds: 
+    kernings: []
+  - id: 76
+    uMin: .423828125
+    uMax: .517578125
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .631578922
+    height: .789473712
+    advance: .473684222
+    kerningIds: 
+    kernings: []
+  - id: 77
+    uMin: .517578125
+    uMax: .615234375
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: 0
+    width: .657894731
+    height: .842105269
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  - id: 78
+    uMin: .685546875
+    uMax: .783203125
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .657894731
+    height: .815789461
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  - id: 79
+    uMin: .248046875
+    uMax: .337890625
+    vMin: .275390625
+    vMax: .380859375
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .605263174
+    height: .710526347
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 80
+    uMin: .310546875
+    uMax: .412109375
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.105263159
+    yOffset: 0
+    width: .684210539
+    height: .842105269
+    advance: .5
+    kerningIds: 41000000530000006100000063000000640000006500000067000000690000006a0000006d0000006e0000006f0000007000000071000000730000007500000077000000790000007a000000
+    kernings:
+    - -.131578952
+    - -.184210524
+    - -.105263159
+    - -.105263159
+    - -.0526315793
+    - -.0789473653
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0789473653
+    - -.0526315793
+    - -.0789473653
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+  - id: 81
+    uMin: .095703125
+    uMax: .208984375
+    vMin: .740234375
+    vMax: .857421875
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .763157904
+    height: .789473712
+    advance: .605263174
+    kerningIds: 
+    kernings: []
+  - id: 82
+    uMin: .896484375
+    uMax: 1.00195312
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.105263159
+    yOffset: 0
+    width: .710526347
+    height: .815789461
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  - id: 83
+    uMin: .888671875
+    uMax: 1.00195312
+    vMin: .279296875
+    vMax: .388671875
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .763157904
+    height: .736842096
+    advance: .578947365
+    kerningIds: 
+    kernings: []
+  - id: 84
+    uMin: .685546875
+    uMax: .826171875
+    vMin: .392578125
+    vMax: .501953125
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .947368443
+    height: .736842096
+    advance: .736842096
+    kerningIds: 410000005300000061000000630000006400000065000000660000006700000068000000690000006a0000006d0000006e0000006f0000007000000071000000720000007300000074000000750000007600000077000000790000007a000000
+    kernings:
+    - -.131578952
+    - -.210526317
+    - -.131578952
+    - -.131578952
+    - -.131578952
+    - -.131578952
+    - -.0263157897
+    - -.131578952
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0789473653
+    - -.0789473653
+    - -.131578952
+    - -.105263159
+    - -.131578952
+    - -.0263157897
+    - -.105263159
+    - -.0263157897
+    - -.0789473653
+    - -.0263157897
+    - -.0789473653
+    - -.0789473653
+    - -.0789473653
+  - id: 85
+    uMin: .224609375
+    uMax: .322265625
+    vMin: .505859375
+    vMax: .619140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .657894731
+    height: .763157904
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 86
+    uMin: .126953125
+    uMax: .220703125
+    vMin: .501953125
+    vMax: .615234375
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .631578922
+    height: .763157904
+    advance: .447368413
+    kerningIds: 41000000430000004400000047000000480000004f0000005100000053000000610000006300000064000000650000006700000068000000690000006a0000006d0000006e0000006f00000070000000710000007300000074000000750000007600000077000000790000007a000000
+    kernings:
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+    - -.0526315793
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0789473653
+    - -.0526315793
+    - -.0789473653
+    - -.0526315793
+    - -.0526315793
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0526315793
+    - -.0526315793
+    - -.0526315793
+    - -.0789473653
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+    - -.0263157897
+  - id: 87
+    uMin: .787109375
+    uMax: .892578125
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .710526347
+    height: .815789461
+    advance: .605263174
+    kerningIds: 
+    kernings: []
+  - id: 88
+    uMin: .490234375
+    uMax: .580078125
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.105263159
+    yOffset: -.0263157897
+    width: .605263174
+    height: .815789461
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 89
+    uMin: .001953125
+    uMax: .091796875
+    vMin: .384765625
+    vMax: .498046875
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .605263174
+    height: .763157904
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 90
+    uMin: .583984375
+    uMax: .681640625
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .657894731
+    height: .815789461
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 91
+    uMin: .806640625
+    uMax: .876953125
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .473684222
+    height: .842105269
+    advance: .342105269
+    kerningIds: 
+    kernings: []
+  - id: 92
+    uMin: .771484375
+    uMax: .849609375
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.105263159
+    yOffset: -.0263157897
+    width: .526315808
+    height: .789473712
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 93
+    uMin: .162109375
+    uMax: .240234375
+    vMin: .865234375
+    vMax: .998046875
+    xOffset: -.105263159
+    yOffset: 0
+    width: .526315808
+    height: .894736826
+    advance: .342105269
+    kerningIds: 
+    kernings: []
+  - id: 94
+    uMin: .412109375
+    uMax: .501953125
+    vMin: .021484375
+    vMax: .080078125
+    xOffset: -.105263159
+    yOffset: 0
+    width: .605263174
+    height: .394736856
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 95
+    uMin: .587890625
+    uMax: .720703125
+    vMin: .029296875
+    vMax: .080078125
+    xOffset: -.105263159
+    yOffset: -.578947365
+    width: .894736826
+    height: .342105269
+    advance: .710526347
+    kerningIds: 
+    kernings: []
+  - id: 96
+    uMin: .505859375
+    uMax: .583984375
+    vMin: .021484375
+    vMax: .080078125
+    xOffset: -.105263159
+    yOffset: -.0263157897
+    width: .526315808
+    height: .394736856
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 97
+    uMin: .580078125
+    uMax: .673828125
+    vMin: .083984375
+    vMax: .173828125
+    xOffset: -.0789473653
+    yOffset: -.210526317
+    width: .631578922
+    height: .605263174
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 98
+    uMin: .357421875
+    uMax: .439453125
+    vMin: .388671875
+    vMax: .501953125
+    xOffset: -.0789473653
+    yOffset: -.0526315793
+    width: .552631557
+    height: .763157904
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 99
+    uMin: .490234375
+    uMax: .587890625
+    vMin: .177734375
+    vMax: .275390625
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .657894731
+    height: .657894731
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 100
+    uMin: .400390625
+    uMax: .486328125
+    vMin: .748046875
+    vMax: .869140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .578947365
+    height: .815789461
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 101
+    uMin: .662109375
+    uMax: .767578125
+    vMin: .181640625
+    vMax: .275390625
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .710526347
+    height: .631578922
+    advance: .526315808
+    kerningIds: 20000000
+    kernings:
+    - -.0789473653
+  - id: 102
+    uMin: .712890625
+    uMax: .802734375
+    vMin: .873046875
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .605263174
+    height: .842105269
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 103
+    uMin: .443359375
+    uMax: .525390625
+    vMin: .392578125
+    vMax: .505859375
+    xOffset: -.0789473653
+    yOffset: -.210526317
+    width: .552631557
+    height: .763157904
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 104
+    uMin: .853515625
+    uMax: .931640625
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .526315808
+    height: .789473712
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 105
+    uMin: .591796875
+    uMax: .658203125
+    vMin: .177734375
+    vMax: .275390625
+    xOffset: -.0789473653
+    yOffset: -.131578952
+    width: .447368413
+    height: .657894731
+    advance: .289473683
+    kerningIds: 
+    kernings: []
+  - id: 106
+    uMin: .244140625
+    uMax: .306640625
+    vMin: .869140625
+    vMax: .998046875
+    xOffset: -.105263159
+    yOffset: -.105263159
+    width: .421052635
+    height: .868421078
+    advance: .236842111
+    kerningIds: 
+    kernings: []
+  - id: 107
+    uMin: .619140625
+    uMax: .701171875
+    vMin: .279296875
+    vMax: .388671875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .552631557
+    height: .736842096
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 108
+    uMin: .556640625
+    uMax: .615234375
+    vMin: .279296875
+    vMax: .388671875
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .394736856
+    height: .736842096
+    advance: .236842111
+    kerningIds: 
+    kernings: []
+  - id: 109
+    uMin: .193359375
+    uMax: .287109375
+    vMin: .169921875
+    vMax: .271484375
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .631578922
+    height: .684210539
+    advance: .5
+    kerningIds: 
+    kernings: []
+  - id: 110
+    uMin: .837890625
+    uMax: .916015625
+    vMin: .083984375
+    vMax: .177734375
+    xOffset: -.0789473653
+    yOffset: -.210526317
+    width: .526315808
+    height: .631578922
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 111
+    uMin: .404296875
+    uMax: .486328125
+    vMin: .083984375
+    vMax: .173828125
+    xOffset: -.0789473653
+    yOffset: -.236842111
+    width: .552631557
+    height: .605263174
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 112
+    uMin: .154296875
+    uMax: .244140625
+    vMin: .275390625
+    vMax: .380859375
+    xOffset: -.0789473653
+    yOffset: -.210526317
+    width: .605263174
+    height: .710526347
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 113
+    uMin: .291015625
+    uMax: .373046875
+    vMin: .169921875
+    vMax: .271484375
+    xOffset: -.0789473653
+    yOffset: -.236842111
+    width: .552631557
+    height: .684210539
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 114
+    uMin: .677734375
+    uMax: .751953125
+    vMin: .083984375
+    vMax: .177734375
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .5
+    height: .631578922
+    advance: .315789461
+    kerningIds: 
+    kernings: []
+  - id: 115
+    uMin: .869140625
+    uMax: .955078125
+    vMin: .181640625
+    vMax: .275390625
+    xOffset: -.105263159
+    yOffset: -.184210524
+    width: .578947365
+    height: .631578922
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 116
+    uMin: .001953125
+    uMax: .076171875
+    vMin: .166015625
+    vMax: .271484375
+    xOffset: -.0789473653
+    yOffset: -.0789473653
+    width: .5
+    height: .710526347
+    advance: .315789461
+    kerningIds: 
+    kernings: []
+  - id: 117
+    uMin: .490234375
+    uMax: .576171875
+    vMin: .083984375
+    vMax: .173828125
+    xOffset: -.0789473653
+    yOffset: -.184210524
+    width: .578947365
+    height: .605263174
+    advance: .421052635
+    kerningIds: 
+    kernings: []
+  - id: 118
+    uMin: .919921875
+    uMax: 1.00195312
+    vMin: .083984375
+    vMax: .177734375
+    xOffset: -.105263159
+    yOffset: -.184210524
+    width: .552631557
+    height: .631578922
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 119
+    uMin: .376953125
+    uMax: .486328125
+    vMin: .177734375
+    vMax: .275390625
+    xOffset: -.0789473653
+    yOffset: -.157894731
+    width: .736842096
+    height: .657894731
+    advance: .578947365
+    kerningIds: 
+    kernings: []
+  - id: 120
+    uMin: .755859375
+    uMax: .833984375
+    vMin: .083984375
+    vMax: .177734375
+    xOffset: -.105263159
+    yOffset: -.184210524
+    width: .526315808
+    height: .631578922
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 121
+    uMin: .095703125
+    uMax: .181640625
+    vMin: .384765625
+    vMax: .498046875
+    xOffset: -.105263159
+    yOffset: -.210526317
+    width: .578947365
+    height: .763157904
+    advance: .394736856
+    kerningIds: 
+    kernings: []
+  - id: 122
+    uMin: .771484375
+    uMax: .865234375
+    vMin: .181640625
+    vMax: .275390625
+    xOffset: -.105263159
+    yOffset: -.184210524
+    width: .631578922
+    height: .631578922
+    advance: .447368413
+    kerningIds: 
+    kernings: []
+  - id: 123
+    uMin: .521484375
+    uMax: .603515625
+    vMin: .626953125
+    vMax: .744140625
+    xOffset: -.105263159
+    yOffset: -.0526315793
+    width: .552631557
+    height: .789473712
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 124
+    uMin: .107421875
+    uMax: .158203125
+    vMin: .861328125
+    vMax: .998046875
+    xOffset: -.0789473653
+    yOffset: -.0263157897
+    width: .342105269
+    height: .921052635
+    advance: .210526317
+    kerningIds: 
+    kernings: []
+  - id: 125
+    uMin: .861328125
+    uMax: .927734375
+    vMin: .505859375
+    vMax: .623046875
+    xOffset: -.0526315793
+    yOffset: -.0526315793
+    width: .447368413
+    height: .789473712
+    advance: .368421048
+    kerningIds: 
+    kernings: []
+  - id: 126
+    uMin: .310546875
+    uMax: .408203125
+    vMin: .017578125
+    vMax: .076171875
+    xOffset: -.0789473653
+    yOffset: -.263157904
+    width: .657894731
+    height: .394736856
+    advance: .526315808
+    kerningIds: 
+    kernings: []
+  otherChars: []
+  pixelLineHeight: 38
+  pixelScale: .0263157897
+  baseline: .657894731
+  spaceAdvance: .289473683
+  supportsKerning: 1
+  leftMargin: .105263159
+  rightMargin: .105263188
+  topMargin: 0
+  bottomMargin: -.0263157487

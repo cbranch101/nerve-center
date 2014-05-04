@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ScreenImage_MAT
+  m_Shader: {fileID: 4800000, guid: 1921ed0cc93002446b1a8929650559f3, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Diffuse
+        second:
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ScreenImage
+        second:
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Scanlines
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _VignetteImage
+        second:
+          m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Vignetting
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Illum
+        second:
+          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
+          m_Scale: {x: .5, y: .5}
+          m_Offset: {x: .25, y: .25}
+      data:
+        first:
+          name: _ScreenLines
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Vignette
+        second:
+          m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Shininess
+        second: .275157481
+      data:
+        first:
+          name: _ScanlinesTiling
+        second: 2.07142854
+      data:
+        first:
+          name: _ScanlinesBrightness
+        second: .375
+      data:
+        first:
+          name: _Vignetting
+        second: .392857105
+      data:
+        first:
+          name: _Glossiness
+        second: .517857134
+      data:
+        first:
+          name: _EmissionLM
+        second: 0
+      data:
+        first:
+          name: _Screen_LinesBrightness
+        second: .142857149
+      data:
+        first:
+          name: _node_384
+        second: .5
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .250980407, g: .250980407, b: .250980407, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ObjectColor
+        second: {r: .0241379309, g: .0241379309, b: .0241379309, a: 1}
+      data:
+        first:
+          name: _ScreenImageTint
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
+          name: _ScanlinesColor
+        second: {r: .90311867, g: 1, b: .807843149, a: 1}
+      data:
+        first:
+          name: _SpecularColor
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _node_196
+        second: {r: .0137931034, g: .0137931034, b: .0137931034, a: 1}
+      data:
+        first:
+          name: _node_428
+        second: {r: .5, g: .5, b: .5, a: 1}
+      data:
+        first:
+          name: _node_464
+        second: {r: .5, g: .5, b: .5, a: 1}
