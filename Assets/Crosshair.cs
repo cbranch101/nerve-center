@@ -9,7 +9,6 @@ public class Crosshair : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		drawPosition = new Rect((Screen.width - mainTexture.width) / 2, (Screen.height - mainTexture.height) /2, mainTexture.width, mainTexture.height);
-		Debug.Log (drawPosition);
 	}
 
 	void OnGUI() {
