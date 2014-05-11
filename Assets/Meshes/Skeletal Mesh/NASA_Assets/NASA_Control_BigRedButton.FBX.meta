@@ -16,7 +16,8 @@ ModelImporter:
     400008: //RootNode
     400010: Socket_Button
     4300000: Box322
-    7400000: Take 001
+    7400000: Button Pushed
+    7400002: Button Idle
     9500000: //RootNode
     13700000: Box322
   materials:
@@ -33,7 +34,83 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Button Pushed
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BN_Button_Root
+        weight: 1
+      - path: BN_Button_Root/BN_Button
+        weight: 1
+      - path: Box112
+        weight: 1
+      - path: Box112/Socket_Button
+        weight: 1
+      - path: Box112/Socket_Button/Box322
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Button Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: .5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BN_Button_Root
+        weight: 1
+      - path: BN_Button_Root/BN_Button
+        weight: 1
+      - path: Box112
+        weight: 1
+      - path: Box112/Socket_Button
+        weight: 1
+      - path: Box112/Socket_Button/Box322
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
