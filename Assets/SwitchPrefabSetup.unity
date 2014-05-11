@@ -4234,6 +4234,7 @@ GameObject:
   - 33: {fileID: 1530610545}
   - 23: {fileID: 1530610544}
   - 95: {fileID: 1530610543}
+  - 64: {fileID: 1530610546}
   m_Layer: 0
   m_Name: NASA_Control_Foundation
   m_TagString: Untagged
@@ -4314,6 +4315,19 @@ MeshFilter:
     type: 3}
   m_PrefabInternal: {fileID: 714956924}
   m_GameObject: {fileID: 1530610541}
+  m_Mesh: {fileID: 4300000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
+--- !u!64 &1530610546
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1530610541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_SmoothSphereCollisions: 0
+  m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
 --- !u!1 &1574498109
 GameObject:
