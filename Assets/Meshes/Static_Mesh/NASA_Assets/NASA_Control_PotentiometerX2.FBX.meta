@@ -1,49 +1,18 @@
 fileFormatVersion: 2
-guid: f76a69607e3311a458e18477a7138aa0
+guid: e53ecc7f178e8a742beeef7c9a50232f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Socket_DeskAngled_CTDown
-    100004: Socket_DeskAngled_CTLF
-    100006: Socket_DeskAngled_CTRT
-    100008: Socket_DeskAngled_CTUP
-    100010: Socket_DeskAngled_LF
-    100012: Socket_DeskAngled_RT
-    100014: Socket_DeskTop_CT
-    100016: Socket_DeskTop_LF
-    100018: Socket_DeskTop_RT
-    100020: Socket_Front_CT
-    100022: Socket_Front_LF
-    100024: Socket_Front_RT
-    100026: Socket_Mid_CT
-    100028: Socket_Mid_LF
-    100030: Socket_Mid_RT
-    100032: Socket_Top_CT
-    100034: Socket_Top_LF
-    100036: Socket_Top_RT
-    400000: //RootNode
-    400002: Socket_DeskAngled_CTDown
-    400004: Socket_DeskAngled_CTLF
-    400006: Socket_DeskAngled_CTRT
-    400008: Socket_DeskAngled_CTUP
-    400010: Socket_DeskAngled_LF
-    400012: Socket_DeskAngled_RT
-    400014: Socket_DeskTop_CT
-    400016: Socket_DeskTop_LF
-    400018: Socket_DeskTop_RT
-    400020: Socket_Front_CT
-    400022: Socket_Front_LF
-    400024: Socket_Front_RT
-    400026: Socket_Mid_CT
-    400028: Socket_Mid_LF
-    400030: Socket_Mid_RT
-    400032: Socket_Top_CT
-    400034: Socket_Top_LF
-    400036: Socket_Top_RT
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Box112
+    100000: Bulbs LF
+    100002: //RootNode
+    400000: Bulbs LF
+    400002: //RootNode
+    2300000: Bulbs LF
+    2300002: //RootNode
+    3300000: Bulbs LF
+    3300002: //RootNode
+    4300000: Box353
+    4300002: Bulbs LF
     9500000: //RootNode
   materials:
     importMaterials: 1
