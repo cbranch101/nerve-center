@@ -5,6 +5,7 @@ public class GrabbableMechanicalCollider : MonoBehaviour {
 
 	public string xPositionParameter = "none";
 	public float xStart = 0.0f;
+	public float changeColor = true;
 	public bool invertXParamater = false;
 	public string yPositionParameter = "none";
 	public float yStart = 0.0f;
