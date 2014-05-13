@@ -5,7 +5,7 @@ public class GrabbableMechanicalCollider : MonoBehaviour {
 
 	public string xPositionParameter = "none";
 	public float xStart = 0.0f;
-	public float changeColor = true;
+	public bool changeColor = true;
 	public bool invertXParamater = false;
 	public string yPositionParameter = "none";
 	public float yStart = 0.0f;
@@ -21,7 +21,7 @@ public class GrabbableMechanicalCollider : MonoBehaviour {
 	void Start () {
 		configureCollider();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		
@@ -29,16 +29,22 @@ public class GrabbableMechanicalCollider : MonoBehaviour {
 
 	public void configureCollider() {
 		gameObject.AddComponent<MouseOverTarget>();
-		gameObject.AddComponent<ChangeColorOnMouseOver>();
-		gameObject.GetComponent<ChangeColorOnMouseOver>().targetMesh = meshToHighlight;
-		gameObject.AddComponent<ChangeColorOnGrab>();
-		gameObject.GetComponent<ChangeColorOnGrab>().targetMesh = meshToHighlight;
 		gameObject.AddComponent<GrabTarget>();
+		configureColorChanging();
 		gameObject.AddComponent<ApplyMechanicalMoveOnGrab>();
 		configureObjectWithMecanimController();
 		gameObject.GetComponent<ApplyMechanicalMoveOnGrab>().targetMechanicalMove = targetMechanicalMove;
 		gameObject.GetComponent<ApplyMechanicalMoveOnGrab>().updaterObject = mechanicalMoveUpdaterObject;
 		targetMechanicalMove.setStartPosition();
+	}
+
+	public void configureColorChanging(){
+		if(changeColor) {
+			gameObject.AddComponent<ChangeColorOnMouseOver>();
+			gameObject.GetComponent<ChangeColorOnMouseOver>().targetMesh = meshToHighlight;
+			gameObject.AddComponent<ChangeColorOnGrab>();
+			gameObject.GetComponent<ChangeColorOnGrab>().targetMesh = meshToHighlight;
+		}
 	}
 
 	public void configureObjectWithMecanimController(){
