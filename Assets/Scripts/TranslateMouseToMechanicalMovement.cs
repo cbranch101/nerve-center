@@ -18,6 +18,7 @@ public class TranslateMouseMovementToMechanicalMovement : MonoBehaviour {
 	}
 
 	void onMouseMove(Vector2 newMouseMovement) {
+
 		if(grabTarget.IsGrabbed) {
 			mechanicalMove.movementAmount = newMouseMovement;
 		}

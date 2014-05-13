@@ -30,7 +30,6 @@ public class LeverController : MonoBehaviour {
 		MechanicalMove mechanicalMove = gameObject.AddComponent<MechanicalMove>();
 		translateMove.mechanicalMove = mechanicalMove;
 		MechanicalController mechanicalController = gameObject.AddComponent<MechanicalController>();
-
 		configureMechanicalMove(mechanicalMove);
 		configureMechanicalController(mechanicalController, mechanicalMove);
 	}
