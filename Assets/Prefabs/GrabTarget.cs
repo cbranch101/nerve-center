@@ -51,7 +51,6 @@ public class GrabTarget : MonoBehaviour {
 	}
 
 	void triggerOnGrabEnter() {
-		Debug.Log ("entering grab");
 		if(OnGrabEnter != null) {
 			OnGrabEnter();
 		}
