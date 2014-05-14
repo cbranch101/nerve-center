@@ -52,15 +52,19 @@ Material:
       data:
         first:
           name: _BulbBrightness
-        second: 6.96428537
+        second: 1.0714283
       data:
         first:
           name: _Lights
-        second: .928571463
+        second: 1
       data:
         first:
           name: _node_41
         second: 0
+      data:
+        first:
+          name: _Level
+        second: .52136749
     m_Colors:
       data:
         first:
