@@ -1074,6 +1074,7 @@ MonoBehaviour:
   yStart: 0
   invertYParamter: 0
   movementRate: .600000024
+  hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 1571038699}
   objectWithCollider: {fileID: 50909941}
@@ -1715,8 +1716,8 @@ Animator:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2038014825}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 6985546d5da32c546a796f08ffbb4e4f, type: 3}
-  m_Controller: {fileID: 9100000, guid: 7adb25cfce10d904dae6c28bc7c80ec4, type: 2}
+  m_Avatar: {fileID: 9000000, guid: 19f7b1f02dd533a4885eb5087b73386c, type: 3}
+  m_Controller: {fileID: 9100000, guid: e3b2c5763a39f674f8cc3b3b48f95636, type: 2}
   m_CullingMode: 1
   m_ApplyRootMotion: 1
   m_AnimatePhysics: 0

@@ -6,6 +6,7 @@ public class TranslateMouseMovementToMechanicalMovement : MonoBehaviour {
 	public MechanicalMove mechanicalMove;
 	private Vector2 mouseMovement;
 	public GrabTarget grabTarget;
+
 	// Use this for initialization
 	void Start () {
 		GetMouseAxis.OnMouseMove += onMouseMove;
@@ -16,7 +17,7 @@ public class TranslateMouseMovementToMechanicalMovement : MonoBehaviour {
 	void Update () {
 
 	}
-
+	
 	void onMouseMove(Vector2 newMouseMovement) {
 		if(grabTarget.IsGrabbed) {
 			mechanicalMove.movementAmount = newMouseMovement;

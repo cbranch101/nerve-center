@@ -10,6 +10,7 @@ public class LeverController : MonoBehaviour {
 	public float yStart = 0.0f;
 	public bool invertYParamter = false;
 	public float movementRate = 5.0f;
+	public bool hasColorChange = true;
 	public bool isTwoDimensional = false;
 	public Renderer controlledMesh;
 	public GameObject objectWithCollider;
@@ -26,24 +27,27 @@ public class LeverController : MonoBehaviour {
 	public void configureMovementEffects(MouseOverTarget mouseOverTarget, GrabTarget grabTarget) {
 		TranslateMouseMovementToMechanicalMovement translateMove = gameObject.AddComponent<TranslateMouseMovementToMechanicalMovement>();
 		translateMove.grabTarget = grabTarget;
+		DisableMouseLookOnGrab disableMouseLook = gameObject.AddComponent<DisableMouseLookOnGrab>();
+		disableMouseLook.grabTarget = grabTarget;
+
 		MechanicalMove mechanicalMove = gameObject.AddComponent<MechanicalMove>();
 		translateMove.mechanicalMove = mechanicalMove;
 		MechanicalController mechanicalController = gameObject.AddComponent<MechanicalController>();
-
 		configureMechanicalMove(mechanicalMove);
 		configureMechanicalController(mechanicalController, mechanicalMove);
 	}
 
 	public void configureMouseOverEffects(MouseOverTarget mouseOverTarget, GrabTarget grabTarget) {
-		ChangeColorOnMouseOver changeColorOnMouseOver = gameObject.AddComponent<ChangeColorOnMouseOver>();
-		changeColorOnMouseOver.mouseOverTarget = mouseOverTarget;
-		changeColorOnMouseOver.targetMesh = controlledMesh;
-		changeColorOnMouseOver.grabTarget = grabTarget;
-		ChangeColorOnGrab changeColorOnGrab = gameObject.AddComponent<ChangeColorOnGrab>();
-		changeColorOnGrab.mouseOverTarget = mouseOverTarget;
-		changeColorOnGrab.grabTarget = grabTarget;
-		changeColorOnGrab.targetMesh = controlledMesh;
-
+		if(hasColorChange) {
+			ChangeColorOnMouseOver changeColorOnMouseOver = gameObject.AddComponent<ChangeColorOnMouseOver>();
+			changeColorOnMouseOver.mouseOverTarget = mouseOverTarget;
+			changeColorOnMouseOver.targetMesh = controlledMesh;
+			changeColorOnMouseOver.grabTarget = grabTarget;
+			ChangeColorOnGrab changeColorOnGrab = gameObject.AddComponent<ChangeColorOnGrab>();
+			changeColorOnGrab.mouseOverTarget = mouseOverTarget;
+			changeColorOnGrab.grabTarget = grabTarget;
+			changeColorOnGrab.targetMesh = controlledMesh;
+		}
 	}
 
 	public void configureMechanicalMove(MechanicalMove targetMechanicalMove) {

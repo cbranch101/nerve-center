@@ -44,7 +44,7 @@ public class DetectMouseOver : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		RaycastHit hit;
-		Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
 		MouseOverTarget mouseOverTarget = null;
 		if(Physics.Raycast (ray, out hit, 1000f)) {
 			mouseOverTarget = hit.collider.gameObject.GetComponent<MouseOverTarget>();
