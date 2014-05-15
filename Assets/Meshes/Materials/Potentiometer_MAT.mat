@@ -65,6 +65,10 @@ Material:
         first:
           name: _Level
         second: .52136749
+      data:
+        first:
+          name: _node_106
+        second: 4
     m_Colors:
       data:
         first:
