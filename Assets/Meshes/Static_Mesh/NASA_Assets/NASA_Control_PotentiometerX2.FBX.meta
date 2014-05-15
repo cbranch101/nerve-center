@@ -4,15 +4,20 @@ ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: Bulbs LF
-    100002: //RootNode
+    100002: Bulbs RT
+    100004: //RootNode
     400000: Bulbs LF
-    400002: //RootNode
+    400002: Bulbs RT
+    400004: //RootNode
     2300000: Bulbs LF
-    2300002: //RootNode
+    2300002: Bulbs RT
+    2300004: //RootNode
     3300000: Bulbs LF
-    3300002: //RootNode
+    3300002: Bulbs RT
+    3300004: //RootNode
     4300000: Box353
     4300002: Bulbs LF
+    4300004: Bulbs RT
     9500000: //RootNode
   materials:
     importMaterials: 1
