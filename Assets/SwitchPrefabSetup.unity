@@ -5307,6 +5307,7 @@ GameObject:
   - 114: {fileID: 1908693311}
   - 114: {fileID: 1908693312}
   - 114: {fileID: 1908693313}
+  - 114: {fileID: 1908693314}
   m_Layer: 0
   m_Name: Mouse
   m_TagString: Untagged
@@ -5357,6 +5358,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9eb48106f370e4778baf250e25a09489, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1908693314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1908693309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47ff048acd1264955b7882a5a8184124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1952551889
