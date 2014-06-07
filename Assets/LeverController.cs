@@ -27,8 +27,8 @@ public class LeverController : MonoBehaviour {
 	public void configureMovementEffects(MouseOverTarget mouseOverTarget, GrabTarget grabTarget) {
 		TranslateMouseMovementToMechanicalMovement translateMove = gameObject.AddComponent<TranslateMouseMovementToMechanicalMovement>();
 		translateMove.grabTarget = grabTarget;
-		DisableMouseLookOnGrab disableMouseLook = gameObject.AddComponent<DisableMouseLookOnGrab>();
-		disableMouseLook.grabTarget = grabTarget;
+//		DisableMouseLookOnGrab disableMouseLook = gameObject.AddComponent<DisableMouseLookOnGrab>();
+//		disableMouseLook.grabTarget = grabTarget;
 
 		MechanicalMove mechanicalMove = gameObject.AddComponent<MechanicalMove>();
 		translateMove.mechanicalMove = mechanicalMove;
