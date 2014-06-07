@@ -22,14 +22,14 @@ public class ClickButtonOnGrab : MonoBehaviour {
 	}
 
 	public void onGrabEnter() {
-		animator.SetBool ("ButtonPushed", true);
+		animator.SetBool ("Button Pushed", true);
 		if(OnClick != null) {
 			OnClick();
 		}
 	}	
 	
 	public void onGrabExit() {
-		animator.SetBool ("ButtonPushed", false);
+		animator.SetBool ("Button Pushed", false);
 	}
 
 }
