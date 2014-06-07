@@ -4011,11 +4011,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xPositionParameter: Leaver L_R
   xStart: .5
-  invertXParamater: 0
+  invertXParamater: 1
   yPositionParameter: none
   yStart: 0
   invertYParamter: 0
-  movementRate: .0599999987
+  movementRate: .5
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
