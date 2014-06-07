@@ -4117,6 +4117,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 1407163354}
   - 114: {fileID: 1407163355}
+  - 114: {fileID: 1407163357}
+  - 114: {fileID: 1407163356}
+  - 114: {fileID: 1407163358}
   m_Layer: 0
   m_Name: LeverController
   m_TagString: Untagged
@@ -4158,6 +4161,44 @@ MonoBehaviour:
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 1905294527}
   objectWithMechanimController: {fileID: 1003326682}
+--- !u!114 &1407163356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407163353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a335648ae8497462a858aa2ccba345a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockingMechanism: {fileID: 1407163357}
+  loopClip: {fileID: 8300000, guid: 1ec1d22b0f78a4bd5ba3b47b3bd49de5, type: 3}
+  volume: 1
+--- !u!114 &1407163357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407163353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18351d5d778f34e30b6953fd3ba38326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockDistance: .00999999978
+--- !u!114 &1407163358
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407163353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc9fbdefb88714c93bf3dd8400dd27b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockClip: {fileID: 8300000, guid: 3e069d3b8be5a4030be301c71a5eea88, type: 3}
 --- !u!1001 &1490798630
 Prefab:
   m_ObjectHideFlags: 0
