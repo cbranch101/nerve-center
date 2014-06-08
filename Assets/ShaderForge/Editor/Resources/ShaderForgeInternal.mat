@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShaderForgeInternal
-  m_Shader: {fileID: 4800000, guid: 905da66d383cd43439102d62b8da3654, type: 3}
+  m_Shader: {fileID: 4800000, guid: b50cb2d3ac0f2b84d91e38a831c034a1, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -15,33 +15,81 @@ Material:
     m_TexEnvs:
       data:
         first:
-          name: _PotentiometerGradient
+          name: _ScreenImage
         second:
-          m_Texture: {fileID: 2800000, guid: 20e6f85748a67a547b32dcc414f9778c, type: 3}
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Gradient
+          name: _Scanlines
         second:
-          m_Texture: {fileID: 2800000, guid: e9a9781cad112c75d0008dfa8d76c639, type: 3}
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _Vignetting
+        second:
+          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_262
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ScanLinesRedChannel
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _GradientGreenChannel
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
-          name: _BulbBrightness
+          name: _ScreenImageBrightness
+        second: 1.25
+      data:
+        first:
+          name: _ScanLinesIntensity
+        second: .25
+      data:
+        first:
+          name: _ScanLinesSpeed
         second: 1
       data:
         first:
-          name: _node_106
-        second: 7
+          name: _VignettingIntensity
+        second: .903307676
+      data:
+        first:
+          name: _node_279
+        second: 10
+      data:
+        first:
+          name: _
+        second: 10
     m_Colors:
       data:
         first:
-          name: _BulbDarkness
-        second: {r: .0627451017, g: .0627451017, b: .0627451017, a: 1}
+          name: _ScreenColorOff
+        second: {r: .050999999, g: .00999999978, b: .00999999978, a: 1}
       data:
         first:
-          name: _BulbSpecular
-        second: {r: .5, g: .5, b: .5, a: 1}
+          name: _Specularity
+        second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+      data:
+        first:
+          name: _ScreenImageTint
+        second: {r: 1, g: 1, b: 1, a: 1}
