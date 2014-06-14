@@ -4,7 +4,7 @@ using System.Collections;
 public class Crosshair : MonoBehaviour {
 
 
-	public Texture2D mainTexture;
+	public Texture mainTexture;
 	Rect drawPosition;
 	// Use this for initialization
 	void Start () {
@@ -14,5 +14,6 @@ public class Crosshair : MonoBehaviour {
 	void OnGUI() {
 		GUI.DrawTexture(drawPosition, mainTexture);
 	}
+
 
 }

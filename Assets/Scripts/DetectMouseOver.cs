@@ -3,6 +3,10 @@ using System.Collections;
 
 public class DetectMouseOver : MonoBehaviour {
 
+	public delegate void MouseOverAction();
+
+	public static event MouseOverAction OnMouseOverEnter;
+	public static event MouseOverAction OnMouseOverExit;
 
 	private MouseOverTarget currentMouseOverTarget;
 	public MouseOverTarget CurrentTarget {
@@ -13,10 +17,12 @@ public class DetectMouseOver : MonoBehaviour {
 			bool isExitingMouseOver = (newMouseOverTarget == null || !newTargetIsSame) && currentMouseOverTarget != null;
 
 			if(isEnteringMouseOver) {
+				OnMouseOverEnter();
 				newMouseOverTarget.triggerOnMouseOverEnter();
 				currentMouseOverTarget = newMouseOverTarget;
 			} else {
 				if(isExitingMouseOver) {
+					OnMouseOverExit();
 					currentMouseOverTarget.triggerOnMouseOverExit();
 					currentMouseOverTarget = null;
 				}

@@ -5474,6 +5474,7 @@ GameObject:
   - 114: {fileID: 1908693312}
   - 114: {fileID: 1908693313}
   - 114: {fileID: 1908693314}
+  - 114: {fileID: 1908693315}
   m_Layer: 0
   m_Name: Mouse
   m_TagString: Untagged
@@ -5503,7 +5504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c527a2ed49e8e466782b7ba9e03d3a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainTexture: {fileID: 2800000, guid: ed6fc9fb103754ff4af1887c5ace8fd1, type: 3}
+  mainTexture: {fileID: 2800000, guid: 192b713410bcc014bbe2bb22204570b2, type: 3}
 --- !u!114 &1908693312
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5537,6 +5538,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47ff048acd1264955b7882a5a8184124, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1908693315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1908693309}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9163af2a502646568a449861e7dadd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mousedOverTexture: {fileID: 2800000, guid: af58ead94ce0cf345a27e3961d900bd9, type: 3}
+  neutralTexture: {fileID: 2800000, guid: 192b713410bcc014bbe2bb22204570b2, type: 3}
 --- !u!1 &1952551889
 GameObject:
   m_ObjectHideFlags: 0
