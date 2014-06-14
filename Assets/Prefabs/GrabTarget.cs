@@ -5,6 +5,7 @@ using System.Linq;
 public class GrabTarget : MonoBehaviour {
 
 	private bool isGrabbed;
+	private Crosshair crosshair;
 	public bool IsGrabbed {
 		get {
 			return isGrabbed;
@@ -31,7 +32,12 @@ public class GrabTarget : MonoBehaviour {
 	public MouseOverTarget mouseOverTarget;
 	// Use this for initialization
 	// Update is called once per frame
-	void Update () {
+	void Start () {
+		crosshair = GameObject.Find ("Mouse").GetComponent<Crosshair>();
+	}
+
+
+	void Update() {
 
 		if(!IsGrabbed) {
 			IsGrabbed = mouseOverTarget.targetIsMousedOver() ? Input.GetMouseButton(0) : false;
@@ -51,6 +57,7 @@ public class GrabTarget : MonoBehaviour {
 	}
 
 	void triggerOnGrabEnter() {
+		crosshair.hide();
 		if(OnGrabEnter != null) {
 			OnGrabEnter();
 		}
@@ -58,6 +65,7 @@ public class GrabTarget : MonoBehaviour {
 
 
 	void triggerOnGrabExit() {
+		crosshair.show();
 		if(OnGrabExit != null) {
 			OnGrabExit();
 		}
