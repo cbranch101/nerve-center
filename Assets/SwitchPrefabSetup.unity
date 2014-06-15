@@ -2424,6 +2424,85 @@ MonoBehaviour:
         FadeIn: 0
         FadeOut: 0
         RandomStartPosition: 0
+    - Name: Moving Single Click
+      Loop: 0
+      loopSequenceCount: 0
+      loopSequenceOverlap: 0
+      loopSequenceRandomDelay: 0
+      DestroyOnLoad: 1
+      Volume: 1
+      SubItemPickMode: 2
+      MinTimeBetweenPlayCalls: .100000001
+      MaxInstanceCount: 0
+      Delay: 0
+      overrideAudioSourceSettings: 0
+      audioSource_MinDistance: 1
+      audioSource_MaxDistance: 500
+      subItems:
+      - SubItemType: 0
+        Probability: 1
+        ItemModeAudioID: 
+        Clip: {fileID: 8300000, guid: 414134fc8b1ad464388ccbec5b0f5204, type: 3}
+        Volume: 1
+        PitchShift: 0
+        Pan2D: 0
+        Delay: 0
+        RandomPitch: 0
+        RandomVolume: 0
+        RandomDelay: 0
+        ClipStopTime: 0
+        ClipStartTime: 0
+        FadeIn: 0
+        FadeOut: 0
+        RandomStartPosition: 0
+      - SubItemType: 0
+        Probability: 1
+        ItemModeAudioID: 
+        Clip: {fileID: 8300000, guid: 2d544dfab1714443a883014ee3b26555, type: 3}
+        Volume: 1
+        PitchShift: 0
+        Pan2D: 0
+        Delay: 0
+        RandomPitch: 0
+        RandomVolume: 0
+        RandomDelay: 0
+        ClipStopTime: 0
+        ClipStartTime: 0
+        FadeIn: 0
+        FadeOut: 0
+        RandomStartPosition: 0
+      - SubItemType: 0
+        Probability: 1
+        ItemModeAudioID: 
+        Clip: {fileID: 8300000, guid: 41f742297cda04935b5b6b56fbdd39f4, type: 3}
+        Volume: 1
+        PitchShift: 0
+        Pan2D: 0
+        Delay: 0
+        RandomPitch: 0
+        RandomVolume: 0
+        RandomDelay: 0
+        ClipStopTime: 0
+        ClipStartTime: 0
+        FadeIn: 0
+        FadeOut: 0
+        RandomStartPosition: 0
+      - SubItemType: 0
+        Probability: 1
+        ItemModeAudioID: 
+        Clip: {fileID: 8300000, guid: 039951d7bfb6449a89b4ea93b99f3a32, type: 3}
+        Volume: 1
+        PitchShift: 0
+        Pan2D: 0
+        Delay: 0
+        RandomPitch: 0
+        RandomVolume: 0
+        RandomDelay: 0
+        ClipStopTime: 0
+        ClipStartTime: 0
+        FadeIn: 0
+        FadeOut: 0
+        RandomStartPosition: 0
     _volume: 1
   musicPlaylist:
   - Bassoon
@@ -2439,8 +2518,8 @@ MonoBehaviour:
   _volume: 1
   _currentInspectorSelection:
     currentCategoryIndex: 1
-    currentItemIndex: 1
-    currentSubitemIndex: 0
+    currentItemIndex: 2
+    currentSubitemIndex: 1
     currentPlaylistIndex: 0
 --- !u!1001 &542813461
 Prefab:
@@ -4389,6 +4468,7 @@ GameObject:
   - 114: {fileID: 1407163357}
   - 114: {fileID: 1407163356}
   - 114: {fileID: 1407163358}
+  - 114: {fileID: 1407163359}
   m_Layer: 0
   m_Name: Post Selection Lever
   m_TagString: Untagged
@@ -4439,7 +4519,7 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 1606769858}
   m_GameObject: {fileID: 1407163353}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a335648ae8497462a858aa2ccba345a8, type: 3}
   m_Name: 
@@ -4473,6 +4553,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lockClip: {fileID: 8300000, guid: 3e069d3b8be5a4030be301c71a5eea88, type: 3}
+--- !u!114 &1407163359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1407163353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a38878ab531b64e898bfd4276ccfb093, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundName: Moving Single Click
+  incrementAmount: .0799999982
 --- !u!1 &1492755834
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,6 +5023,14 @@ Prefab:
     - target: {fileID: 100000, guid: dd92dfcdc7cd0433ca0cf3ca3ee9c215, type: 2}
       propertyPath: m_Name
       value: Post Selection Lever
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400006, guid: dd92dfcdc7cd0433ca0cf3ca3ee9c215, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: dd92dfcdc7cd0433ca0cf3ca3ee9c215, type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dd92dfcdc7cd0433ca0cf3ca3ee9c215, type: 2}
@@ -5824,7 +5925,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[0].subItems.Array.size
@@ -5840,7 +5941,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: m_LocalPosition.x
@@ -5872,11 +5973,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: _currentInspectorSelection.currentItemIndex
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: _currentInspectorSelection.currentSubitemIndex
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[0].Name
@@ -5932,15 +6033,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].Name
-      value: IntroLoopOutro_Gun
+      value: Moving Single Click
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].Loop
-      value: 5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].SubItemPickMode
-      value: 7
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[0].SubItemType
@@ -5953,7 +6054,7 @@ Prefab:
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[0].Clip
       value: 
-      objectReference: {fileID: 8300000, guid: 8bcc1f2dcb2fe5e46a265e3afe0356ee, type: 3}
+      objectReference: {fileID: 8300000, guid: 414134fc8b1ad464388ccbec5b0f5204, type: 3}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[1].SubItemType
       value: 0
@@ -5965,7 +6066,7 @@ Prefab:
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[1].Clip
       value: 
-      objectReference: {fileID: 8300000, guid: 3cf7f885d89678c418b214b3042be57b, type: 3}
+      objectReference: {fileID: 8300000, guid: 2d544dfab1714443a883014ee3b26555, type: 3}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[3].Name
       value: IntroLoopOutro_Gun
@@ -6081,7 +6182,7 @@ Prefab:
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[2].Clip
       value: 
-      objectReference: {fileID: 8300000, guid: 371431195bea08743838ed7a6c728439, type: 3}
+      objectReference: {fileID: 8300000, guid: 41f742297cda04935b5b6b56fbdd39f4, type: 3}
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[2].Volume
       value: 1
@@ -6129,6 +6230,18 @@ Prefab:
     - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
       propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[0].Volume
       value: .319999993
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
+      propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[3].Probability
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
+      propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[3].Clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 039951d7bfb6449a89b4ea93b99f3a32, type: 3}
+    - target: {fileID: 11400000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
+      propertyPath: AudioCategories.Array.data[1].AudioItems.Array.data[2].subItems.Array.data[3].Volume
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ec999f72f6204364aabb6d24a13dfd4c, type: 2}
