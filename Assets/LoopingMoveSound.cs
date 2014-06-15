@@ -29,10 +29,12 @@ public class LoopingMoveSound : MonoBehaviour {
 	}
 	
 	void onLockMoveEnter(Vector2 position, Vector2 speed) {
-		audioSource.Play();
+		AudioController.Play("Lever Click");
+//		audioSource.Play();
 	}
 	
 	void onLockMoveExit(Vector2 position, Vector2 speed) {
-		audioSource.Pause();
+		AudioController.Stop ("Lever Click");
+//		audioSource.Pause();
 	}
 }

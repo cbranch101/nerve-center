@@ -19,6 +19,6 @@ public class LockSound : MonoBehaviour {
 	}
 
 	void playClip(bool isPositive) {
-		audioSource.Play();
+		AudioController.Play ("Locking Sound");
 	}
 }
