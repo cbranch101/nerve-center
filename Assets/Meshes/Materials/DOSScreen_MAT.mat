@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ShaderForgeInternal
+  m_Name: DOSScreen_MAT
   m_Shader: {fileID: 4800000, guid: 7f0978bc6c4c82b4db085a0737eea938, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -15,61 +15,86 @@ Material:
     m_TexEnvs:
       data:
         first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ScreenImage
+        second:
+          m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
+          m_Scale: {x: 2, y: 2}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
           name: _Vignetting
         second:
-          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
+          m_Scale: {x: 1, y: 2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _ScanLinesRedChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 1, y: 32}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _GradientGreenChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 1, y: 6}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ScreenImage_copy
+        second:
+          m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
+          m_Scale: {x: 2, y: 2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _DOSText
         second:
           m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
+          m_Scale: {x: -10, y: 10}
+          m_Offset: {x: 9.5, y: -8.75}
       data:
         first:
           name: _DOSTextBlink
         second:
           m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
+          m_Scale: {x: -10, y: 10}
+          m_Offset: {x: 9.5, y: -8.75}
     m_Floats:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 1.25
+        second: 5
       data:
         first:
           name: _ScanLinesIntensity
-        second: .25
+        second: .428571433
       data:
         first:
           name: _ScanLinesSpeed
-        second: 1
+        second: .5
       data:
         first:
           name: _VignettingIntensity
-        second: .5
+        second: .424107134
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _ScreenColorOff
-        second: {r: .050999999, g: .00999999978, b: .00999999978, a: 1}
+        second: {r: .0313725509, g: .0313725509, b: .0313725509, a: 1}
       data:
         first:
           name: _Specularity
@@ -77,4 +102,4 @@ Material:
       data:
         first:
           name: _ScreenImageTint
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: 0, g: .690196097, b: .257621944, a: 1}
