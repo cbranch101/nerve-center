@@ -78,7 +78,7 @@ public class MechanicalMove : MonoBehaviour {
 	void updatePosition() {
 		Vector2 currentPosition = Position;
 		float xPosition = getUpdatedPositionAxis (movementAmount.x, movementAmount.y, currentPosition.x, invertXMovement);
-		xPosition = applyMovementCurve(xPosition);
+//		xPosition = applyMovementCurve(xPosition);
 		currentPosition.x = xPosition;
 		Position = currentPosition;
 	}
