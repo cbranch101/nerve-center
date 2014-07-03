@@ -445,35 +445,35 @@ MonoBehaviour:
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 100000, guid: e1c0732957ffd481e87aea797decff4a, type: 2}
+  objectWithCollider: {fileID: 0}
   objectWithMechanimController: {fileID: 0}
   movementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
-      inSlope: .0977118313
-      outSlope: .0977118313
+      inSlope: 4.31068277
+      outSlope: 4.31068277
       tangentMode: 10
-    - time: .288229108
-      value: -.222058892
-      inSlope: .392416954
-      outSlope: .392416954
+    - time: .166227013
+      value: .71655196
+      inSlope: 1.01187921
+      outSlope: 1.01187921
       tangentMode: 10
     - time: .459902674
       value: .044937931
-      inSlope: 7.86201382
-      outSlope: 7.86201382
+      inSlope: -1.03033412
+      outSlope: -1.03033412
       tangentMode: 10
-    - time: .491413951
-      value: .491413951
-      inSlope: 7.58438444
-      outSlope: 7.58438444
+    - time: .903301358
+      value: .145259589
+      inSlope: 4.53273726
+      outSlope: 4.53273726
       tangentMode: 10
     - time: 1
       value: 1
-      inSlope: 1
-      outSlope: 1
+      inSlope: 8.83921814
+      outSlope: 8.83921814
       tangentMode: 10
     m_PreInfinity: 2
     m_PostInfinity: 2
