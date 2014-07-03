@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Screen_MAT
+  m_Name: SmallScreenRight_MAT
   m_Shader: {fileID: 4800000, guid: b50cb2d3ac0f2b84d91e38a831c034a1, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -24,33 +24,12 @@ Material:
         first:
           name: _ScreenImage
         second:
-          m_Texture: {fileID: 2800000, guid: 7dd2be7fbc5ea4a409f2e5d7244e41b8, type: 3}
-          m_Scale: {x: .699999988, y: 1}
-          m_Offset: {x: .150000006, y: 0}
-      data:
-        first:
-          name: _Scanlines
-        second:
-          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 5}
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Vignetting
-        second:
-          m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _node_5
-        second:
-          m_Texture: {fileID: 0}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _node_132
         second:
           m_Texture: {fileID: 0}
           m_Scale: {x: 1, y: 1}
@@ -77,31 +56,15 @@ Material:
       data:
         first:
           name: _ScanLinesIntensity
-        second: .160714284
+        second: .25
       data:
         first:
           name: _ScanLinesSpeed
-        second: .800000012
+        second: 1
       data:
         first:
           name: _VignettingIntensity
-        second: .702678561
-      data:
-        first:
-          name: _node_22
-        second: 0
-      data:
-        first:
-          name: _node_30
-        second: 0
-      data:
-        first:
-          name: _ScanLinesTiling
-        second: 1
-      data:
-        first:
-          name: _node_228
-        second: 1
+        second: .903307676
     m_Colors:
       data:
         first:
@@ -110,16 +73,12 @@ Material:
       data:
         first:
           name: _ScreenColorOff
-        second: {r: .0882353187, g: .0882353187, b: .0882353187, a: 1}
+        second: {r: .050999999, g: .00999999978, b: .00999999978, a: 1}
       data:
         first:
           name: _Specularity
-        second: {r: .721568584, g: .844109416, b: 1, a: .396078438}
-      data:
-        first:
-          name: _node_2
-        second: {r: .5, g: .5, b: .5, a: 1}
+        second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
       data:
         first:
           name: _ScreenImageTint
-        second: {r: .262745082, g: 1, b: .26685226, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}
