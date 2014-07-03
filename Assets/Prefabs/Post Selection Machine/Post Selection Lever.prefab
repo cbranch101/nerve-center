@@ -445,7 +445,7 @@ MonoBehaviour:
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 0}
+  objectWithCollider: {fileID: 100000, guid: e1c0732957ffd481e87aea797decff4a, type: 2}
   objectWithMechanimController: {fileID: 0}
   movementCurve:
     serializedVersion: 2
