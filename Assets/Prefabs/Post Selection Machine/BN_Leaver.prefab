@@ -9,6 +9,9 @@ GameObject:
   m_Component:
   - 4: {fileID: 400000}
   - 136: {fileID: 13600000}
+  - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400004}
   m_Layer: 0
   m_Name: BN_Leaver
   m_TagString: Untagged
@@ -27,6 +30,39 @@ Transform:
   m_LocalScale: {x: 1.00000024, y: 1.00000024, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1668e8c05d2d844018e4f3916a63dc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1668e8c05d2d844018e4f3916a63dc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1668e8c05d2d844018e4f3916a63dc0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!136 &13600000
 CapsuleCollider:
   m_ObjectHideFlags: 1
