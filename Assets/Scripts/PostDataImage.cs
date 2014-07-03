@@ -18,7 +18,7 @@ public class PostDataImage : MonoBehaviour {
 	}
 
 	void setTexture(Texture textureToSet) {
-		gameObject.renderer.materials[0].mainTexture = textureToSet;
+		gameObject.renderer.materials[0].SetTexture("_ScreenImage", textureToSet);
 	}
 
 	void onPostDataUpdateEnter() {
