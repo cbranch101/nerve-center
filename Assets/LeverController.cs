@@ -32,7 +32,6 @@ public class LeverController : MonoBehaviour {
 		disableMouseLook.grabTarget = grabTarget;
 
 		MechanicalMove mechanicalMove = gameObject.AddComponent<MechanicalMove>();
-		mechanicalMove.movementCurve = movementCurve;
 		translateMove.mechanicalMove = mechanicalMove;
 		MechanicalController mechanicalController = gameObject.AddComponent<MechanicalController>();
 		configureMechanicalMove(mechanicalMove);
@@ -67,6 +66,7 @@ public class LeverController : MonoBehaviour {
 		mechanicalController.xPositionParameter = xPositionParameter;
 		mechanicalController.yPositionParameter = yPositionParameter;
 		mechanicalController.isTwoDimensional = isTwoDimensional;
+		mechanicalController.curve = movementCurve;
 	}
 
 

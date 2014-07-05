@@ -17,7 +17,6 @@ public class MechanicalMove : MonoBehaviour {
 	public event UpdateAction OnMechanicalMove;
 	public event UpdateAction OnEnterMechanicalMove;
 	public event UpdateAction OnExitMechanicalMove;
-	public AnimationCurve movementCurve;
 
 	private Vector2 position;
 	private bool isMoving = false;
@@ -78,13 +77,8 @@ public class MechanicalMove : MonoBehaviour {
 	void updatePosition() {
 		Vector2 currentPosition = Position;
 		float xPosition = getUpdatedPositionAxis (movementAmount.x, movementAmount.y, currentPosition.x, invertXMovement);
-//		xPosition = applyMovementCurve(xPosition);
 		currentPosition.x = xPosition;
 		Position = currentPosition;
-	}
-
-	float applyMovementCurve(float xPosition) {
-		return movementCurve.Evaluate(xPosition);
 	}
 
 	float getUpdatedPositionAxis(float xMovement, float yMovement, float currentPosition, bool isInverted) {
@@ -92,7 +86,8 @@ public class MechanicalMove : MonoBehaviour {
 		if(currentPosition >= 0.5f) {
 			yMovement = yMovement * -1;
 		}
-		return currentPosition + (Time.deltaTime * (xMovement + yMovement) * movementRate * inversionFactor);
+		float updatedPosition = currentPosition + (Time.deltaTime * (xMovement + yMovement) * movementRate * inversionFactor);
+		return Mathf.Clamp(updatedPosition, 0f, 1.0f);
 	}
 
 
