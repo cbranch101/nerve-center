@@ -2465,6 +2465,10 @@ Prefab:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: alignment
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
   m_RootGameObject: {fileID: 880056707}
@@ -3818,7 +3822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alignment: 1
+  alignment: 0
   bounding: 0
   horizontalAnchor: 1
   verticalAnchor: 0
@@ -7420,7 +7424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  alignment: 1
+  alignment: 0
   bounding: 0
   horizontalAnchor: 1
   verticalAnchor: 0
@@ -7790,6 +7794,10 @@ Prefab:
     - target: {fileID: 3300000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
       propertyPath: m_Mesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
+      propertyPath: alignment
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
