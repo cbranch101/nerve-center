@@ -5473,8 +5473,8 @@ SkinnedMeshRenderer:
   m_BlendShapeWeights: []
   m_RootBone: {fileID: 868147114}
   m_AABB:
-    m_Center: {x: -2.2739625, y: .517505169, z: -.1395109}
-    m_Extent: {x: 2.28301287, y: 1.10463142, z: .165762305}
+    m_Center: {x: -2.27396226, y: .517505407, z: -.139510989}
+    m_Extent: {x: 2.28301311, y: 1.10463119, z: .165762305}
   m_DirtyAABB: 0
 --- !u!1 &1201184295
 GameObject:
@@ -8362,6 +8362,7 @@ GameObject:
   - 114: {fileID: 2091135582}
   - 114: {fileID: 2091135581}
   - 114: {fileID: 2091135586}
+  - 114: {fileID: 2091135587}
   m_Layer: 0
   m_Name: Post Selection Lever
   m_TagString: Untagged
@@ -8504,6 +8505,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetButton: {fileID: 484740422}
   targetMechanism: {fileID: 2091135584}
+--- !u!114 &2091135587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2091135579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2205fc365c4647e09aeb3db731f4a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockingMechanism: {fileID: 2091135584}
+  clickButtonOnGrab: {fileID: 484740422}
 --- !u!1001 &2095329417
 Prefab:
   m_ObjectHideFlags: 0
