@@ -22,16 +22,16 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _GradientGreenChannel
+          name: _Vignetting
         second:
-          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Vignetting
+          name: _GradientGreenChannel
         second:
-          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -49,7 +49,7 @@ Material:
       data:
         first:
           name: _ScanLinesIntensity
-        second: .25
+        second: .5
       data:
         first:
           name: _ScanLinesSpeed
@@ -57,12 +57,12 @@ Material:
       data:
         first:
           name: _VignettingIntensity
-        second: .903307676
-    m_Colors:
+        second: 1
       data:
         first:
-          name: _ScreenImageTint
-        second: {r: 1, g: 1, b: 1, a: 1}
+          name: _ScanGradientIntensity
+        second: .100000001
+    m_Colors:
       data:
         first:
           name: _ScreenColorOff
@@ -71,3 +71,7 @@ Material:
         first:
           name: _Specularity
         second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+      data:
+        first:
+          name: _ScreenImageTint
+        second: {r: 1, g: 1, b: 1, a: 1}

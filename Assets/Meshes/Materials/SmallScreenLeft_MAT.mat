@@ -52,11 +52,11 @@ Material:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 2
+        second: 1.5
       data:
         first:
           name: _ScanLinesIntensity
-        second: .482142895
+        second: .5
       data:
         first:
           name: _ScanLinesSpeed
@@ -64,7 +64,11 @@ Material:
       data:
         first:
           name: _VignettingIntensity
-        second: 1.04910719
+        second: 1
+      data:
+        first:
+          name: _ScanGradientIntensity
+        second: .300000012
     m_Colors:
       data:
         first:
@@ -73,7 +77,7 @@ Material:
       data:
         first:
           name: _ScreenColorOff
-        second: {r: .050999999, g: .00999999978, b: .00999999978, a: 1}
+        second: {r: .0313725509, g: .00615148013, b: .00615148013, a: 1}
       data:
         first:
           name: _Specularity

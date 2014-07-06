@@ -29,13 +29,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Scanlines
-        second:
-          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 5}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
           name: _Vignetting
         second:
           m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
@@ -43,10 +36,10 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _node_262
+          name: _GradientGreenChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 1, y: 3}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -57,10 +50,17 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _GradientGreenChannel
+          name: _Scanlines
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 3}
+          m_Scale: {x: 1, y: 5}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _node_262
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
@@ -70,7 +70,7 @@ Material:
       data:
         first:
           name: _ScanLinesIntensity
-        second: .689285696
+        second: .5
       data:
         first:
           name: _ScanLinesSpeed
@@ -78,7 +78,7 @@ Material:
       data:
         first:
           name: _VignettingIntensity
-        second: 1.14884341
+        second: 1
       data:
         first:
           name: _node_279
@@ -87,6 +87,10 @@ Material:
         first:
           name: _
         second: 10
+      data:
+        first:
+          name: _ScanGradientIntensity
+        second: .300000012
     m_Colors:
       data:
         first:
