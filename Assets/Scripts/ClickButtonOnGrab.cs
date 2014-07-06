@@ -8,6 +8,7 @@ public class ClickButtonOnGrab : MonoBehaviour {
 	public delegate void ClickAction();
 	public event ClickAction OnClick;
 	public GrabTarget grabTarget;
+	public string clickSoundName;
 
 	// Use this for initialization
 	void Start () {
@@ -23,6 +24,9 @@ public class ClickButtonOnGrab : MonoBehaviour {
 
 	public void onGrabEnter() {
 		animator.SetBool ("Button Pushed", true);
+		if(clickSoundName != null) {
+			AudioController.Play (clickSoundName);
+		}
 		if(OnClick != null) {
 			OnClick();
 		}
