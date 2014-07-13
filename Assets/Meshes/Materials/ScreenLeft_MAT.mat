@@ -46,7 +46,7 @@ Material:
           name: _ScanLinesRedChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 9}
+          m_Scale: {x: 1, y: 7}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -66,19 +66,23 @@ Material:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 4
+        second: 2
       data:
         first:
           name: _ScanLinesIntensity
-        second: .5
+        second: .25
       data:
         first:
           name: _ScanLinesSpeed
-        second: .75
+        second: 1
       data:
         first:
           name: _VignettingIntensity
-        second: 1
+        second: .25
+      data:
+        first:
+          name: _ScanGradientIntensity
+        second: .25
       data:
         first:
           name: _node_279
@@ -87,10 +91,6 @@ Material:
         first:
           name: _
         second: 10
-      data:
-        first:
-          name: _ScanGradientIntensity
-        second: .300000012
     m_Colors:
       data:
         first:
