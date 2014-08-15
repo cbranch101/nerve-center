@@ -1556,7 +1556,7 @@ GameObject:
   - 33: {fileID: 220151689}
   - 23: {fileID: 220151688}
   - 95: {fileID: 220151687}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NASA_Control_MainScreen_Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3753,7 +3753,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966783
   m_Lightmapping: 1
   m_ShadowSamples: 1
   m_ShadowRadius: 0
@@ -4312,7 +4312,7 @@ GameObject:
   - 33: {fileID: 906884863}
   - 23: {fileID: 906884862}
   - 95: {fileID: 906884861}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: NASA_Control_MainScreen_Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7413,6 +7413,8 @@ GameObject:
   - 124: {fileID: 1759249813}
   - 114: {fileID: 1759249812}
   - 81: {fileID: 1759249811}
+  - 114: {fileID: 1759249818}
+  - 114: {fileID: 1759249817}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -7480,8 +7482,8 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: .300000012
-  far clip plane: 1000
+  near clip plane: .100000001
+  far clip plane: 50
   field of view: 60
   orthographic: 0
   orthographic size: 100
@@ -7491,7 +7493,7 @@ Camera:
     m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
-  m_HDR: 0
+  m_HDR: 1
   m_OcclusionCulling: 1
 --- !u!4 &1759249816
 Transform:
@@ -7504,6 +7506,52 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1508088874}
+--- !u!114 &1759249817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400010, guid: 71c3b0507610d43249f5905a0786d3e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 735228533}
+  m_GameObject: {fileID: 1759249810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0923359e9e352a4b9b11c7b7161ad67, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Radius: 1
+  m_SampleCount: 0
+  m_OcclusionIntensity: 2
+  m_Blur: 4
+  m_Downsampling: 2
+  m_OcclusionAttenuation: 2
+  m_MinZ: .0500000007
+  m_SSAOShader: {fileID: 4800000, guid: 43ca18288c424f645aaa1e9e07f04c50, type: 3}
+  m_RandomTexture: {fileID: 2800000, guid: a181ca8e3c62f3e4b8f183f6c586b032, type: 3}
+--- !u!114 &1759249818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: 71c3b0507610d43249f5905a0786d3e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 735228533}
+  m_GameObject: {fileID: 1759249810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd05e71c69dd4457fa205c9eea7c2326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 6
+  adaptiveTextureSize: 256
+  remapCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  exposureAdjustment: 1.5
+  middleGrey: .200000003
+  white: 2
+  adaptionSpeed: 1
+  tonemapper: {fileID: 4800000, guid: 003377fc2620a44939dadde6fe3f8190, type: 3}
+  validRenderTextureFormat: 1
 --- !u!1 &1775124655
 GameObject:
   m_ObjectHideFlags: 0
@@ -8333,7 +8381,7 @@ Light:
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294966783
   m_Lightmapping: 1
   m_ShadowSamples: 1
   m_ShadowRadius: 0
