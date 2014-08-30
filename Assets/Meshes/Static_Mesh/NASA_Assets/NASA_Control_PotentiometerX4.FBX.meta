@@ -1,21 +1,33 @@
 fileFormatVersion: 2
-guid: 9622a12a0ea278545a08309d2abe8a9c
+guid: 248134a766f578d48bfbf91ebf9b73fa
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Power Switch
-    100004: Screen_Main
-    400000: //RootNode
-    400002: Power Switch
-    400004: Screen_Main
-    2300000: Power Switch
-    2300002: Screen_Main
-    3300000: Power Switch
-    3300002: Screen_Main
-    4300000: Screen_Main
-    4300002: Power Switch
-    7400000: Take 001
+    100000: LightArray1
+    100002: LightArray2
+    100004: LightArray3
+    100006: LightArray4
+    100008: //RootNode
+    400000: LightArray1
+    400002: LightArray2
+    400004: LightArray3
+    400006: LightArray4
+    400008: //RootNode
+    2300000: LightArray1
+    2300002: LightArray2
+    2300004: LightArray3
+    2300006: LightArray4
+    2300008: //RootNode
+    3300000: LightArray1
+    3300002: LightArray2
+    3300004: LightArray3
+    3300006: LightArray4
+    3300008: //RootNode
+    4300000: PotentiometerX4
+    4300002: LightArray2
+    4300004: LightArray3
+    4300006: LightArray4
+    4300008: LightArray1
     9500000: //RootNode
   materials:
     importMaterials: 1

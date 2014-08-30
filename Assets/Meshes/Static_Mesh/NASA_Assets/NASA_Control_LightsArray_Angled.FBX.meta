@@ -1,21 +1,17 @@
 fileFormatVersion: 2
-guid: 9622a12a0ea278545a08309d2abe8a9c
+guid: c283ffb6c473fac4b84cc132481ac546
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: Power Switch
-    100004: Screen_Main
-    400000: //RootNode
-    400002: Power Switch
-    400004: Screen_Main
-    2300000: Power Switch
-    2300002: Screen_Main
-    3300000: Power Switch
-    3300002: Screen_Main
-    4300000: Screen_Main
-    4300002: Power Switch
-    7400000: Take 001
+    100000: Foundation_C
+    100002: Lights Array Angled
+    100004: //RootNode
+    400000: Foundation_C
+    400002: Lights Array Angled
+    400004: //RootNode
+    2300000: Lights Array Angled
+    3300000: Lights Array Angled
+    4300000: Lights Array Angled
     9500000: //RootNode
   materials:
     importMaterials: 1
