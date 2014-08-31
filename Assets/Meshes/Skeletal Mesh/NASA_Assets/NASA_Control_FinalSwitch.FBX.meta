@@ -1,0 +1,1473 @@
+fileFormatVersion: 2
+guid: e1177bd4ed640af4da5f0511bc18a7df
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BN_HandleSpring_LF1
+    100002: BN_HandleSpring_LF2
+    100004: BN_HandleSpring_RT1
+    100006: BN_HandleSpring_RT2
+    100008: Bone003
+    100010: Bone006
+    100012: Cylinder_Main
+    100014: Cylinder_Tube
+    100016: Display_1
+    100018: Display_2
+    100020: Display_3
+    100022: Display_Base
+    100024: Door_LF
+    100026: Door_RT
+    100028: Dummy016
+    100030: Dummy017
+    100032: FinalSwitch_Foundation
+    100034: Handle
+    100036: Handle_Spring
+    100038: IK Chain001
+    100040: IK Chain002
+    100042: Leaver_Base
+    100044: Lock_1
+    100046: Lock_2
+    100048: Lock_3
+    100050: Main_Leaver
+    100052: //RootNode
+    100054: PowerDisplay
+    100056: PowerDisplay_Handle
+    400000: BN_HandleSpring_LF1
+    400002: BN_HandleSpring_LF2
+    400004: BN_HandleSpring_RT1
+    400006: BN_HandleSpring_RT2
+    400008: Bone003
+    400010: Bone006
+    400012: Cylinder_Main
+    400014: Cylinder_Tube
+    400016: Display_1
+    400018: Display_2
+    400020: Display_3
+    400022: Display_Base
+    400024: Door_LF
+    400026: Door_RT
+    400028: Dummy016
+    400030: Dummy017
+    400032: FinalSwitch_Foundation
+    400034: Handle
+    400036: Handle_Spring
+    400038: IK Chain001
+    400040: IK Chain002
+    400042: Leaver_Base
+    400044: Lock_1
+    400046: Lock_2
+    400048: Lock_3
+    400050: Main_Leaver
+    400052: //RootNode
+    400054: PowerDisplay
+    400056: PowerDisplay_Handle
+    2300000: Cylinder_Main
+    2300002: Cylinder_Tube
+    2300004: Display_1
+    2300006: Display_2
+    2300008: Display_3
+    2300010: Display_Base
+    2300012: Door_LF
+    2300014: Door_RT
+    2300016: Handle
+    2300018: Leaver_Base
+    2300020: Lock_1
+    2300022: Lock_2
+    2300024: Lock_3
+    2300026: Main_Leaver
+    2300028: PowerDisplay
+    2300030: PowerDisplay_Handle
+    3300000: Cylinder_Main
+    3300002: Cylinder_Tube
+    3300004: Display_1
+    3300006: Display_2
+    3300008: Display_3
+    3300010: Display_Base
+    3300012: Door_LF
+    3300014: Door_RT
+    3300016: Handle
+    3300018: Leaver_Base
+    3300020: Lock_1
+    3300022: Lock_2
+    3300024: Lock_3
+    3300026: Main_Leaver
+    3300028: PowerDisplay
+    3300030: PowerDisplay_Handle
+    4300000: Cylinder_Tube
+    4300002: Cylinder_Main
+    4300004: Door_RT
+    4300006: Door_LF
+    4300008: Leaver_Base
+    4300010: Lock_1
+    4300012: Main_Leaver
+    4300014: Lock_2
+    4300016: Lock_3
+    4300018: Display_Base
+    4300020: Display_1
+    4300022: Display_2
+    4300024: Display_3
+    4300026: Handle
+    4300028: PowerDisplay_Handle
+    4300030: Handle_Spring
+    4300032: PowerDisplay
+    7400000: Starts
+    7400002: Begin Pulling
+    7400004: Doors popStart Pulling
+    7400006: Finish Pulling
+    7400008: Inactive
+    7400010: Doors popMiddle Pulling
+    7400012: Lock 1 Closed
+    7400014: Lock 1 Opened
+    7400016: Lock 2 Closed
+    7400018: Lock 2 Opened
+    7400020: Lock 3 Closed
+    7400022: Lock 3 Opened
+    7400024: Leaver Up
+    7400026: Leaver Bounce
+    7400028: Leaver Down
+    9500000: //RootNode
+    13700000: Handle_Spring
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 0
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Starts
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Begin Pulling
+      takeName: Take 001
+      firstFrame: 24.8999996
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Doors popStart Pulling
+      takeName: Take 001
+      firstFrame: 61.8999977
+      lastFrame: 62
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Finish Pulling
+      takeName: Take 001
+      firstFrame: 89.9000015
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Inactive
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: .100000001
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Doors popMiddle Pulling
+      takeName: Take 001
+      firstFrame: 65
+      lastFrame: 65.0999985
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 1 Closed
+      takeName: Take 001
+      firstFrame: 109
+      lastFrame: 110
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 1 Opened
+      takeName: Take 001
+      firstFrame: 124
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 2 Closed
+      takeName: Take 001
+      firstFrame: 114
+      lastFrame: 115
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 2 Opened
+      takeName: Take 001
+      firstFrame: 129
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 3 Closed
+      takeName: Take 001
+      firstFrame: 119
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Lock 3 Opened
+      takeName: Take 001
+      firstFrame: 134
+      lastFrame: 135
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Leaver Up
+      takeName: Take 001
+      firstFrame: 149
+      lastFrame: 150
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Leaver Bounce
+      takeName: Take 001
+      firstFrame: 172
+      lastFrame: 172.100006
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Leaver Down
+      takeName: Take 001
+      firstFrame: 174
+      lastFrame: 175
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: FinalSwitch_Foundation
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Display_Base/Display_3
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_LF
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Door_RT
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_LF1/BN_HandleSpring_LF2/Bone003
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/BN_HandleSpring_RT1/BN_HandleSpring_RT2/Bone006
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/Handle/PowerDisplay_Handle
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain001
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Dummy017/IK
+          Chain002
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Dummy016/Handle_Spring
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_1
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_2
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Lock_3
+        weight: 0
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/Leaver_Base/Main_Leaver
+        weight: 1
+      - path: FinalSwitch_Foundation/Cylinder_Tube/Cylinder_Main/PowerDisplay
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: FinalSwitch_Foundation
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

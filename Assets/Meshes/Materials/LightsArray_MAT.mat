@@ -52,7 +52,7 @@ Material:
       data:
         first:
           name: _BlinkSpeed
-        second: 5
+        second: 2
       data:
         first:
           name: _FlashTime
