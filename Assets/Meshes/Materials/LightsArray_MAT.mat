@@ -73,4 +73,4 @@ Material:
       data:
         first:
           name: _LightColorBrightness
-        second: {r: .632967591, g: .247058809, b: 1, a: .125490203}
+        second: {r: .596078455, g: 1, b: .250980407, a: .376470596}

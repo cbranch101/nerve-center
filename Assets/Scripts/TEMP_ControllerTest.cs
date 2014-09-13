@@ -16,6 +16,7 @@ public class TEMP_ControllerTest : MonoBehaviour {
 	public float leverPulled;
 
 	public Animator anim;
+	public Light theLight;
 
 
 	// Use this for initialization
@@ -31,5 +32,8 @@ public class TEMP_ControllerTest : MonoBehaviour {
 		anim.SetFloat ("Lock2_Pulled", lock2);
 		anim.SetFloat ("Lock3_Pulled", lock3);
 		anim.SetFloat ("Lever_Pulled", leverPulled);
+
+		float lightIntensityNormalized = Mathf.Clamp01( (pulledUp - 0.6f) * 20 );
+		theLight.intensity = lightIntensityNormalized * 2.5f;
 	}
 }
