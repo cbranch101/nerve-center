@@ -46,10 +46,6 @@ Material:
         second: {r: .244827583, g: .244827583, b: .244827583, a: 1}
       data:
         first:
-          name: _SpecColor
-        second: {r: .631034493, g: .631034493, b: .631034493, a: 1}
-      data:
-        first:
           name: _Color1
         second: {r: 1, g: 0, b: 0, a: 0}
       data:
@@ -59,7 +55,7 @@ Material:
       data:
         first:
           name: _Color2
-        second: {r: .372549027, g: .356238186, b: .337485582, a: 0}
+        second: {r: .376470596, g: .359988064, b: .341038078, a: 0}
       data:
         first:
           name: _Specular2
@@ -75,11 +71,15 @@ Material:
       data:
         first:
           name: _Color4
-        second: {r: .117616311, g: .122266077, b: .125490203, a: 1}
+        second: {r: .176424459, g: .183399111, b: .188235298, a: 1}
       data:
         first:
           name: _Specular4
         second: {r: .874509811, g: .877306223, b: 1, a: .250980407}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .631034493, g: .631034493, b: .631034493, a: 1}
       data:
         first:
           name: _Color5

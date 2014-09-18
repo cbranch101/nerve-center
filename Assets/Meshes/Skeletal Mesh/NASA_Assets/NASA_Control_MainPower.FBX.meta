@@ -3,58 +3,16 @@ guid: 473b3f06b2e8bf54491a1f870e804073
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: Box359
-    100002: Cylinder425
-    100004: Cylinder426
-    100006: Cylinder427
-    100008: Cylinder428
-    100010: Line016
-    100012: Line017
-    100014: Main_Power
-    100016: //RootNode
-    100018: Switch
-    400000: Box359
-    400002: Cylinder425
-    400004: Cylinder426
-    400006: Cylinder427
-    400008: Cylinder428
-    400010: Line016
-    400012: Line017
-    400014: Main_Power
-    400016: //RootNode
-    400018: Switch
-    2300000: Box359
-    2300002: Cylinder425
-    2300004: Cylinder426
-    2300006: Cylinder427
-    2300008: Cylinder428
-    2300010: Line016
-    2300012: Line017
-    2300014: Main_Power
-    2300016: //RootNode
-    2300018: Switch
-    3300000: Box359
-    3300002: Cylinder425
-    3300004: Cylinder426
-    3300006: Cylinder427
-    3300008: Cylinder428
-    3300010: Line016
-    3300012: Line017
-    3300014: Main_Power
-    3300016: //RootNode
-    3300018: Switch
-    4300000: Box360
-    4300002: Box359
-    4300004: Main_Power
-    4300006: Switch
-    4300008: Line016
-    4300010: Line017
-    4300012: Cylinder426
-    4300014: Cylinder425
-    4300016: Cylinder427
-    4300018: Cylinder428
-    7400000: Off
-    7400002: On
+    100000: //RootNode
+    100002: Switch
+    400000: //RootNode
+    400002: Switch
+    2300000: //RootNode
+    2300002: Switch
+    3300000: //RootNode
+    3300002: Switch
+    4300000: Main_Power
+    4300002: Switch
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -71,99 +29,7 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Off
-      takeName: Take 001
-      firstFrame: 0
-      lastFrame: 1
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Box359
-        weight: 1
-      - path: Box359/Cylinder425
-        weight: 1
-      - path: Box359/Cylinder426
-        weight: 1
-      - path: Box359/Cylinder427
-        weight: 1
-      - path: Box359/Cylinder428
-        weight: 1
-      - path: Box359/Line016
-        weight: 1
-      - path: Box359/Line017
-        weight: 1
-      - path: Box359/Main_Power
-        weight: 1
-      - path: Box359/Main_Power/Switch
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: On
-      takeName: Take 001
-      firstFrame: 19
-      lastFrame: 20
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: Box359
-        weight: 1
-      - path: Box359/Cylinder425
-        weight: 1
-      - path: Box359/Cylinder426
-        weight: 1
-      - path: Box359/Cylinder427
-        weight: 1
-      - path: Box359/Cylinder428
-        weight: 1
-      - path: Box359/Line016
-        weight: 1
-      - path: Box359/Line017
-        weight: 1
-      - path: Box359/Main_Power
-        weight: 1
-      - path: Box359/Main_Power/Switch
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []

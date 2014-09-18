@@ -22,16 +22,16 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _PotentiometerGradient
+          name: _Gradient
         second:
-          m_Texture: {fileID: 2800000, guid: 20e6f85748a67a547b32dcc414f9778c, type: 3}
+          m_Texture: {fileID: 2800000, guid: e9a9781cad112c75d0008dfa8d76c639, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Gradient
+          name: _PotentiometerGradient
         second:
-          m_Texture: {fileID: 2800000, guid: e9a9781cad112c75d0008dfa8d76c639, type: 3}
+          m_Texture: {fileID: 2800000, guid: 20e6f85748a67a547b32dcc414f9778c, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
@@ -52,7 +52,7 @@ Material:
       data:
         first:
           name: _BulbBrightness
-        second: 4.1071434
+        second: 2
       data:
         first:
           name: _Lights
@@ -72,6 +72,10 @@ Material:
       data:
         first:
           name: _BulbsIlluminated
+        second: 4
+      data:
+        first:
+          name: _node_122
         second: 0
     m_Colors:
       data:
