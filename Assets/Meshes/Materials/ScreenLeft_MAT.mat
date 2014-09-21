@@ -66,15 +66,15 @@ Material:
       data:
         first:
           name: _ScreenImageBrightness
-        second: .75
+        second: 2
       data:
         first:
           name: _ScanLinesIntensity
-        second: .25
+        second: 1.5
       data:
         first:
           name: _ScanLinesSpeed
-        second: 1
+        second: 1.5
       data:
         first:
           name: _VignettingIntensity

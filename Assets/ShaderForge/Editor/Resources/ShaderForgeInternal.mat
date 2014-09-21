@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShaderForgeInternal
-  m_Shader: {fileID: 4800000, guid: 6bf82e0f56a7b3f44aa190ae882df312, type: 3}
+  m_Shader: {fileID: 4800000, guid: 50c13d53bce9f5640b5f4778a8abc2cc, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -15,34 +15,30 @@ Material:
     m_TexEnvs:
       data:
         first:
-          name: _MainTex
+          name: _Gradient
         second:
-          m_Texture: {fileID: 0}
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
-          name: _Brightness
+          name: _BlinkSpeed
         second: 1
+      data:
+        first:
+          name: _FlashTime
+        second: 7
     m_Colors:
       data:
         first:
-          name: _Specularity
-        second: {r: 1, g: 1, b: 1, a: 1}
-      data:
-        first:
           name: _Diffuse
-        second: {r: .00506857876, g: 0, b: .113725491, a: 1}
+        second: {r: .0627451017, g: .0627451017, b: .0627451017, a: 1}
       data:
         first:
-          name: _node_3
+          name: _Specular
+        second: {r: .250980407, g: .245892003, b: .187989205, a: .250980407}
+      data:
+        first:
+          name: _LightColorBrightness
         second: {r: .5, g: .5, b: .5, a: 1}
-      data:
-        first:
-          name: _Diffuse_copy
-        second: {r: .00506857922, g: 0, b: .113725498, a: 1}
-      data:
-        first:
-          name: _SelfIllumination
-        second: {r: .280616283, g: .247058809, b: 1, a: 1}

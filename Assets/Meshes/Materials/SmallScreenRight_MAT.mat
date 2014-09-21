@@ -46,13 +46,13 @@ Material:
           name: _ScanLinesRedChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 3}
+          m_Scale: {x: 1, y: 5}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 2
+        second: 1.5
       data:
         first:
           name: _ScanLinesIntensity
@@ -85,4 +85,4 @@ Material:
       data:
         first:
           name: _ScreenImageTint
-        second: {r: 1, g: 1, b: 1, a: 1}
+        second: {r: .874509811, g: 1, b: .875208914, a: 1}

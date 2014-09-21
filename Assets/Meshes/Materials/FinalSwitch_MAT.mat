@@ -24,7 +24,7 @@ Material:
       data:
         first:
           name: _SIBrightness
-        second: 10
+        second: 2.5
     m_Colors:
       data:
         first:
