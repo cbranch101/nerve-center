@@ -2083,7 +2083,12 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 11400002, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
+      propertyPath: text
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
   m_RootGameObject: {fileID: 1602646314}
   m_IsPrefabParent: 0
@@ -2381,7 +2386,6 @@ Transform:
   m_Children:
   - {fileID: 1304764707}
   - {fileID: 1865117825}
-  - {fileID: 1773324839}
   m_Father: {fileID: 519502586}
   m_RootOrder: 1
 --- !u!65 &240865496
@@ -6979,7 +6983,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 8100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
   m_RootGameObject: {fileID: 2070304616}
   m_IsPrefabParent: 0
@@ -20279,7 +20284,6 @@ GameObject:
   - 20: {fileID: 1602646318}
   - 124: {fileID: 1602646317}
   - 92: {fileID: 1602646316}
-  - 81: {fileID: 1602646315}
   m_Layer: 0
   m_Name: Camera RTT Left
   m_TagString: Untagged
@@ -20287,14 +20291,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1602646315
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8100000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 1602646314}
-  m_Enabled: 1
 --- !u!92 &1602646316
 Behaviour:
   m_ObjectHideFlags: 0
@@ -21443,6 +21439,7 @@ Transform:
   m_Children:
   - {fileID: 311952475}
   - {fileID: 436686125}
+  - {fileID: 1773324839}
   m_Father: {fileID: 519502586}
   m_RootOrder: 7
 --- !u!65 &1699464384
@@ -22197,14 +22194,14 @@ Transform:
   m_PrefabParentObject: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
   m_PrefabInternal: {fileID: 2002594992}
   m_GameObject: {fileID: 1773324838}
-  m_LocalRotation: {x: .793353379, y: 2.20123653e-09, z: 2.20123675e-09, w: .608761489}
-  m_LocalPosition: {x: 0, y: 5.0999999, z: .975000024}
+  m_LocalRotation: {x: .793353319, y: 0, z: 0, w: .608761489}
+  m_LocalPosition: {x: 0, y: 5.05000019, z: 1.20000029}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1829354276}
   - {fileID: 130526379}
   - {fileID: 2015157777}
-  m_Father: {fileID: 240865495}
+  m_Father: {fileID: 1699464383}
   m_RootOrder: 2
 --- !u!95 &1773324840
 Animator:
@@ -25219,7 +25216,7 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 240865495}
+    m_TransformParent: {fileID: 1699464383}
     m_Modifications:
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -25227,23 +25224,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.0999999
+      value: 5.05000019
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: .975000024
+      value: 1.20000029
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalRotation.x
-      value: .793353379
+      value: .793353319
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 2.20123653e-09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 2.20123675e-09
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400012, guid: 3bc48d37656cb8946a0738f7579d62d2, type: 3}
       propertyPath: m_LocalRotation.w
@@ -26167,7 +26164,6 @@ GameObject:
   - 20: {fileID: 2070304621}
   - 124: {fileID: 2070304620}
   - 92: {fileID: 2070304619}
-  - 81: {fileID: 2070304618}
   m_Layer: 0
   m_Name: Camera RTT Right
   m_TagString: Untagged
@@ -26188,14 +26184,6 @@ Transform:
   - {fileID: 355398312}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!81 &2070304618
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 8100000, guid: 27998c48a07924a3e88c8a9a680b87e9,
-    type: 2}
-  m_PrefabInternal: {fileID: 572365787}
-  m_GameObject: {fileID: 2070304616}
-  m_Enabled: 1
 --- !u!92 &2070304619
 Behaviour:
   m_ObjectHideFlags: 0
