@@ -92,7 +92,6 @@ public class MechanicalMove : MonoBehaviour {
 	}
 
 	float getUpdatedPositionForAxis(float movementAmount, float currentPosition, bool isInverted) {
-		Debug.Log (isInverted);
 		float inversionFactor = isInverted ? 1.0f : -1.0f;
 		float updatedPosition = currentPosition + (Time.deltaTime * (movementAmount) * movementRate * inversionFactor);
 		return Mathf.Clamp(updatedPosition, 0f, 1.0f);
