@@ -5718,6 +5718,83 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 479351001}
   m_Mesh: {fileID: 4300066, guid: 08159e5439adb3b42ae46bc4a75895c6, type: 3}
+--- !u!1 &485022104
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 485022105}
+  - 114: {fileID: 485022106}
+  - 114: {fileID: 485022107}
+  m_Layer: 0
+  m_Name: FInalSwitch
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485022105
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 485022104}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1698302649}
+--- !u!114 &485022106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 485022104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ffeecc7a53e4c3480380387dac7195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &485022107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 485022104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: none
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: Cyl_Pulled
+  yStart: 0
+  invertYParameter: 1
+  movementRate: .200000003
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 769172800}
+  objectWithMechanimController: {fileID: 822811717}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
 --- !u!1 &501572052
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,7 +5958,7 @@ MonoBehaviour:
   invertXParamater: 1
   yPositionParameter: none
   yStart: 0
-  invertYParamter: 0
+  invertYParameter: 0
   movementRate: .75
   hasColorChange: 0
   isTwoDimensional: 0
@@ -9820,6 +9897,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 769172801}
+  - 136: {fileID: 769172802}
   m_Layer: 0
   m_Name: Bone003
   m_TagString: Untagged
@@ -9838,6 +9916,19 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: .99999994}
   m_Children: []
   m_Father: {fileID: 1168320810}
+--- !u!136 &769172802
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 769172800}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: .140000001
+  m_Height: .469999999
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &776554978
 GameObject:
   m_ObjectHideFlags: 0
@@ -10546,7 +10637,6 @@ GameObject:
   m_Component:
   - 4: {fileID: 822811718}
   - 95: {fileID: 822811719}
-  - 114: {fileID: 822811720}
   m_Layer: 0
   m_Name: NASA_Control_FinalSwitch
   m_TagString: Untagged
@@ -10581,25 +10671,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_AnimatePhysics: 0
   m_HasTransformHierarchy: 1
---- !u!114 &822811720
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 822811717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0c1f861a477a54891e179cfbfa6e35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  started: 0
-  pulledUp: 0
-  lock1: 0
-  lock2: 0
-  lock3: 0
-  leverPulled: 0
-  anim: {fileID: 822811719}
-  theLight: {fileID: 1804870723}
 --- !u!1 &824049521
 GameObject:
   m_ObjectHideFlags: 0
@@ -15456,7 +15527,7 @@ MonoBehaviour:
   invertXParamater: 1
   yPositionParameter: none
   yStart: 0
-  invertYParamter: 0
+  invertYParameter: 0
   movementRate: .75
   hasColorChange: 0
   isTwoDimensional: 0
@@ -19858,6 +19929,7 @@ Transform:
   m_LocalPosition: {x: 1.5, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1698302649}
   - {fileID: 1338913911}
   m_Father: {fileID: 971489865}
 --- !u!95 &1538987165
@@ -21656,6 +21728,33 @@ Prefab:
   m_RootGameObject: {fileID: 1770728950}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1698302648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1698302649}
+  m_Layer: 0
+  m_Name: Controls
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1698302649
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1698302648}
+  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
+  m_LocalPosition: {x: 13.3836069, y: 17.8495846, z: -3.5038178}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 485022105}
+  m_Father: {fileID: 1538987164}
 --- !u!1 &1699464382
 GameObject:
   m_ObjectHideFlags: 0
@@ -22857,7 +22956,7 @@ GameObject:
   - 4: {fileID: 1804870722}
   - 108: {fileID: 1804870723}
   m_Layer: 0
-  m_Name: Point light
+  m_Name: FinalSwitchLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25806,6 +25905,7 @@ GameObject:
   - 33: {fileID: 2015157780}
   - 23: {fileID: 2015157779}
   - 95: {fileID: 2015157778}
+  - 136: {fileID: 2015157781}
   m_Layer: 0
   m_Name: NASA_Control_MainPower
   m_TagString: Untagged
@@ -25871,6 +25971,19 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1780699086}
   m_GameObject: {fileID: 2015157776}
   m_Mesh: {fileID: 4300000, guid: 473b3f06b2e8bf54491a1f870e804073, type: 3}
+--- !u!136 &2015157781
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2015157776}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: .0599999987
+  m_Height: .189999998
+  m_Direction: 0
+  m_Center: {x: 0, y: .00999999978, z: .0180000253}
 --- !u!1 &2021042462
 GameObject:
   m_ObjectHideFlags: 0

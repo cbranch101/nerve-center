@@ -8,7 +8,7 @@ public class LeverController : MonoBehaviour {
 	public bool invertXParamater = false;
 	public string yPositionParameter = "none";
 	public float yStart = 0.0f;
-	public bool invertYParamter = false;
+	public bool invertYParameter = false;
 	public float movementRate = 5.0f;
 	public bool hasColorChange = true;
 	public bool isTwoDimensional = false;
@@ -54,10 +54,9 @@ public class LeverController : MonoBehaviour {
 	public void configureMechanicalMove(MechanicalMove targetMechanicalMove) {
 		targetMechanicalMove.movementRate = movementRate;
 		targetMechanicalMove.invertXMovement = invertXParamater;
-		targetMechanicalMove.invertYMovement = invertXParamater;
 		targetMechanicalMove.xStart = xStart;
 		targetMechanicalMove.yStart = yStart;
-		targetMechanicalMove.invertYMovement = invertXParamater;
+		targetMechanicalMove.invertYMovement = invertYParameter;
 	}
 
 	public void configureMechanicalController(MechanicalController mechanicalController, MechanicalMove mechanicalMove) {

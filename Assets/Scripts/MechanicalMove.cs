@@ -30,7 +30,7 @@ public class MechanicalMove : MonoBehaviour {
 			speed.y = newPosition.y - position.y;
 			bool willBeMoving = (speed.x != 0f);
 			newPosition.x = Mathf.Clamp(newPosition.x, 0f, 1f);
-			newPosition.y = Mathf.Clamp(newPosition.x, 0f, 1f);
+			newPosition.y = Mathf.Clamp(newPosition.y, 0f, 1f);
 			position = newPosition;
 			if(willBeMoving && !isMoving) {
 				if(OnEnterMechanicalMove != null) {
@@ -76,8 +76,8 @@ public class MechanicalMove : MonoBehaviour {
 	
 	void updatePosition() {
 		Vector2 currentPosition = Position;
-		float xPosition = getUpdatedPositionAxis (movementAmount.x, movementAmount.y, currentPosition.x, invertXMovement);
-		currentPosition.x = xPosition;
+		currentPosition.x = getUpdatedPositionForAxis (movementAmount.x, currentPosition.x, invertXMovement);
+		currentPosition.y = getUpdatedPositionForAxis (movementAmount.y, currentPosition.y, invertYMovement);
 		Position = currentPosition;
 	}
 
@@ -87,8 +87,17 @@ public class MechanicalMove : MonoBehaviour {
 			yMovement = yMovement * -1;
 		}
 		float updatedPosition = currentPosition + (Time.deltaTime * (xMovement + yMovement) * movementRate * inversionFactor);
+
 		return Mathf.Clamp(updatedPosition, 0f, 1.0f);
 	}
+
+	float getUpdatedPositionForAxis(float movementAmount, float currentPosition, bool isInverted) {
+		Debug.Log (isInverted);
+		float inversionFactor = isInverted ? 1.0f : -1.0f;
+		float updatedPosition = currentPosition + (Time.deltaTime * (movementAmount) * movementRate * inversionFactor);
+		return Mathf.Clamp(updatedPosition, 0f, 1.0f);
+	}
+
 
 
 

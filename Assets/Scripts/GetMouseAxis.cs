@@ -46,7 +46,7 @@ public class GetMouseAxis : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 			Vector2 currentMouseMovement = new Vector2(Input.GetAxis("Mouse X"), Input.GetAxis("Mouse Y"));
-			MouseMovement = currentMouseMovement;
+		MouseMovement = currentMouseMovement;
 	}
 
 	public void getMechanicalMoveAmount() {

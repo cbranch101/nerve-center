@@ -21,10 +21,12 @@ public class MechanicalController : MonoBehaviour {
 
 	public void onMechanicalMove(Vector2 position, Vector2 speed) {
 		float xPosition = position.x;
+		float yPosition = position.y;
 		if(curve != null) {
 			xPosition = curve.Evaluate(xPosition);
 		}
 		animator.SetFloat(xPositionParameter, xPosition);
+		animator.SetFloat (yPositionParameter, yPosition);
 		if(isTwoDimensional) {
 			animator.SetFloat(yPositionParameter, position.y);
 		}
