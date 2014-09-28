@@ -16,6 +16,7 @@ public class FinalSwitch : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		Debug.Log (switchAnimator.GetFloat ("Lever_Pulled"));
 		setLightIntensity();
 	}
 
