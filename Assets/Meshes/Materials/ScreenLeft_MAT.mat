@@ -70,11 +70,11 @@ Material:
       data:
         first:
           name: _ScanLinesIntensity
-        second: .666000009
+        second: 0
       data:
         first:
           name: _ScanLinesSpeed
-        second: 1.5
+        second: 0
       data:
         first:
           name: _VignettingIntensity
@@ -82,7 +82,7 @@ Material:
       data:
         first:
           name: _ScanGradientIntensity
-        second: .174999997
+        second: 0
       data:
         first:
           name: _node_279

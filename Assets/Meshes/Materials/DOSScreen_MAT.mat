@@ -36,20 +36,6 @@ Material:
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _DOSText
-        second:
-          m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
-          m_Scale: {x: 10, y: 5}
-          m_Offset: {x: -.5, y: -3.5}
-      data:
-        first:
-          name: _DOSTextBlink
-        second:
-          m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
-          m_Scale: {x: 10, y: 5}
-          m_Offset: {x: -.5, y: -3.5}
-      data:
-        first:
           name: _GradientGreenChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
@@ -62,6 +48,20 @@ Material:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
           m_Scale: {x: 1, y: 8}
           m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DOSText
+        second:
+          m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
+          m_Scale: {x: 10, y: 5}
+          m_Offset: {x: -.5, y: -3.5}
+      data:
+        first:
+          name: _DOSTextBlink
+        second:
+          m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
+          m_Scale: {x: 10, y: 5}
+          m_Offset: {x: -.5, y: -3.5}
       data:
         first:
           name: _ScreenImage_copy
@@ -93,13 +93,13 @@ Material:
         second: {r: 1, g: 1, b: 1, a: 1}
       data:
         first:
-          name: _ScreenImageTint
-        second: {r: 0, g: .690196097, b: .257621944, a: 1}
-      data:
-        first:
           name: _ScreenColorOff
         second: {r: .0313725509, g: .0313725509, b: .0313725509, a: 1}
       data:
         first:
           name: _Specularity
         second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+      data:
+        first:
+          name: _ScreenImageTint
+        second: {r: 0, g: .690196097, b: .257621944, a: 1}

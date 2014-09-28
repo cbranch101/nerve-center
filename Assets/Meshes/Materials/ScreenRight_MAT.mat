@@ -66,7 +66,7 @@ Material:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 2
+        second: 0
       data:
         first:
           name: _ScanLinesIntensity
@@ -82,7 +82,7 @@ Material:
       data:
         first:
           name: _ScanGradientIntensity
-        second: .174999997
+        second: 0
       data:
         first:
           name: _node_279
