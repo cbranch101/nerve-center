@@ -18,7 +18,7 @@ RenderSettings:
   m_FogDensity: .0500000007
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientLight: {r: .376470596, g: .376470596, b: .376470596, a: 1}
+  m_AmbientLight: {r: .423529416, g: .423529416, b: .423529416, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: .5
   m_FlareStrength: 1
@@ -109,7 +109,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 7066855}
-  - 95: {fileID: 7066856}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Straight
   m_TagString: Untagged
@@ -130,21 +129,6 @@ Transform:
   - {fileID: 812549726}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 4
---- !u!95 &7066856
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31,
-    type: 3}
-  m_PrefabInternal: {fileID: 985646133}
-  m_GameObject: {fileID: 7066854}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &18831442
 GameObject:
   m_ObjectHideFlags: 0
@@ -155,7 +139,6 @@ GameObject:
   - 4: {fileID: 18831443}
   - 33: {fileID: 18831446}
   - 23: {fileID: 18831445}
-  - 95: {fileID: 18831444}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -175,21 +158,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 436686125}
   m_RootOrder: 0
---- !u!95 &18831444
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 484313369}
-  m_GameObject: {fileID: 18831442}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &18831445
 Renderer:
   m_ObjectHideFlags: 0
@@ -477,13 +445,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 331658972}
   m_IsPrefabParent: 0
@@ -575,7 +544,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_RootGameObject: {fileID: 1686187235}
   m_IsPrefabParent: 0
@@ -786,7 +756,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 1823635807}
   m_IsPrefabParent: 0
@@ -887,7 +858,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100008, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 117254636}
@@ -905,7 +876,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400008, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 117254635}
   m_LocalRotation: {x: 0, y: 0, z: .195090264, w: -.98078531}
   m_LocalPosition: {x: 2.29609919, y: 5.54327774, z: -0}
@@ -919,7 +890,7 @@ MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6400002, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 117254635}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -933,7 +904,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300008, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 117254635}
   m_Enabled: 1
   m_CastShadows: 1
@@ -954,7 +925,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300008, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 117254635}
   m_Mesh: {fileID: 4300000, guid: 08b8269328819574daeac98b76107725, type: 3}
 --- !u!1 &117633307
@@ -1169,7 +1140,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 143616820}
-  - 95: {fileID: 143616821}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Angled
   m_TagString: Untagged
@@ -1190,21 +1160,6 @@ Transform:
   - {fileID: 1842499392}
   m_Father: {fileID: 1338913911}
   m_RootOrder: 0
---- !u!95 &143616821
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: c283ffb6c473fac4b84cc132481ac546,
-    type: 3}
-  m_PrefabInternal: {fileID: 390465401}
-  m_GameObject: {fileID: 143616819}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &145863650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1273,7 +1228,6 @@ GameObject:
   - 4: {fileID: 159538183}
   - 33: {fileID: 159538186}
   - 23: {fileID: 159538185}
-  - 95: {fileID: 159538184}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -1293,21 +1247,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 11
---- !u!95 &159538184
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 2075949560}
-  m_GameObject: {fileID: 159538182}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &159538185
 Renderer:
   m_ObjectHideFlags: 0
@@ -1347,7 +1286,6 @@ GameObject:
   - 4: {fileID: 163866873}
   - 33: {fileID: 163866877}
   - 23: {fileID: 163866876}
-  - 95: {fileID: 163866875}
   - 114: {fileID: 163866874}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Right
@@ -1383,21 +1321,6 @@ MonoBehaviour:
   loadingTexture: {fileID: 2800000, guid: e9ba0fd98b4ef4219a141973b7841077, type: 3}
   postName: right
   imageKey: image
---- !u!95 &163866875
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: eb305aa417d584e8d9da2d76d5e1aaae,
-    type: 2}
-  m_PrefabInternal: {fileID: 952623782}
-  m_GameObject: {fileID: 163866872}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3abb808ce669ed64395cced67514e6d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &163866876
 Renderer:
   m_ObjectHideFlags: 0
@@ -1466,7 +1389,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 7f781076f7c8449fba3cde58155c6172, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7f781076f7c8449fba3cde58155c6172, type: 2}
   m_RootGameObject: {fileID: 1420604587}
   m_IsPrefabParent: 0
@@ -1584,7 +1508,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_RootGameObject: {fileID: 1397464675}
   m_IsPrefabParent: 0
@@ -1647,6 +1572,50 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1053990594}
   m_GameObject: {fileID: 169747083}
   m_Mesh: {fileID: 4300002, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
+--- !u!1001 &171007029
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 519502586}
+    m_Modifications:
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.44434035
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.32577848
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.14104152
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 3.09086197e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .707106829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -3.09086197e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+  m_RootGameObject: {fileID: 802374867}
+  m_IsPrefabParent: 0
+  m_IsExploded: 1
 --- !u!1001 &171358917
 Prefab:
   m_ObjectHideFlags: 0
@@ -1923,7 +1892,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100014, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 191976046}
@@ -1940,7 +1909,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400014, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 191976045}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: -6, z: 0}
@@ -1955,7 +1924,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300014, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 191976045}
   m_Enabled: 1
   m_CastShadows: 1
@@ -1976,7 +1945,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300014, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 191976045}
   m_Mesh: {fileID: 4300000, guid: efa285fa988af2641a24620dea995017, type: 3}
 --- !u!1 &193088791
@@ -2129,68 +2098,16 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1147361806}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
---- !u!1001 &218475551
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -5
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -4.37113883e-08
-      objectReference: {fileID: 0}
-    - target: {fileID: 3300000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 11400002, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-      propertyPath: text
-      value: 
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 8100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_ParentPrefab: {fileID: 100100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_RootGameObject: {fileID: 1602646314}
   m_IsPrefabParent: 0
   m_IsExploded: 1
 --- !u!1 &223423296
@@ -2715,7 +2632,8 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: .349999994
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: d059bbb08c4754c5dad0bacde4f10f34, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d059bbb08c4754c5dad0bacde4f10f34, type: 2}
   m_RootGameObject: {fileID: 788906947}
   m_IsPrefabParent: 0
@@ -2728,7 +2646,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 251686203}
-  - 95: {fileID: 251686204}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Straight
   m_TagString: Untagged
@@ -2749,21 +2666,6 @@ Transform:
   - {fileID: 501572053}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 3
---- !u!95 &251686204
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31,
-    type: 3}
-  m_PrefabInternal: {fileID: 889674848}
-  m_GameObject: {fileID: 251686202}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &254615118
 GameObject:
   m_ObjectHideFlags: 0
@@ -2774,7 +2676,6 @@ GameObject:
   - 4: {fileID: 254615119}
   - 33: {fileID: 254615122}
   - 23: {fileID: 254615121}
-  - 95: {fileID: 254615120}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -2794,21 +2695,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 7
---- !u!95 &254615120
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 590018280}
-  m_GameObject: {fileID: 254615118}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &254615121
 Renderer:
   m_ObjectHideFlags: 0
@@ -2933,7 +2819,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -2947,7 +2833,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 613809614}
   m_IsPrefabParent: 0
@@ -2962,7 +2849,6 @@ GameObject:
   - 4: {fileID: 257977093}
   - 33: {fileID: 257977096}
   - 23: {fileID: 257977095}
-  - 95: {fileID: 257977094}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -2982,21 +2868,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 644949684}
   m_RootOrder: 1
---- !u!95 &257977094
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 570294252}
-  m_GameObject: {fileID: 257977092}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &257977095
 Renderer:
   m_ObjectHideFlags: 0
@@ -3193,13 +3064,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 2093321390}
   m_IsPrefabParent: 0
@@ -3632,7 +3504,6 @@ GameObject:
   - 4: {fileID: 329796351}
   - 33: {fileID: 329796354}
   - 23: {fileID: 329796353}
-  - 95: {fileID: 329796352}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -3652,21 +3523,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1909543866}
   m_RootOrder: 1
---- !u!95 &329796352
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 81503358}
-  m_GameObject: {fileID: 329796350}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &329796353
 Renderer:
   m_ObjectHideFlags: 0
@@ -3764,7 +3620,6 @@ GameObject:
   - 4: {fileID: 331658973}
   - 33: {fileID: 331658976}
   - 23: {fileID: 331658975}
-  - 95: {fileID: 331658974}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -3784,21 +3639,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 0
---- !u!95 &331658974
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 64171477}
-  m_GameObject: {fileID: 331658972}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &331658975
 Renderer:
   m_ObjectHideFlags: 0
@@ -3976,7 +3816,8 @@ Prefab:
       propertyPath: m_Name
       value: NASA_Control_Floor+Collider
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1979048631}
   m_IsPrefabParent: 0
@@ -4110,7 +3951,7 @@ GameObject:
   - 114: {fileID: 355398309}
   - 114: {fileID: 355398308}
   m_Layer: 0
-  m_Name: TextBox
+  m_Name: TextBox Top Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4151,8 +3992,13 @@ MonoBehaviour:
   font: {fileID: 11400000, guid: 4f9b1867c152844c1beb097fd1dee3f4, type: 2}
   lineHeight: .75
   modifier: {fileID: 0}
-  offset: {x: 0, y: 7.5, z: 14}
-  text: 
+  offset: {x: 0, y: 0, z: 0}
+  text: 'This is test text for the new single camera RTT system. It has to be long
+    enough to fill this whole space. Here''s something from the net: "Planning a turn
+    in Frozen Synapse Prime provides the same inexplicable joy of meticulously setting
+    dominoes on end, only to watch them topple in a fraction of the time it took to
+    arrange them. Blah blah, things are yada yada yada, facebook tweeted the internet
+    to the tubes from a truck."'
   tabSize: 2
   width: 9
 --- !u!23 &355398310
@@ -4191,8 +4037,8 @@ Transform:
   m_PrefabInternal: {fileID: 572365787}
   m_GameObject: {fileID: 355398307}
   m_LocalRotation: {x: 0, y: -4.37113883e-08, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.392325878, z: -1.51606297}
-  m_LocalScale: {x: .171431005, y: .179024994, z: .171431005}
+  m_LocalPosition: {x: .550000012, y: 1, z: 3}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
   m_Children: []
   m_Father: {fileID: 2070304617}
   m_RootOrder: 0
@@ -4206,7 +4052,6 @@ GameObject:
   - 4: {fileID: 356144613}
   - 33: {fileID: 356144617}
   - 23: {fileID: 356144616}
-  - 95: {fileID: 356144615}
   - 64: {fileID: 356144614}
   m_Layer: 0
   m_Name: NASA_Control_Foundation
@@ -4243,21 +4088,6 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
---- !u!95 &356144615
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: f76a69607e3311a458e18477a7138aa0,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 356144612}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &356144616
 Renderer:
   m_ObjectHideFlags: 0
@@ -4386,7 +4216,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: eb305aa417d584e8d9da2d76d5e1aaae, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: eb305aa417d584e8d9da2d76d5e1aaae, type: 2}
   m_RootGameObject: {fileID: 551169304}
   m_IsPrefabParent: 0
@@ -4560,7 +4391,8 @@ Prefab:
       propertyPath: m_LocalPosition.z
       value: .349999994
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 72fab2ea044a0424ea38d2ef1def8bb0, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 72fab2ea044a0424ea38d2ef1def8bb0, type: 2}
   m_RootGameObject: {fileID: 1398789757}
   m_IsPrefabParent: 0
@@ -4575,7 +4407,6 @@ GameObject:
   - 4: {fileID: 382541191}
   - 33: {fileID: 382541194}
   - 23: {fileID: 382541193}
-  - 95: {fileID: 382541192}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -4595,21 +4426,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 14
---- !u!95 &382541192
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1365020679}
-  m_GameObject: {fileID: 382541190}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &382541193
 Renderer:
   m_ObjectHideFlags: 0
@@ -4676,13 +4492,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1791607996}
   m_IsPrefabParent: 0
@@ -4751,13 +4568,12 @@ MeshFilter:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100004, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 389325950}
   - 33: {fileID: 389325953}
   - 23: {fileID: 389325952}
-  - 95: {fileID: 389325951}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -4769,7 +4585,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400004, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 389325949}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 2.5}
@@ -4777,27 +4593,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2031105102}
   m_RootOrder: 1
---- !u!95 &389325951
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
-  m_GameObject: {fileID: 389325949}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &389325952
 Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300004, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 389325949}
   m_Enabled: 1
   m_CastShadows: 1
@@ -4818,7 +4619,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300004, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 389325949}
   m_Mesh: {fileID: 4300000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
 --- !u!1001 &390465401
@@ -4864,7 +4665,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
   m_RootGameObject: {fileID: 143616819}
   m_IsPrefabParent: 0
@@ -4985,7 +4787,6 @@ GameObject:
   - 4: {fileID: 406200829}
   - 33: {fileID: 406200832}
   - 23: {fileID: 406200831}
-  - 95: {fileID: 406200830}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -5005,21 +4806,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 15
---- !u!95 &406200830
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1435120928}
-  m_GameObject: {fileID: 406200828}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &406200831
 Renderer:
   m_ObjectHideFlags: 0
@@ -5059,7 +4845,6 @@ GameObject:
   - 4: {fileID: 411288985}
   - 33: {fileID: 411288988}
   - 23: {fileID: 411288987}
-  - 95: {fileID: 411288986}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -5079,21 +4864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 311952475}
   m_RootOrder: 1
---- !u!95 &411288986
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 484313369}
-  m_GameObject: {fileID: 411288984}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &411288987
 Renderer:
   m_ObjectHideFlags: 0
@@ -5540,7 +5310,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 8bca2949f7a767947bd8bfaec3a888f0, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 8bca2949f7a767947bd8bfaec3a888f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -5736,13 +5506,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1198806375}
   m_IsPrefabParent: 0
@@ -5840,7 +5611,13 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: .5
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
   m_RootGameObject: {fileID: 1699464382}
   m_IsPrefabParent: 0
@@ -5923,6 +5700,110 @@ MonoBehaviour:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
+--- !u!1 &490547141
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 490547142}
+  - 33: {fileID: 490547146}
+  - 23: {fileID: 490547145}
+  - 114: {fileID: 490547144}
+  - 114: {fileID: 490547143}
+  m_Layer: 0
+  m_Name: TextBox Top Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &490547142
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490547141}
+  m_LocalRotation: {x: 0, y: -4.37113883e-08, z: 0, w: 1}
+  m_LocalPosition: {x: -.550000012, y: 1, z: 3}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_Children: []
+  m_Father: {fileID: 2070304617}
+  m_RootOrder: 3
+--- !u!114 &490547143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490547141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d16bed8545f4b2ead18d5d002044a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  postName: right
+  textKey: message
+--- !u!114 &490547144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490547141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: 1
+  bounding: 0
+  horizontalAnchor: 1
+  verticalAnchor: 0
+  chunkSize: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+  font: {fileID: 11400000, guid: 4f9b1867c152844c1beb097fd1dee3f4, type: 2}
+  lineHeight: .75
+  modifier: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  text: 'This is test text for the new single camera RTT system. It has to be long
+    enough to fill this whole space. Here''s something from the net: "Planning a turn
+    in Frozen Synapse Prime provides the same inexplicable joy of meticulously setting
+    dominoes on end, only to watch them topple in a fraction of the time it took to
+    arrange them. Blah blah, things are yada yada yada, facebook tweeted the internet
+    to the tubes from a truck."'
+  tabSize: 2
+  width: 9
+--- !u!23 &490547145
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490547141}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 271127c4da54b44e48ea20fadbabed52, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &490547146
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 490547141}
+  m_Mesh: {fileID: 0}
 --- !u!1 &501572052
 GameObject:
   m_ObjectHideFlags: 0
@@ -6216,7 +6097,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 1711564964}
   m_IsPrefabParent: 0
@@ -6577,7 +6459,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 547092793}
-  - 95: {fileID: 547092794}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Angled
   m_TagString: Untagged
@@ -6598,21 +6479,6 @@ Transform:
   - {fileID: 2131563321}
   m_Father: {fileID: 1338913911}
   m_RootOrder: 2
---- !u!95 &547092794
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: c283ffb6c473fac4b84cc132481ac546,
-    type: 3}
-  m_PrefabInternal: {fileID: 666286138}
-  m_GameObject: {fileID: 547092792}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &548162381
 GameObject:
   m_ObjectHideFlags: 0
@@ -6744,7 +6610,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_RootGameObject: {fileID: 1178753568}
   m_IsPrefabParent: 0
@@ -6759,7 +6626,6 @@ GameObject:
   - 4: {fileID: 551169305}
   - 33: {fileID: 551169308}
   - 23: {fileID: 551169307}
-  - 95: {fileID: 551169306}
   - 114: {fileID: 551169309}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Right
@@ -6780,21 +6646,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 17
---- !u!95 &551169306
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: eb305aa417d584e8d9da2d76d5e1aaae,
-    type: 2}
-  m_PrefabInternal: {fileID: 362168736}
-  m_GameObject: {fileID: 551169304}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3abb808ce669ed64395cced67514e6d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &551169307
 Renderer:
   m_ObjectHideFlags: 0
@@ -6953,7 +6804,6 @@ GameObject:
   - 4: {fileID: 559244182}
   - 33: {fileID: 559244185}
   - 23: {fileID: 559244184}
-  - 95: {fileID: 559244183}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -6973,21 +6823,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 11
---- !u!95 &559244183
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 1922024329}
-  m_GameObject: {fileID: 559244181}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &559244184
 Renderer:
   m_ObjectHideFlags: 0
@@ -7054,13 +6889,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1983360193}
   m_IsPrefabParent: 0
@@ -7182,7 +7018,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1864666469}
   m_IsPrefabParent: 0
@@ -7224,9 +7061,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
       propertyPath: m_RootOrder
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 0}
+    - {fileID: 0}
   m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
   m_RootGameObject: {fileID: 340300511}
   m_IsPrefabParent: 0
@@ -7274,8 +7113,67 @@ Prefab:
       propertyPath: m_RootOrder
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_Name
+      value: Camera RTT
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_TargetTexture
+      value: 
+      objectReference: {fileID: 8400000, guid: 2c929881e3a16a04a9726d51fbe467bc, type: 2}
+    - target: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: text
+      value: 'This is test text for the new single camera RTT system. It has to be
+        long enough to fill this whole space. Here''s something from the net: "Planning
+        a turn in Frozen Synapse Prime provides the same inexplicable joy of meticulously
+        setting dominoes on end, only to watch them topple in a fraction of the time
+        it took to arrange them. Blah blah, things are yada yada yada, facebook tweeted
+        the internet to the tubes from a truck."'
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_Name
+      value: TextBox Top Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2000000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_NormalizedViewPortRect.height
+      value: 2.1500001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalScale.x
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalScale.y
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalScale.z
+      value: .100000001
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: offset.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: offset.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: .550000012
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+    - {fileID: 12400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+    - {fileID: 9200000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
   m_RootGameObject: {fileID: 2070304616}
   m_IsPrefabParent: 0
@@ -7317,7 +7215,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
@@ -7383,7 +7281,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e87d4482e78dad742b5b63fb5287c9cc, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
   m_RootGameObject: {fileID: 1882975153}
   m_IsPrefabParent: 0
@@ -7610,13 +7509,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 254615118}
   m_IsPrefabParent: 0
@@ -7629,7 +7529,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 592835471}
-  - 95: {fileID: 592835472}
   m_Layer: 0
   m_Name: NASA_Control_MainScreen_Base
   m_TagString: Untagged
@@ -7651,21 +7550,6 @@ Transform:
   - {fileID: 1928070194}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 6
---- !u!95 &592835472
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c,
-    type: 3}
-  m_PrefabInternal: {fileID: 1479235430}
-  m_GameObject: {fileID: 592835470}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &592835473
 Renderer:
   m_ObjectHideFlags: 0
@@ -7906,7 +7790,6 @@ GameObject:
   - 4: {fileID: 613809615}
   - 33: {fileID: 613809618}
   - 23: {fileID: 613809617}
-  - 95: {fileID: 613809616}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -7928,21 +7811,6 @@ Transform:
   - {fileID: 452615701}
   m_Father: {fileID: 1627404064}
   m_RootOrder: 0
---- !u!95 &613809616
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 256769245}
-  m_GameObject: {fileID: 613809614}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &613809617
 Renderer:
   m_ObjectHideFlags: 0
@@ -8140,7 +8008,7 @@ Animator:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100016, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 632661452}
@@ -8155,7 +8023,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400016, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 632661451}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0, y: 6, z: 0}
@@ -8219,7 +8087,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 14
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_RootGameObject: {fileID: 1901736801}
   m_IsPrefabParent: 0
@@ -8415,7 +8284,6 @@ GameObject:
   - 4: {fileID: 662533764}
   - 33: {fileID: 662533767}
   - 23: {fileID: 662533766}
-  - 95: {fileID: 662533765}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -8435,21 +8303,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 19
---- !u!95 &662533765
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1822028860}
-  m_GameObject: {fileID: 662533763}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &662533766
 Renderer:
   m_ObjectHideFlags: 0
@@ -8549,7 +8402,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: c283ffb6c473fac4b84cc132481ac546, type: 3}
   m_RootGameObject: {fileID: 547092792}
   m_IsPrefabParent: 0
@@ -9236,7 +9090,6 @@ GameObject:
   - 4: {fileID: 694400877}
   - 33: {fileID: 694400880}
   - 23: {fileID: 694400879}
-  - 95: {fileID: 694400878}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -9256,21 +9109,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 16
---- !u!95 &694400878
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1479720047}
-  m_GameObject: {fileID: 694400876}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &694400879
 Renderer:
   m_ObjectHideFlags: 0
@@ -9415,6 +9253,110 @@ MeshFilter:
   m_PrefabInternal: {fileID: 577304354}
   m_GameObject: {fileID: 697747156}
   m_Mesh: {fileID: 4300000, guid: 7e6e55dcd7f8b6c47b4b030846dbde7c, type: 3}
+--- !u!1 &701473867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 701473868}
+  - 33: {fileID: 701473872}
+  - 23: {fileID: 701473871}
+  - 114: {fileID: 701473870}
+  - 114: {fileID: 701473869}
+  m_Layer: 0
+  m_Name: TextBox Bottom Left
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &701473868
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701473867}
+  m_LocalRotation: {x: 0, y: -4.37113883e-08, z: 0, w: 1}
+  m_LocalPosition: {x: -.550000012, y: 0, z: 3}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_Children: []
+  m_Father: {fileID: 2070304617}
+  m_RootOrder: 2
+--- !u!114 &701473869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701473867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d16bed8545f4b2ead18d5d002044a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  postName: right
+  textKey: message
+--- !u!114 &701473870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701473867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: 1
+  bounding: 0
+  horizontalAnchor: 1
+  verticalAnchor: 0
+  chunkSize: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+  font: {fileID: 11400000, guid: 4f9b1867c152844c1beb097fd1dee3f4, type: 2}
+  lineHeight: .75
+  modifier: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  text: 'This is test text for the new single camera RTT system. It has to be long
+    enough to fill this whole space. Here''s something from the net: "Planning a turn
+    in Frozen Synapse Prime provides the same inexplicable joy of meticulously setting
+    dominoes on end, only to watch them topple in a fraction of the time it took to
+    arrange them. Blah blah, things are yada yada yada, facebook tweeted the internet
+    to the tubes from a truck."'
+  tabSize: 2
+  width: 9
+--- !u!23 &701473871
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701473867}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 271127c4da54b44e48ea20fadbabed52, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &701473872
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 701473867}
+  m_Mesh: {fileID: 0}
 --- !u!1 &711445875
 GameObject:
   m_ObjectHideFlags: 0
@@ -9425,7 +9367,6 @@ GameObject:
   - 4: {fileID: 711445876}
   - 33: {fileID: 711445879}
   - 23: {fileID: 711445878}
-  - 95: {fileID: 711445877}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -9445,21 +9386,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 10
---- !u!95 &711445877
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1003767429}
-  m_GameObject: {fileID: 711445875}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &711445878
 Renderer:
   m_ObjectHideFlags: 0
@@ -9499,7 +9425,6 @@ GameObject:
   - 4: {fileID: 712636993}
   - 33: {fileID: 712636996}
   - 23: {fileID: 712636995}
-  - 95: {fileID: 712636994}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -9519,21 +9444,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 20
---- !u!95 &712636994
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1914570937}
-  m_GameObject: {fileID: 712636992}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &712636995
 Renderer:
   m_ObjectHideFlags: 0
@@ -9720,7 +9630,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -9734,7 +9644,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 1181280428}
   m_IsPrefabParent: 0
@@ -9749,7 +9660,6 @@ GameObject:
   - 4: {fileID: 738670759}
   - 33: {fileID: 738670762}
   - 23: {fileID: 738670761}
-  - 95: {fileID: 738670760}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -9769,21 +9679,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 666370637}
   m_RootOrder: 1
---- !u!95 &738670760
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 418347863}
-  m_GameObject: {fileID: 738670758}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &738670761
 Renderer:
   m_ObjectHideFlags: 0
@@ -9999,7 +9894,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 2108461123}
   m_IsPrefabParent: 0
@@ -10208,7 +10104,6 @@ GameObject:
   - 4: {fileID: 781767778}
   - 33: {fileID: 781767781}
   - 23: {fileID: 781767780}
-  - 95: {fileID: 781767779}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -10228,21 +10123,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 18
---- !u!95 &781767779
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1672185227}
-  m_GameObject: {fileID: 781767777}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &781767780
 Renderer:
   m_ObjectHideFlags: 0
@@ -10282,7 +10162,6 @@ GameObject:
   - 4: {fileID: 788906948}
   - 33: {fileID: 788906951}
   - 23: {fileID: 788906950}
-  - 95: {fileID: 788906949}
   m_Layer: 9
   m_Name: NASA_Control_MainScreen_Left
   m_TagString: Untagged
@@ -10303,21 +10182,6 @@ Transform:
   - {fileID: 1723285246}
   m_Father: {fileID: 540615765}
   m_RootOrder: 7
---- !u!95 &788906949
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: d059bbb08c4754c5dad0bacde4f10f34,
-    type: 2}
-  m_PrefabInternal: {fileID: 248228229}
-  m_GameObject: {fileID: 788906947}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2f882504b617d54458165cb6ab977c1a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &788906950
 Renderer:
   m_ObjectHideFlags: 0
@@ -10494,7 +10358,7 @@ Animator:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 802374868}
@@ -10512,7 +10376,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 802374867}
   m_LocalRotation: {x: 3.09086197e-08, y: .707106829, z: .707106829, w: -3.09086197e-08}
   m_LocalPosition: {x: 1.44434035, y: -3.32577848, z: -3.14104152}
@@ -10527,7 +10391,7 @@ BoxCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6500004, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 802374867}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -10540,7 +10404,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300002, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 802374867}
   m_Enabled: 1
   m_CastShadows: 1
@@ -10561,7 +10425,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300002, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 802374867}
   m_Mesh: {fileID: 4300000, guid: 7e6e55dcd7f8b6c47b4b030846dbde7c, type: 3}
 --- !u!1 &804487868
@@ -10703,7 +10567,6 @@ GameObject:
   - 4: {fileID: 811052790}
   - 33: {fileID: 811052793}
   - 23: {fileID: 811052792}
-  - 95: {fileID: 811052791}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -10723,21 +10586,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 612277618}
   m_RootOrder: 0
---- !u!95 &811052791
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 570294252}
-  m_GameObject: {fileID: 811052789}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &811052792
 Renderer:
   m_ObjectHideFlags: 0
@@ -11158,6 +11006,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 71c3b0507610d43249f5905a0786d3e9, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 71c3b0507610d43249f5905a0786d3e9, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 71c3b0507610d43249f5905a0786d3e9, type: 2}
   m_RootGameObject: {fileID: 1508088873}
@@ -11173,7 +11029,6 @@ GameObject:
   - 4: {fileID: 832492843}
   - 33: {fileID: 832492846}
   - 23: {fileID: 832492845}
-  - 95: {fileID: 832492844}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -11193,21 +11048,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 13
---- !u!95 &832492844
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1226804234}
-  m_GameObject: {fileID: 832492842}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &832492845
 Renderer:
   m_ObjectHideFlags: 0
@@ -11274,13 +11114,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 840605487}
   m_IsPrefabParent: 0
@@ -11295,7 +11136,6 @@ GameObject:
   - 4: {fileID: 837980124}
   - 33: {fileID: 837980127}
   - 23: {fileID: 837980126}
-  - 95: {fileID: 837980125}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen
   m_TagString: Untagged
@@ -11315,21 +11155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 15
---- !u!95 &837980125
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da,
-    type: 3}
-  m_PrefabInternal: {fileID: 1093310675}
-  m_GameObject: {fileID: 837980123}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &837980126
 Renderer:
   m_ObjectHideFlags: 0
@@ -11427,7 +11252,6 @@ GameObject:
   - 4: {fileID: 840605488}
   - 33: {fileID: 840605491}
   - 23: {fileID: 840605490}
-  - 95: {fileID: 840605489}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -11447,21 +11271,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 8
---- !u!95 &840605489
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 836793509}
-  m_GameObject: {fileID: 840605487}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &840605490
 Renderer:
   m_ObjectHideFlags: 0
@@ -11542,7 +11351,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 875064558}
   m_IsPrefabParent: 0
@@ -11557,7 +11367,6 @@ GameObject:
   - 4: {fileID: 866876372}
   - 33: {fileID: 866876375}
   - 23: {fileID: 866876374}
-  - 95: {fileID: 866876373}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -11577,21 +11386,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1865117825}
   m_RootOrder: 0
---- !u!95 &866876373
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 267554991}
-  m_GameObject: {fileID: 866876371}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &866876374
 Renderer:
   m_ObjectHideFlags: 0
@@ -11672,7 +11466,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
   m_RootGameObject: {fileID: 1131842409}
   m_IsPrefabParent: 0
@@ -11789,7 +11584,6 @@ GameObject:
   - 4: {fileID: 869950267}
   - 33: {fileID: 869950270}
   - 23: {fileID: 869950269}
-  - 95: {fileID: 869950268}
   m_Layer: 9
   m_Name: NASA_Control_MainScreen_Right
   m_TagString: Untagged
@@ -11810,21 +11604,6 @@ Transform:
   - {fileID: 1099706885}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 8
---- !u!95 &869950268
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 72fab2ea044a0424ea38d2ef1def8bb0,
-    type: 2}
-  m_PrefabInternal: {fileID: 1726348081}
-  m_GameObject: {fileID: 869950266}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2f882504b617d54458165cb6ab977c1a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &869950269
 Renderer:
   m_ObjectHideFlags: 0
@@ -11864,7 +11643,6 @@ GameObject:
   - 4: {fileID: 875064559}
   - 33: {fileID: 875064562}
   - 23: {fileID: 875064561}
-  - 95: {fileID: 875064560}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -11887,21 +11665,6 @@ Transform:
   - {fileID: 884974901}
   m_Father: {fileID: 548162382}
   m_RootOrder: 0
---- !u!95 &875064560
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 864594374}
-  m_GameObject: {fileID: 875064558}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &875064561
 Renderer:
   m_ObjectHideFlags: 0
@@ -12200,7 +11963,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_RootGameObject: {fileID: 251686202}
   m_IsPrefabParent: 0
@@ -12302,13 +12066,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1485964690}
   m_IsPrefabParent: 0
@@ -12388,105 +12153,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 577304354}
   m_GameObject: {fileID: 900321396}
   m_Mesh: {fileID: 4300000, guid: 08b8269328819574daeac98b76107725, type: 3}
---- !u!1 &904646989
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100002, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 904646990}
-  - 33: {fileID: 904646994}
-  - 23: {fileID: 904646993}
-  - 114: {fileID: 904646992}
-  - 114: {fileID: 904646991}
-  m_Layer: 0
-  m_Name: TextBox
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &904646990
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400002, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 904646989}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.97916387e-07, y: -.881860912, z: -3.40776634}
-  m_LocalScale: {x: .385338068, y: .402406842, z: .385338068}
-  m_Children: []
-  m_Father: {fileID: 1602646319}
-  m_RootOrder: 0
---- !u!114 &904646991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 904646989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e3d16bed8545f4b2ead18d5d002044a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  postName: left
-  textKey: message
---- !u!114 &904646992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11400002, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 904646989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  alignment: 1
-  bounding: 0
-  horizontalAnchor: 1
-  verticalAnchor: 0
-  chunkSize: 1
-  color: {r: 1, g: 1, b: 1, a: 1}
-  font: {fileID: 11400000, guid: 4f9b1867c152844c1beb097fd1dee3f4, type: 2}
-  lineHeight: .75
-  modifier: {fileID: 0}
-  offset: {x: 0, y: 7.5, z: 14}
-  text: 
-  tabSize: 2
-  width: 9
---- !u!23 &904646993
-Renderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2300000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 904646989}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_LightmapIndex: 255
-  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
-  m_Materials:
-  - {fileID: 2100000, guid: 271127c4da54b44e48ea20fadbabed52, type: 2}
-  m_SubsetIndices: 
-  m_StaticBatchRoot: {fileID: 0}
-  m_UseLightProbes: 0
-  m_LightProbeAnchor: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
---- !u!33 &904646994
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 3300000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 904646989}
-  m_Mesh: {fileID: 0}
 --- !u!1 &909928459
 GameObject:
   m_ObjectHideFlags: 0
@@ -12611,7 +12277,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -12726,7 +12392,6 @@ GameObject:
   - 4: {fileID: 932240350}
   - 33: {fileID: 932240353}
   - 23: {fileID: 932240352}
-  - 95: {fileID: 932240351}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -12746,21 +12411,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 12
---- !u!95 &932240351
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1129942347}
-  m_GameObject: {fileID: 932240349}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &932240352
 Renderer:
   m_ObjectHideFlags: 0
@@ -12829,7 +12479,6 @@ GameObject:
   - 4: {fileID: 943261046}
   - 33: {fileID: 943261049}
   - 23: {fileID: 943261048}
-  - 95: {fileID: 943261047}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -12849,21 +12498,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 29984381}
   m_RootOrder: 1
---- !u!95 &943261047
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 1094587899}
-  m_GameObject: {fileID: 943261045}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &943261048
 Renderer:
   m_ObjectHideFlags: 0
@@ -12932,7 +12566,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 16
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 7f781076f7c8449fba3cde58155c6172, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7f781076f7c8449fba3cde58155c6172, type: 2}
   m_RootGameObject: {fileID: 988771864}
   m_IsPrefabParent: 0
@@ -13031,7 +12666,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 17
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: eb305aa417d584e8d9da2d76d5e1aaae, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: eb305aa417d584e8d9da2d76d5e1aaae, type: 2}
   m_RootGameObject: {fileID: 163866872}
   m_IsPrefabParent: 0
@@ -13284,7 +12920,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_RootGameObject: {fileID: 7066854}
   m_IsPrefabParent: 0
@@ -13299,7 +12936,6 @@ GameObject:
   - 4: {fileID: 988771865}
   - 33: {fileID: 988771869}
   - 23: {fileID: 988771868}
-  - 95: {fileID: 988771867}
   - 114: {fileID: 988771866}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Left
@@ -13335,21 +12971,6 @@ MonoBehaviour:
   loadingTexture: {fileID: 2800000, guid: e9ba0fd98b4ef4219a141973b7841077, type: 3}
   postName: left
   imageKey: image
---- !u!95 &988771867
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 7f781076f7c8449fba3cde58155c6172,
-    type: 2}
-  m_PrefabInternal: {fileID: 943621923}
-  m_GameObject: {fileID: 988771864}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3abb808ce669ed64395cced67514e6d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &988771868
 Renderer:
   m_ObjectHideFlags: 0
@@ -13430,7 +13051,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 2040552049}
   m_IsPrefabParent: 0
@@ -13472,13 +13094,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 711445875}
   m_IsPrefabParent: 0
@@ -13666,7 +13289,7 @@ MeshFilter:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100018, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1012015017}
@@ -13682,7 +13305,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400018, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1012015016}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
@@ -13697,7 +13320,7 @@ Animator:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 9500000, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1012015016}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: efa285fa988af2641a24620dea995017, type: 3}
@@ -13772,50 +13395,6 @@ MonoBehaviour:
       tangentMode: 10
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!1001 &1051310060
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 519502586}
-    m_Modifications:
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.44434035
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -3.32577848
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -3.14104152
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 3.09086197e-08
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: .707106829
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: .707106829
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: -3.09086197e-08
-      objectReference: {fileID: 0}
-    - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_RootGameObject: {fileID: 802374867}
-  m_IsPrefabParent: 0
-  m_IsExploded: 1
 --- !u!1001 &1053990594
 Prefab:
   m_ObjectHideFlags: 0
@@ -13875,7 +13454,12 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 400004, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_RootGameObject: {fileID: 1198665849}
   m_IsPrefabParent: 0
@@ -14153,7 +13737,6 @@ GameObject:
   - 4: {fileID: 1084563106}
   - 33: {fileID: 1084563110}
   - 23: {fileID: 1084563109}
-  - 95: {fileID: 1084563108}
   - 64: {fileID: 1084563107}
   m_Layer: 0
   m_Name: NASA_Control_Foundation
@@ -14190,21 +13773,6 @@ MeshCollider:
   m_SmoothSphereCollisions: 0
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
---- !u!95 &1084563108
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: f76a69607e3311a458e18477a7138aa0,
-    type: 3}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1084563105}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: f76a69607e3311a458e18477a7138aa0, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1084563109
 Renderer:
   m_ObjectHideFlags: 0
@@ -14445,7 +14013,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 15
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
   m_RootGameObject: {fileID: 837980123}
   m_IsPrefabParent: 0
@@ -14487,7 +14056,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: 205ef868dee207849a751e65f6c76783, type: 2}
       propertyPath: m_RootOrder
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
@@ -14531,13 +14100,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1206543096}
   m_IsPrefabParent: 0
@@ -14674,7 +14244,6 @@ GameObject:
   - 4: {fileID: 1127635321}
   - 33: {fileID: 1127635324}
   - 23: {fileID: 1127635323}
-  - 95: {fileID: 1127635322}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -14694,21 +14263,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1304764707}
   m_RootOrder: 1
---- !u!95 &1127635322
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 267554991}
-  m_GameObject: {fileID: 1127635320}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1127635323
 Renderer:
   m_ObjectHideFlags: 0
@@ -14775,13 +14329,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 932240349}
   m_IsPrefabParent: 0
@@ -14796,7 +14351,6 @@ GameObject:
   - 4: {fileID: 1131842410}
   - 33: {fileID: 1131842413}
   - 23: {fileID: 1131842412}
-  - 95: {fileID: 1131842411}
   m_Layer: 0
   m_Name: NASA_Control_Phone
   m_TagString: Untagged
@@ -14816,21 +14370,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 12
---- !u!95 &1131842411
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: b661dd68a39459d4982592e1250ec839,
-    type: 3}
-  m_PrefabInternal: {fileID: 867168698}
-  m_GameObject: {fileID: 1131842409}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1131842412
 Renderer:
   m_ObjectHideFlags: 0
@@ -14870,7 +14409,6 @@ GameObject:
   - 4: {fileID: 1140231409}
   - 33: {fileID: 1140231412}
   - 23: {fileID: 1140231411}
-  - 95: {fileID: 1140231410}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -14890,21 +14428,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 21
---- !u!95 &1140231410
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1991303567}
-  m_GameObject: {fileID: 1140231408}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1140231411
 Renderer:
   m_ObjectHideFlags: 0
@@ -14972,7 +14495,6 @@ GameObject:
   - 4: {fileID: 1147361807}
   - 33: {fileID: 1147361810}
   - 23: {fileID: 1147361809}
-  - 95: {fileID: 1147361808}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -14992,21 +14514,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 1
---- !u!95 &1147361808
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 217041622}
-  m_GameObject: {fileID: 1147361806}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1147361809
 Renderer:
   m_ObjectHideFlags: 0
@@ -15322,7 +14829,6 @@ GameObject:
   - 4: {fileID: 1178753569}
   - 33: {fileID: 1178753572}
   - 23: {fileID: 1178753571}
-  - 95: {fileID: 1178753570}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen
   m_TagString: Untagged
@@ -15342,21 +14848,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 15
---- !u!95 &1178753570
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da,
-    type: 3}
-  m_PrefabInternal: {fileID: 549631587}
-  m_GameObject: {fileID: 1178753568}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1178753571
 Renderer:
   m_ObjectHideFlags: 0
@@ -15396,7 +14887,6 @@ GameObject:
   - 4: {fileID: 1181280429}
   - 33: {fileID: 1181280432}
   - 23: {fileID: 1181280431}
-  - 95: {fileID: 1181280430}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -15418,21 +14908,6 @@ Transform:
   - {fileID: 1623282952}
   m_Father: {fileID: 1409312988}
   m_RootOrder: 0
---- !u!95 &1181280430
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 737132665}
-  m_GameObject: {fileID: 1181280428}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1181280431
 Renderer:
   m_ObjectHideFlags: 0
@@ -15624,7 +15099,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1198665850}
-  - 95: {fileID: 1198665851}
   m_Layer: 0
   m_Name: NASA_Control_MainScreen_Base
   m_TagString: Untagged
@@ -15646,21 +15120,6 @@ Transform:
   - {fileID: 2124531347}
   m_Father: {fileID: 540615765}
   m_RootOrder: 5
---- !u!95 &1198665851
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c,
-    type: 3}
-  m_PrefabInternal: {fileID: 1053990594}
-  m_GameObject: {fileID: 1198665849}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &1198806375
 GameObject:
   m_ObjectHideFlags: 0
@@ -15671,7 +15130,6 @@ GameObject:
   - 4: {fileID: 1198806376}
   - 33: {fileID: 1198806379}
   - 23: {fileID: 1198806378}
-  - 95: {fileID: 1198806377}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -15691,21 +15149,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 4
---- !u!95 &1198806377
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 477264373}
-  m_GameObject: {fileID: 1198806375}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1198806378
 Renderer:
   m_ObjectHideFlags: 0
@@ -15965,7 +15408,6 @@ GameObject:
   - 4: {fileID: 1206543097}
   - 33: {fileID: 1206543100}
   - 23: {fileID: 1206543099}
-  - 95: {fileID: 1206543098}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -15985,21 +15427,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 11
---- !u!95 &1206543098
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1098178268}
-  m_GameObject: {fileID: 1206543096}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1206543099
 Renderer:
   m_ObjectHideFlags: 0
@@ -16252,7 +15679,6 @@ GameObject:
   - 4: {fileID: 1214457127}
   - 33: {fileID: 1214457130}
   - 23: {fileID: 1214457129}
-  - 95: {fileID: 1214457128}
   m_Layer: 0
   m_Name: NASA_Control_PotentiometerX4
   m_TagString: Untagged
@@ -16276,21 +15702,6 @@ Transform:
   - {fileID: 177236811}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 13
---- !u!95 &1214457128
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 248134a766f578d48bfbf91ebf9b73fa,
-    type: 3}
-  m_PrefabInternal: {fileID: 1605189162}
-  m_GameObject: {fileID: 1214457126}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1214457129
 Renderer:
   m_ObjectHideFlags: 0
@@ -16443,13 +15854,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 832492842}
   m_IsPrefabParent: 0
@@ -16508,7 +15920,6 @@ GameObject:
   - 4: {fileID: 1235443961}
   - 33: {fileID: 1235443964}
   - 23: {fileID: 1235443963}
-  - 95: {fileID: 1235443962}
   m_Layer: 9
   m_Name: NASA_Control_MainScreen_Left
   m_TagString: Untagged
@@ -16529,21 +15940,6 @@ Transform:
   - {fileID: 1090692702}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 7
---- !u!95 &1235443962
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: d059bbb08c4754c5dad0bacde4f10f34,
-    type: 2}
-  m_PrefabInternal: {fileID: 1470853332}
-  m_GameObject: {fileID: 1235443960}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2f882504b617d54458165cb6ab977c1a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1235443963
 Renderer:
   m_ObjectHideFlags: 0
@@ -16668,7 +16064,6 @@ GameObject:
   - 4: {fileID: 1244278385}
   - 33: {fileID: 1244278388}
   - 23: {fileID: 1244278387}
-  - 95: {fileID: 1244278386}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -16688,21 +16083,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2004716744}
   m_RootOrder: 0
---- !u!95 &1244278386
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 81503358}
-  m_GameObject: {fileID: 1244278384}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1244278387
 Renderer:
   m_ObjectHideFlags: 0
@@ -16827,7 +16207,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 89e03fe85ae72e84aacb2dc29ca22e9b, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 89e03fe85ae72e84aacb2dc29ca22e9b, type: 3}
       propertyPath: m_LocalScale.x
@@ -16895,7 +16275,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16909,7 +16289,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 1375426499}
   m_IsPrefabParent: 0
@@ -18024,13 +17405,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 382541190}
   m_IsPrefabParent: 0
@@ -18045,7 +17427,6 @@ GameObject:
   - 4: {fileID: 1375426500}
   - 33: {fileID: 1375426503}
   - 23: {fileID: 1375426502}
-  - 95: {fileID: 1375426501}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -18067,21 +17448,6 @@ Transform:
   - {fileID: 449098659}
   m_Father: {fileID: 592835471}
   m_RootOrder: 0
---- !u!95 &1375426501
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 1250423689}
-  m_GameObject: {fileID: 1375426499}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1375426502
 Renderer:
   m_ObjectHideFlags: 0
@@ -18218,7 +17584,7 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100012, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1383465026}
@@ -18235,7 +17601,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400012, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1383465025}
   m_LocalRotation: {x: .792124689, y: 0, z: -0, w: .610359311}
   m_LocalPosition: {x: -0, y: -.826632082, z: .402425796}
@@ -18248,7 +17614,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300012, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1383465025}
   m_Enabled: 1
   m_CastShadows: 1
@@ -18269,7 +17635,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300012, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1383465025}
   m_Mesh: {fileID: 4300004, guid: efa285fa988af2641a24620dea995017, type: 3}
 --- !u!1 &1383959174
@@ -18356,7 +17722,6 @@ GameObject:
   - 4: {fileID: 1397464676}
   - 33: {fileID: 1397464679}
   - 23: {fileID: 1397464678}
-  - 95: {fileID: 1397464677}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen
   m_TagString: Untagged
@@ -18376,21 +17741,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 14
---- !u!95 &1397464677
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da,
-    type: 3}
-  m_PrefabInternal: {fileID: 169410957}
-  m_GameObject: {fileID: 1397464675}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1397464678
 Renderer:
   m_ObjectHideFlags: 0
@@ -18457,7 +17807,6 @@ GameObject:
   - 4: {fileID: 1398789758}
   - 33: {fileID: 1398789761}
   - 23: {fileID: 1398789760}
-  - 95: {fileID: 1398789759}
   m_Layer: 9
   m_Name: NASA_Control_MainScreen_Right
   m_TagString: Untagged
@@ -18478,21 +17827,6 @@ Transform:
   - {fileID: 102759032}
   m_Father: {fileID: 540615765}
   m_RootOrder: 8
---- !u!95 &1398789759
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 72fab2ea044a0424ea38d2ef1def8bb0,
-    type: 2}
-  m_PrefabInternal: {fileID: 371220736}
-  m_GameObject: {fileID: 1398789757}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 2f882504b617d54458165cb6ab977c1a, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1398789760
 Renderer:
   m_ObjectHideFlags: 0
@@ -18591,7 +17925,6 @@ GameObject:
   - 4: {fileID: 1402798159}
   - 33: {fileID: 1402798162}
   - 23: {fileID: 1402798161}
-  - 95: {fileID: 1402798160}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -18611,21 +17944,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 10
---- !u!95 &1402798160
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 1423993343}
-  m_GameObject: {fileID: 1402798158}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1402798161
 Renderer:
   m_ObjectHideFlags: 0
@@ -18665,7 +17983,6 @@ GameObject:
   - 4: {fileID: 1405783698}
   - 33: {fileID: 1405783701}
   - 23: {fileID: 1405783700}
-  - 95: {fileID: 1405783699}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Square
   m_TagString: Untagged
@@ -18685,21 +18002,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1202387870}
   m_RootOrder: 2
---- !u!95 &1405783699
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 17db28a20e2c384428b13b115050185b,
-    type: 3}
-  m_PrefabInternal: {fileID: 1510093072}
-  m_GameObject: {fileID: 1405783697}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 17db28a20e2c384428b13b115050185b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1405783700
 Renderer:
   m_ObjectHideFlags: 0
@@ -18737,7 +18039,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1409312988}
-  - 95: {fileID: 1409312989}
   m_Layer: 0
   m_Name: NASA_Control_MainScreen_Base
   m_TagString: Untagged
@@ -18759,21 +18060,6 @@ Transform:
   - {fileID: 820263483}
   m_Father: {fileID: 540615765}
   m_RootOrder: 6
---- !u!95 &1409312989
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c,
-    type: 3}
-  m_PrefabInternal: {fileID: 2025575168}
-  m_GameObject: {fileID: 1409312987}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1001 &1412711906
 Prefab:
   m_ObjectHideFlags: 0
@@ -18833,7 +18119,12 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 400004, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_RootGameObject: {fileID: 1627404063}
   m_IsPrefabParent: 0
@@ -18848,7 +18139,6 @@ GameObject:
   - 4: {fileID: 1420604588}
   - 33: {fileID: 1420604591}
   - 23: {fileID: 1420604590}
-  - 95: {fileID: 1420604589}
   - 114: {fileID: 1420604592}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Left
@@ -18869,21 +18159,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 16
---- !u!95 &1420604589
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 7f781076f7c8449fba3cde58155c6172,
-    type: 2}
-  m_PrefabInternal: {fileID: 168049701}
-  m_GameObject: {fileID: 1420604587}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 3abb808ce669ed64395cced67514e6d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1420604590
 Renderer:
   m_ObjectHideFlags: 0
@@ -18971,7 +18246,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 1402798158}
   m_IsPrefabParent: 0
@@ -19013,13 +18289,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 406200828}
   m_IsPrefabParent: 0
@@ -19034,7 +18311,6 @@ GameObject:
   - 4: {fileID: 1436256726}
   - 33: {fileID: 1436256729}
   - 23: {fileID: 1436256728}
-  - 95: {fileID: 1436256727}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -19054,21 +18330,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 23
---- !u!95 &1436256727
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 2126032960}
-  m_GameObject: {fileID: 1436256725}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1436256728
 Renderer:
   m_ObjectHideFlags: 0
@@ -19438,7 +18699,6 @@ GameObject:
   - 4: {fileID: 1467491325}
   - 33: {fileID: 1467491328}
   - 23: {fileID: 1467491327}
-  - 95: {fileID: 1467491326}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -19458,21 +18718,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1671811859}
   m_RootOrder: 0
---- !u!95 &1467491326
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 418347863}
-  m_GameObject: {fileID: 1467491324}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1467491327
 Renderer:
   m_ObjectHideFlags: 0
@@ -19565,7 +18810,8 @@ Prefab:
       propertyPath: m_Color.b
       value: .979551017
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: d059bbb08c4754c5dad0bacde4f10f34, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: d059bbb08c4754c5dad0bacde4f10f34, type: 2}
   m_RootGameObject: {fileID: 1235443960}
   m_IsPrefabParent: 0
@@ -19656,7 +18902,12 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 400004, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_RootGameObject: {fileID: 592835470}
   m_IsPrefabParent: 0
@@ -19698,13 +18949,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 694400876}
   m_IsPrefabParent: 0
@@ -19808,7 +19060,6 @@ GameObject:
   - 4: {fileID: 1485964691}
   - 33: {fileID: 1485964694}
   - 23: {fileID: 1485964693}
-  - 95: {fileID: 1485964692}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -19828,21 +19079,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 9
---- !u!95 &1485964692
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 899543857}
-  m_GameObject: {fileID: 1485964690}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1485964693
 Renderer:
   m_ObjectHideFlags: 0
@@ -20017,7 +19253,7 @@ Transform:
   - {fileID: 684148347}
   - {fileID: 1759249816}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!114 &1508088875
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20163,7 +19399,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 17db28a20e2c384428b13b115050185b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 17db28a20e2c384428b13b115050185b, type: 3}
   m_RootGameObject: {fileID: 1405783697}
   m_IsPrefabParent: 0
@@ -20230,7 +19467,7 @@ MeshFilter:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100010, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1537054463}
@@ -20248,7 +19485,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300010, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1537054460}
   m_Enabled: 1
   m_CastShadows: 1
@@ -20269,14 +19506,14 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300010, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1537054460}
   m_Mesh: {fileID: 4300002, guid: efa285fa988af2641a24620dea995017, type: 3}
 --- !u!4 &1537054463
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400010, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1537054460}
   m_LocalRotation: {x: .792124689, y: 0, z: -0, w: .610359311}
   m_LocalPosition: {x: -0, y: -.803688943, z: .315399379}
@@ -20455,6 +19692,110 @@ Prefab:
   m_RootGameObject: {fileID: 868725377}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &1559039820
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1559039821}
+  - 33: {fileID: 1559039825}
+  - 23: {fileID: 1559039824}
+  - 114: {fileID: 1559039823}
+  - 114: {fileID: 1559039822}
+  m_Layer: 0
+  m_Name: TextBox Top Right
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559039821
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 27998c48a07924a3e88c8a9a680b87e9, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559039820}
+  m_LocalRotation: {x: 0, y: -4.37113883e-08, z: 0, w: 1}
+  m_LocalPosition: {x: .549999952, y: 0, z: 3}
+  m_LocalScale: {x: .100000001, y: .100000001, z: .100000001}
+  m_Children: []
+  m_Father: {fileID: 2070304617}
+  m_RootOrder: 1
+--- !u!114 &1559039822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559039820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3d16bed8545f4b2ead18d5d002044a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  postName: right
+  textKey: message
+--- !u!114 &1559039823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559039820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dbc18620fd2a4f58a6b3b872cab820a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  alignment: 1
+  bounding: 0
+  horizontalAnchor: 1
+  verticalAnchor: 0
+  chunkSize: 1
+  color: {r: 1, g: 1, b: 1, a: 1}
+  font: {fileID: 11400000, guid: 4f9b1867c152844c1beb097fd1dee3f4, type: 2}
+  lineHeight: .75
+  modifier: {fileID: 0}
+  offset: {x: 0, y: 0, z: 0}
+  text: 'This is test text for the new single camera RTT system. It has to be long
+    enough to fill this whole space. Here''s something from the net: "Planning a turn
+    in Frozen Synapse Prime provides the same inexplicable joy of meticulously setting
+    dominoes on end, only to watch them topple in a fraction of the time it took to
+    arrange them. Blah blah, things are yada yada yada, facebook tweeted the internet
+    to the tubes from a truck."'
+  tabSize: 2
+  width: 9
+--- !u!23 &1559039824
+Renderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559039820}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 271127c4da54b44e48ea20fadbabed52, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &1559039825
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 27998c48a07924a3e88c8a9a680b87e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1559039820}
+  m_Mesh: {fileID: 0}
 --- !u!1001 &1559691705
 Prefab:
   m_ObjectHideFlags: 0
@@ -21085,86 +20426,6 @@ Prefab:
   m_RootGameObject: {fileID: 504022198}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &1602646314
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 100000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1602646319}
-  - 20: {fileID: 1602646318}
-  - 124: {fileID: 1602646317}
-  - 92: {fileID: 1602646316}
-  m_Layer: 0
-  m_Name: Camera RTT Left
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!92 &1602646316
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9200000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 1602646314}
-  m_Enabled: 1
---- !u!124 &1602646317
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 12400000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 1602646314}
-  m_Enabled: 1
---- !u!20 &1602646318
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 2000000, guid: eec609eef47c44414bae0942adeeb8ec,
-    type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 1602646314}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: .300000012
-  far clip plane: 10
-  field of view: 60
-  orthographic: 1
-  orthographic size: 1
-  m_Depth: 0
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 2c929881e3a16a04a9726d51fbe467bc, type: 2}
-  m_TargetDisplay: 0
-  m_HDR: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: .0219999999
---- !u!4 &1602646319
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 400000, guid: eec609eef47c44414bae0942adeeb8ec, type: 2}
-  m_PrefabInternal: {fileID: 218475551}
-  m_GameObject: {fileID: 1602646314}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: -4.37113883e-08}
-  m_LocalPosition: {x: 5, y: -5, z: 0}
-  m_LocalScale: {x: .444884598, y: .444884598, z: .444884598}
-  m_Children:
-  - {fileID: 904646990}
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
 --- !u!1 &1602689804
 GameObject:
   m_ObjectHideFlags: 0
@@ -21269,7 +20530,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e87d4482e78dad742b5b63fb5287c9cc, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
   m_RootGameObject: {fileID: 1214457126}
   m_IsPrefabParent: 0
@@ -21311,13 +20573,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1887740863}
   m_IsPrefabParent: 0
@@ -21416,7 +20679,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1627404064}
-  - 95: {fileID: 1627404065}
   m_Layer: 0
   m_Name: NASA_Control_MainScreen_Base
   m_TagString: Untagged
@@ -21438,21 +20700,6 @@ Transform:
   - {fileID: 1488573125}
   m_Father: {fileID: 1630301000}
   m_RootOrder: 5
---- !u!95 &1627404065
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c,
-    type: 3}
-  m_PrefabInternal: {fileID: 1412711906}
-  m_GameObject: {fileID: 1627404063}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1627404066
 Renderer:
   m_ObjectHideFlags: 0
@@ -21621,7 +20868,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1651171121}
-  - 95: {fileID: 1651171122}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Straight
   m_TagString: Untagged
@@ -21642,21 +20888,6 @@ Transform:
   - {fileID: 527450243}
   m_Father: {fileID: 540615765}
   m_RootOrder: 3
---- !u!95 &1651171122
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31,
-    type: 3}
-  m_PrefabInternal: {fileID: 1916888450}
-  m_GameObject: {fileID: 1651171120}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &1659669792
 GameObject:
   m_ObjectHideFlags: 0
@@ -21832,7 +21063,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 781767777}
   m_IsPrefabParent: 0
@@ -21845,7 +21077,6 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1686187236}
-  - 95: {fileID: 1686187237}
   m_Layer: 0
   m_Name: NASA_Control_LightsArray_Straight
   m_TagString: Untagged
@@ -21866,21 +21097,6 @@ Transform:
   - {fileID: 2145379765}
   m_Father: {fileID: 540615765}
   m_RootOrder: 0
---- !u!95 &1686187237
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31,
-    type: 3}
-  m_PrefabInternal: {fileID: 79430946}
-  m_GameObject: {fileID: 1686187235}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!1 &1687311645
 GameObject:
   m_ObjectHideFlags: 0
@@ -22102,7 +21318,6 @@ GameObject:
   - 4: {fileID: 1691019962}
   - 33: {fileID: 1691019965}
   - 23: {fileID: 1691019964}
-  - 95: {fileID: 1691019963}
   m_Layer: 0
   m_Name: NASA_Control_Phone
   m_TagString: Untagged
@@ -22122,21 +21337,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 12
---- !u!95 &1691019963
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: b661dd68a39459d4982592e1250ec839,
-    type: 3}
-  m_PrefabInternal: {fileID: 1850054883}
-  m_GameObject: {fileID: 1691019961}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1691019964
 Renderer:
   m_ObjectHideFlags: 0
@@ -22217,7 +21417,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 1770728950}
   m_IsPrefabParent: 0
@@ -22441,7 +21642,6 @@ GameObject:
   - 4: {fileID: 1711564965}
   - 33: {fileID: 1711564968}
   - 23: {fileID: 1711564967}
-  - 95: {fileID: 1711564966}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -22464,21 +21664,6 @@ Transform:
   - {fileID: 1072385676}
   m_Father: {fileID: 1011662662}
   m_RootOrder: 0
---- !u!95 &1711564966
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 517286503}
-  m_GameObject: {fileID: 1711564964}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1711564967
 Renderer:
   m_ObjectHideFlags: 0
@@ -22639,7 +21824,8 @@ Prefab:
       propertyPath: m_Color.b
       value: .979551017
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 72fab2ea044a0424ea38d2ef1def8bb0, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 72fab2ea044a0424ea38d2ef1def8bb0, type: 2}
   m_RootGameObject: {fileID: 869950266}
   m_IsPrefabParent: 0
@@ -23119,7 +22305,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -23133,7 +22319,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 79d44ac16873e1c468fad4dbd708df42, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
   m_RootGameObject: {fileID: 2095153739}
   m_IsPrefabParent: 0
@@ -23148,7 +22335,6 @@ GameObject:
   - 4: {fileID: 1770728951}
   - 33: {fileID: 1770728954}
   - 23: {fileID: 1770728953}
-  - 95: {fileID: 1770728952}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -23171,21 +22357,6 @@ Transform:
   - {fileID: 1926365496}
   m_Father: {fileID: 2015157777}
   m_RootOrder: 0
---- !u!95 &1770728952
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 1695450678}
-  m_GameObject: {fileID: 1770728950}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1770728953
 Renderer:
   m_ObjectHideFlags: 0
@@ -23373,7 +22544,6 @@ GameObject:
   - 4: {fileID: 1782432186}
   - 33: {fileID: 1782432189}
   - 23: {fileID: 1782432188}
-  - 95: {fileID: 1782432187}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -23393,21 +22563,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 900321397}
   m_RootOrder: 1
---- !u!95 &1782432187
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500004, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 577304354}
-  m_GameObject: {fileID: 1782432185}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1782432188
 Renderer:
   m_ObjectHideFlags: 0
@@ -23447,7 +22602,6 @@ GameObject:
   - 4: {fileID: 1791607997}
   - 33: {fileID: 1791608000}
   - 23: {fileID: 1791607999}
-  - 95: {fileID: 1791607998}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -23467,21 +22621,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 3
---- !u!95 &1791607998
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 383799643}
-  m_GameObject: {fileID: 1791607996}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1791607999
 Renderer:
   m_ObjectHideFlags: 0
@@ -23702,7 +22841,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 662533763}
   m_IsPrefabParent: 0
@@ -23717,7 +22857,6 @@ GameObject:
   - 4: {fileID: 1823635808}
   - 33: {fileID: 1823635811}
   - 23: {fileID: 1823635810}
-  - 95: {fileID: 1823635809}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -23737,21 +22876,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 9
---- !u!95 &1823635809
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 102511446}
-  m_GameObject: {fileID: 1823635807}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1823635810
 Renderer:
   m_ObjectHideFlags: 0
@@ -23812,13 +22936,12 @@ Transform:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100006, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 1826437826}
   - 33: {fileID: 1826437829}
   - 23: {fileID: 1826437828}
-  - 95: {fileID: 1826437827}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -23830,7 +22953,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400006, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1826437825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 2.5}
@@ -23838,27 +22961,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 117254636}
   m_RootOrder: 0
---- !u!95 &1826437827
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
-  m_GameObject: {fileID: 1826437825}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1826437828
 Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300006, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1826437825}
   m_Enabled: 1
   m_CastShadows: 1
@@ -23879,7 +22987,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300006, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 1826437825}
   m_Mesh: {fileID: 4300000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
 --- !u!1 &1829354275
@@ -23987,7 +23095,6 @@ GameObject:
   - 4: {fileID: 1841114152}
   - 33: {fileID: 1841114155}
   - 23: {fileID: 1841114154}
-  - 95: {fileID: 1841114153}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -24007,21 +23114,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1900289984}
   m_RootOrder: 0
---- !u!95 &1841114153
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 1094587899}
-  m_GameObject: {fileID: 1841114151}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1841114154
 Renderer:
   m_ObjectHideFlags: 0
@@ -24130,7 +23222,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 12
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: b661dd68a39459d4982592e1250ec839, type: 3}
   m_RootGameObject: {fileID: 1691019961}
   m_IsPrefabParent: 0
@@ -24293,7 +23386,6 @@ GameObject:
   - 4: {fileID: 1864666470}
   - 33: {fileID: 1864666473}
   - 23: {fileID: 1864666472}
-  - 95: {fileID: 1864666471}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -24313,21 +23405,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 6
---- !u!95 &1864666471
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 569604527}
-  m_GameObject: {fileID: 1864666469}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1864666472
 Renderer:
   m_ObjectHideFlags: 0
@@ -24513,7 +23590,6 @@ GameObject:
   - 4: {fileID: 1869328992}
   - 33: {fileID: 1869328995}
   - 23: {fileID: 1869328994}
-  - 95: {fileID: 1869328993}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -24533,21 +23609,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 10
---- !u!95 &1869328993
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 1912113963}
-  m_GameObject: {fileID: 1869328991}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1869328994
 Renderer:
   m_ObjectHideFlags: 0
@@ -24672,7 +23733,6 @@ GameObject:
   - 4: {fileID: 1882975154}
   - 33: {fileID: 1882975157}
   - 23: {fileID: 1882975156}
-  - 95: {fileID: 1882975155}
   m_Layer: 0
   m_Name: NASA_Control_PotentiometerX4
   m_TagString: Untagged
@@ -24696,21 +23756,6 @@ Transform:
   - {fileID: 719797163}
   m_Father: {fileID: 540615765}
   m_RootOrder: 13
---- !u!95 &1882975155
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 248134a766f578d48bfbf91ebf9b73fa,
-    type: 3}
-  m_PrefabInternal: {fileID: 579736590}
-  m_GameObject: {fileID: 1882975153}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1882975156
 Renderer:
   m_ObjectHideFlags: 0
@@ -24750,7 +23795,6 @@ GameObject:
   - 4: {fileID: 1887740864}
   - 33: {fileID: 1887740867}
   - 23: {fileID: 1887740866}
-  - 95: {fileID: 1887740865}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -24770,21 +23814,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 17
---- !u!95 &1887740865
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 1610284886}
-  m_GameObject: {fileID: 1887740863}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1887740866
 Renderer:
   m_ObjectHideFlags: 0
@@ -24824,7 +23853,6 @@ GameObject:
   - 4: {fileID: 1895327633}
   - 33: {fileID: 1895327636}
   - 23: {fileID: 1895327635}
-  - 95: {fileID: 1895327634}
   m_Layer: 0
   m_Name: NASA_Control_Support_Top
   m_TagString: Untagged
@@ -24844,21 +23872,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2142867752}
   m_RootOrder: 0
---- !u!95 &1895327634
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500006, guid: 205ef868dee207849a751e65f6c76783,
-    type: 2}
-  m_PrefabInternal: {fileID: 577304354}
-  m_GameObject: {fileID: 1895327632}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1895327635
 Renderer:
   m_ObjectHideFlags: 0
@@ -25020,7 +24033,6 @@ GameObject:
   - 4: {fileID: 1901736802}
   - 33: {fileID: 1901736805}
   - 23: {fileID: 1901736804}
-  - 95: {fileID: 1901736803}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen
   m_TagString: Untagged
@@ -25040,21 +24052,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 540615765}
   m_RootOrder: 14
---- !u!95 &1901736803
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 51769bf3377cb3646ac24fc7acfd19da,
-    type: 3}
-  m_PrefabInternal: {fileID: 635113665}
-  m_GameObject: {fileID: 1901736801}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 51769bf3377cb3646ac24fc7acfd19da, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1901736804
 Renderer:
   m_ObjectHideFlags: 0
@@ -25259,7 +24256,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 1869328991}
   m_IsPrefabParent: 0
@@ -25377,13 +24375,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 712636992}
   m_IsPrefabParent: 0
@@ -25458,7 +24457,8 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: d30fa176f5b57d243b878b780f6982f0, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
   m_RootGameObject: {fileID: 1651171120}
   m_IsPrefabParent: 0
@@ -25550,7 +24550,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 559244181}
   m_IsPrefabParent: 0
@@ -26030,7 +25031,6 @@ GameObject:
   - 4: {fileID: 1979048632}
   - 33: {fileID: 1979048635}
   - 23: {fileID: 1979048634}
-  - 95: {fileID: 1979048633}
   - 65: {fileID: 1979048636}
   m_Layer: 0
   m_Name: NASA_Control_Floor+Collider
@@ -26075,21 +25075,6 @@ Transform:
   - {fileID: 1436256726}
   m_Father: {fileID: 364408197}
   m_RootOrder: 0
---- !u!95 &1979048633
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 347697232}
-  m_GameObject: {fileID: 1979048631}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1979048634
 Renderer:
   m_ObjectHideFlags: 0
@@ -26141,7 +25126,6 @@ GameObject:
   - 4: {fileID: 1983360194}
   - 33: {fileID: 1983360197}
   - 23: {fileID: 1983360196}
-  - 95: {fileID: 1983360195}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -26161,21 +25145,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 5
---- !u!95 &1983360195
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 562423207}
-  m_GameObject: {fileID: 1983360193}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &1983360196
 Renderer:
   m_ObjectHideFlags: 0
@@ -26300,13 +25269,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1140231408}
   m_IsPrefabParent: 0
@@ -26757,7 +25727,12 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    - target: {fileID: 400004, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 9622a12a0ea278545a08309d2abe8a9c, type: 3}
   m_RootGameObject: {fileID: 1409312987}
   m_IsPrefabParent: 0
@@ -26766,7 +25741,7 @@ Prefab:
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 100000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 2031105102}
@@ -26784,7 +25759,7 @@ GameObject:
 Transform:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 400000, guid: 205ef868dee207849a751e65f6c76783, type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 2031105101}
   m_LocalRotation: {x: 0, y: 0, z: 7.78772105e-08, w: 1}
   m_LocalPosition: {x: -0, y: 6, z: -0}
@@ -26799,7 +25774,7 @@ MeshCollider:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 6400000, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 2031105101}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -26813,7 +25788,7 @@ Renderer:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 2300000, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 2031105101}
   m_Enabled: 1
   m_CastShadows: 1
@@ -26834,7 +25809,7 @@ MeshFilter:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 3300000, guid: 205ef868dee207849a751e65f6c76783,
     type: 2}
-  m_PrefabInternal: {fileID: 1051310060}
+  m_PrefabInternal: {fileID: 171007029}
   m_GameObject: {fileID: 2031105101}
   m_Mesh: {fileID: 4300000, guid: 08b8269328819574daeac98b76107725, type: 3}
 --- !u!1 &2037838339
@@ -26874,7 +25849,6 @@ GameObject:
   - 4: {fileID: 2040552050}
   - 33: {fileID: 2040552053}
   - 23: {fileID: 2040552052}
-  - 95: {fileID: 2040552051}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -26897,21 +25871,6 @@ Transform:
   - {fileID: 1165811585}
   m_Father: {fileID: 1913411414}
   m_RootOrder: 0
---- !u!95 &2040552051
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 994529383}
-  m_GameObject: {fileID: 2040552049}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &2040552052
 Renderer:
   m_ObjectHideFlags: 0
@@ -27320,10 +26279,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 2070304617}
   - 20: {fileID: 2070304621}
-  - 124: {fileID: 2070304620}
-  - 92: {fileID: 2070304619}
   m_Layer: 0
-  m_Name: Camera RTT Right
+  m_Name: Camera RTT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27340,24 +26297,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 355398312}
+  - {fileID: 1559039821}
+  - {fileID: 701473868}
+  - {fileID: 490547142}
   m_Father: {fileID: 0}
   m_RootOrder: 3
---- !u!92 &2070304619
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9200000, guid: 27998c48a07924a3e88c8a9a680b87e9,
-    type: 2}
-  m_PrefabInternal: {fileID: 572365787}
-  m_GameObject: {fileID: 2070304616}
-  m_Enabled: 1
---- !u!124 &2070304620
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 12400000, guid: 27998c48a07924a3e88c8a9a680b87e9,
-    type: 2}
-  m_PrefabInternal: {fileID: 572365787}
-  m_GameObject: {fileID: 2070304616}
-  m_Enabled: 1
 --- !u!20 &2070304621
 Camera:
   m_ObjectHideFlags: 0
@@ -27374,7 +26318,7 @@ Camera:
     x: 0
     y: 0
     width: 1
-    height: 1
+    height: 2.1500001
   near clip plane: .300000012
   far clip plane: 10
   field of view: 60
@@ -27385,7 +26329,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 8400000, guid: 43eecb8baaefb4034ac15b7f41bd1e72, type: 2}
+  m_TargetTexture: {fileID: 8400000, guid: 2c929881e3a16a04a9726d51fbe467bc, type: 2}
   m_TargetDisplay: 0
   m_HDR: 0
   m_OcclusionCulling: 1
@@ -27550,7 +26494,8 @@ Prefab:
       propertyPath: m_RootOrder
       value: 11
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
   m_RootGameObject: {fileID: 159538182}
   m_IsPrefabParent: 0
@@ -27653,7 +26598,6 @@ GameObject:
   - 4: {fileID: 2093321391}
   - 33: {fileID: 2093321394}
   - 23: {fileID: 2093321393}
-  - 95: {fileID: 2093321392}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -27673,21 +26617,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 2
---- !u!95 &2093321392
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 261737836}
-  m_GameObject: {fileID: 2093321390}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &2093321393
 Renderer:
   m_ObjectHideFlags: 0
@@ -27727,7 +26656,6 @@ GameObject:
   - 4: {fileID: 2095153740}
   - 33: {fileID: 2095153743}
   - 23: {fileID: 2095153742}
-  - 95: {fileID: 2095153741}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -27749,21 +26677,6 @@ Transform:
   - {fileID: 1627589919}
   m_Father: {fileID: 1198665850}
   m_RootOrder: 0
---- !u!95 &2095153741
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 37cdb53437c844d40b0ac760765b0656,
-    type: 3}
-  m_PrefabInternal: {fileID: 1764408713}
-  m_GameObject: {fileID: 2095153739}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &2095153742
 Renderer:
   m_ObjectHideFlags: 0
@@ -27830,13 +26743,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 2146347211}
   m_IsPrefabParent: 0
@@ -27879,7 +26793,6 @@ GameObject:
   - 4: {fileID: 2108461124}
   - 33: {fileID: 2108461127}
   - 23: {fileID: 2108461126}
-  - 95: {fileID: 2108461125}
   m_Layer: 0
   m_Name: NASA_Control_Panel
   m_TagString: Untagged
@@ -27899,21 +26812,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1630301000}
   m_RootOrder: 9
---- !u!95 &2108461125
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: e746286201a85d1418b4640c1558ce1b,
-    type: 3}
-  m_PrefabInternal: {fileID: 760102156}
-  m_GameObject: {fileID: 2108461123}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e746286201a85d1418b4640c1558ce1b, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &2108461126
 Renderer:
   m_ObjectHideFlags: 0
@@ -28068,13 +26966,14 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: e95112507ebe7a2408d62214cd069b8d, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_ParentPrefab: {fileID: 100100000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
   m_RootGameObject: {fileID: 1436256725}
   m_IsPrefabParent: 0
@@ -28312,7 +27211,6 @@ GameObject:
   - 4: {fileID: 2146347212}
   - 33: {fileID: 2146347215}
   - 23: {fileID: 2146347214}
-  - 95: {fileID: 2146347213}
   m_Layer: 0
   m_Name: NASA_Control_Floor
   m_TagString: Untagged
@@ -28332,21 +27230,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1979048632}
   m_RootOrder: 22
---- !u!95 &2146347213
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 9500000, guid: 897c29c58639e1743a84596ee5c650d4,
-    type: 3}
-  m_PrefabInternal: {fileID: 2095171713}
-  m_GameObject: {fileID: 2146347211}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 897c29c58639e1743a84596ee5c650d4, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 1
-  m_HasTransformHierarchy: 1
 --- !u!23 &2146347214
 Renderer:
   m_ObjectHideFlags: 0
