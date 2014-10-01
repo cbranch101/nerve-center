@@ -3,6 +3,7 @@ using System.Collections;
 
 public class LockingMechanism : MonoBehaviour{
 
+	public bool isHorizontal = true;
 	public float lockDistance = .01f;
 	private bool positiveEngaged = false;
 	private bool negativeEngaged = false;
@@ -25,7 +26,7 @@ public class LockingMechanism : MonoBehaviour{
 	}
 
 	void triggerLockEvent(Vector2 position, Vector2 speed) {
-		float currentPosition = position.x;
+		float currentPosition = isHorizontal ? position.x : position.y;
 		float positiveLockPoint = 1.0f - lockDistance;
 		float negativeLockPoint = 0.0f + lockDistance;
 
