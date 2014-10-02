@@ -6,10 +6,10 @@ RenderTexture:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Text_RTT
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 2
-  m_DepthFormat: 2
+  m_Width: 1024
+  m_Height: 1024
+  m_AntiAliasing: 1
+  m_DepthFormat: 0
   m_ColorFormat: 0
   m_MipMap: 0
   m_GenerateMips: 1
@@ -18,4 +18,4 @@ RenderTexture:
     m_FilterMode: 0
     m_Aniso: 0
     m_MipBias: 0
-    m_WrapMode: 0
+    m_WrapMode: 1

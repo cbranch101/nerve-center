@@ -1,21 +1,13 @@
 fileFormatVersion: 2
-guid: 9622a12a0ea278545a08309d2abe8a9c
+guid: 4e02039229fa6b447a2f6c6390a7e6e5
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Power Switch
-    100004: Screen_Main
     400000: //RootNode
-    400002: Power Switch
-    400004: Screen_Main
-    2300000: Power Switch
-    2300002: Screen_Main
-    3300000: Power Switch
-    3300002: Screen_Main
-    4300000: Screen_Main
-    4300002: Power Switch
-    7400000: Take 001
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Mac2_Screen_Right
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -54,7 +46,7 @@ ModelImporter:
     splitTangentsAcrossUV: 1
     normalImportMode: 0
     tangentImportMode: 1
-  importAnimation: 0
+  importAnimation: 1
   copyAvatar: 0
   humanDescription:
     human: []

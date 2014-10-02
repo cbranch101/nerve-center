@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ScreenLeft_MAT
+  m_Name: Screens_Text_MAT
   m_Shader: {fileID: 4800000, guid: b50cb2d3ac0f2b84d91e38a831c034a1, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
@@ -32,21 +32,21 @@ Material:
           name: _Vignetting
         second:
           m_Texture: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8, type: 3}
-          m_Scale: {x: 1, y: 1}
+          m_Scale: {x: 2, y: 2}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _GradientGreenChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 3}
+          m_Scale: {x: 1, y: 6}
           m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _ScanLinesRedChannel
         second:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
-          m_Scale: {x: 1, y: 7}
+          m_Scale: {x: 1, y: 21}
           m_Offset: {x: 0, y: 0}
       data:
         first:
@@ -66,23 +66,23 @@ Material:
       data:
         first:
           name: _ScreenImageBrightness
-        second: 2
+        second: 1
       data:
         first:
           name: _ScanLinesIntensity
-        second: 0
+        second: .5
       data:
         first:
           name: _ScanLinesSpeed
-        second: 0
+        second: 1
       data:
         first:
           name: _VignettingIntensity
-        second: .125
+        second: .100000001
       data:
         first:
           name: _ScanGradientIntensity
-        second: 0
+        second: .100000001
       data:
         first:
           name: _node_279
@@ -103,11 +103,11 @@ Material:
       data:
         first:
           name: _Specularity
-        second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+        second: {r: .376470596, g: .348419845, b: .348419845, a: .188235298}
       data:
         first:
           name: _ScreenImageTint
-        second: {r: 0, g: .690196097, b: .257621944, a: 1}
+        second: {r: 0, g: 1, b: .373259068, a: 1}
       data:
         first:
           name: _node_239
