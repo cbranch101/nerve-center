@@ -19,10 +19,12 @@ public class TextPanel : MonoBehaviour {
 	}
 
 	void onPowerUp() {
-		screenMaterial.SetFloat("_ScanLinesIntensity", 0.666f);
+		screenMaterial.SetFloat("_ScanLinesIntensity", 0.5f);
+		screenMaterial.SetFloat("_ScreenImageBrightness", 1f);
 	}
 
 	void onPowerDown() {
 		screenMaterial.SetFloat("_ScanLinesIntensity", 0f);
+		screenMaterial.SetFloat("_ScreenImageBrightness", 0f);
 	}
 }
