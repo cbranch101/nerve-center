@@ -6,7 +6,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Screen_Text_RT1_MAT
+  m_Name: Screen_Text
   m_Shader: {fileID: 4800000, guid: b50cb2d3ac0f2b84d91e38a831c034a1, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
