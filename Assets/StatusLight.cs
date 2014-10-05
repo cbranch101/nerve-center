@@ -25,7 +25,6 @@ public class StatusLight : MonoBehaviour, IPowerable {
 				onMaterial.color = Color.black;
 			}
 		}
-		Debug.Log (onColor);
 	}
 	
 	// Update is called once per frame
