@@ -88,12 +88,12 @@ Shader "Custom/Screen_Shader" {
                 float NdotL = dot( normalDirection, lightDirection );
                 float3 diffuse = max( 0.0, NdotL) * attenColor + UNITY_LIGHTMODEL_AMBIENT.xyz;
 ////// Emissive:
-                float2 node_318 = i.uv0;
+                float2 node_319 = i.uv0;
                 float4 node_70 = _Time + _TimeEditor;
                 float2 node_41 = (i.uv0.rg+((exp2(_ScanLinesSpeed)-1.0)*node_70.g)*float2(1,1));
                 float2 node_171 = ((i.uv0.rg*0.6)+0.2);
-                float4 node_262 = tex2D(_ScanLinesRedChannel,TRANSFORM_TEX(node_318.rg, _ScanLinesRedChannel));
-                float3 emissive = (((((tex2D(_ScreenImage,TRANSFORM_TEX(node_318.rg, _ScreenImage)).rgb*_ScreenImageBrightness)+(tex2D(_GradientGreenChannel,TRANSFORM_TEX(node_41, _GradientGreenChannel)).g*_ScanGradientIntensity))-((1.0 - tex2D(_Vignetting,TRANSFORM_TEX(node_171, _Vignetting)).rgb)*_VignettingIntensity))*(node_262.r+((1.0 - node_262.r)*_ScanLinesIntensity)))*_ScreenImageTint.rgb);
+                float4 node_262 = tex2D(_ScanLinesRedChannel,TRANSFORM_TEX(node_319.rg, _ScanLinesRedChannel));
+                float3 emissive = (((((tex2D(_ScreenImage,TRANSFORM_TEX(node_319.rg, _ScreenImage)).rgb*_ScreenImageBrightness)+(tex2D(_GradientGreenChannel,TRANSFORM_TEX(node_41, _GradientGreenChannel)).g*_ScanGradientIntensity))-((1.0 - tex2D(_Vignetting,TRANSFORM_TEX(node_171, _Vignetting)).rgb)*_VignettingIntensity))*(node_262.r+((1.0 - node_262.r)*_ScanLinesIntensity)))*_ScreenImageTint.rgb);
 ///////// Gloss:
                 float gloss = _Specularity.a;
                 float specPow = exp2( gloss * 10.0+1.0);
