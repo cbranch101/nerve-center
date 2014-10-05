@@ -86,8 +86,8 @@ Shader "Custom/LightsArray_Shader" {
                 float2 node_132 = i.uv0;
                 float2 node_307 = (mul(node_132.rg-node_307_piv,float2x2( node_307_cos, -node_307_sin, node_307_sin, node_307_cos))+node_307_piv);
                 float2 node_349 = (node_307+(node_132.rg+((sin((2.0*node_111))*0.1)+node_111)*float2(1,1)));
-                float2 node_648 = i.uv0;
-                float3 emissive = ((pow(tex2D(_Gradient,TRANSFORM_TEX(node_349, _Gradient)).g,_FlashTime)*step(tex2D(_Gradient,TRANSFORM_TEX(node_648.rg, _Gradient)).b,0.5))*_LightColor_Brightness.rgb*(_LightColor_Brightness.a*8.0));
+                float2 node_643 = i.uv0;
+                float3 emissive = ((pow(tex2D(_Gradient,TRANSFORM_TEX(node_349, _Gradient)).g,_FlashTime)*step(tex2D(_Gradient,TRANSFORM_TEX(node_643.rg, _Gradient)).b,0.5))*_LightColor_Brightness.rgb*(_LightColor_Brightness.a*8.0));
 ///////// Gloss:
                 float gloss = _Specular.a;
                 float specPow = exp2( gloss * 10.0+1.0);
