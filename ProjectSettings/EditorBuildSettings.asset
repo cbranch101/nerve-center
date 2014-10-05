@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/ScriptTestv2.unity
+    path: Assets/_Scenes/ScriptTestv2.unity
   - enabled: 0
-    path: Assets/Scenes/GameModeTest.unity
+    path: Assets/_Scenes/GameModeTest.unity
   - enabled: 1
-    path: Assets/SwitchPrefabSetup.unity
+    path: Assets/_Scenes/SwitchPrefabSetup.unity
