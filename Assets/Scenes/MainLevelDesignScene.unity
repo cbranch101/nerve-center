@@ -1723,6 +1723,7 @@ GameObject:
   - 4: {fileID: 177236811}
   - 33: {fileID: 177236813}
   - 23: {fileID: 177236812}
+  - 114: {fileID: 177236814}
   m_Layer: 0
   m_Name: LightArray4
   m_TagString: Untagged
@@ -1771,6 +1772,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1605189162}
   m_GameObject: {fileID: 177236810}
   m_Mesh: {fileID: 4300006, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
+--- !u!114 &177236814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 177236810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aed7f4ecb3a419cadb9030e32ee596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &180055605
 GameObject:
   m_ObjectHideFlags: 0
@@ -2379,6 +2391,7 @@ GameObject:
   - 33: {fileID: 237960362}
   - 23: {fileID: 237960361}
   - 95: {fileID: 237960360}
+  - 114: {fileID: 237960363}
   m_Layer: 0
   m_Name: NASA_Control_MainSccreen2_Left
   m_TagString: Untagged
@@ -2443,6 +2456,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 614449793}
   m_GameObject: {fileID: 237960358}
   m_Mesh: {fileID: 4300000, guid: 17ca2c844336cc448a24c7425e376f7b, type: 3}
+--- !u!114 &237960363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 237960358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172337b2c9c744a93a531c06ab175079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &240865494
 GameObject:
   m_ObjectHideFlags: 0
@@ -3120,7 +3144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172337b2c9c744a93a531c06ab175079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerSwitch: {fileID: 500144723}
 --- !u!1001 &261737836
 Prefab:
   m_ObjectHideFlags: 0
@@ -3451,6 +3474,7 @@ GameObject:
   - 4: {fileID: 319317588}
   - 33: {fileID: 319317590}
   - 23: {fileID: 319317589}
+  - 114: {fileID: 319317591}
   m_Layer: 0
   m_Name: LightArray1
   m_TagString: Untagged
@@ -3499,6 +3523,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1605189162}
   m_GameObject: {fileID: 319317587}
   m_Mesh: {fileID: 4300008, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
+--- !u!114 &319317591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 319317587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aed7f4ecb3a419cadb9030e32ee596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &322751027
 GameObject:
   m_ObjectHideFlags: 0
@@ -5089,6 +5124,7 @@ GameObject:
   - 4: {fileID: 449549636}
   - 33: {fileID: 449549638}
   - 23: {fileID: 449549637}
+  - 114: {fileID: 449549639}
   m_Layer: 0
   m_Name: LightArray2
   m_TagString: Untagged
@@ -5137,6 +5173,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1605189162}
   m_GameObject: {fileID: 449549635}
   m_Mesh: {fileID: 4300002, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
+--- !u!114 &449549639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 449549635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aed7f4ecb3a419cadb9030e32ee596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &452615700
 GameObject:
   m_ObjectHideFlags: 0
@@ -5344,6 +5391,7 @@ GameObject:
   - 33: {fileID: 466597425}
   - 23: {fileID: 466597424}
   - 95: {fileID: 466597423}
+  - 114: {fileID: 466597426}
   m_Layer: 0
   m_Name: NASA_Control_MainSccreen1_Left
   m_TagString: Untagged
@@ -5408,6 +5456,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 977513753}
   m_GameObject: {fileID: 466597421}
   m_Mesh: {fileID: 4300000, guid: f6d7434084be8bb4fbab0f49bde986e7, type: 3}
+--- !u!114 &466597426
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 466597421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172337b2c9c744a93a531c06ab175079, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &473501708
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,6 +5827,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6ea7c5c2b5a464e802fc5e2973cd89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  poweredItems:
+  - {fileID: 260830969}
+  - {fileID: 466597421}
+  - {fileID: 1420604587}
+  - {fileID: 551169304}
+  - {fileID: 319317587}
+  - {fileID: 449549635}
+  - {fileID: 627200187}
+  - {fileID: 177236810}
+  - {fileID: 613809614}
+  - {fileID: 1375426499}
 --- !u!114 &500144724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6600,6 +6670,7 @@ GameObject:
   - 23: {fileID: 551169307}
   - 95: {fileID: 551169306}
   - 114: {fileID: 551169309}
+  - 114: {fileID: 551169310}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Right
   m_TagString: Untagged
@@ -6678,6 +6749,17 @@ MonoBehaviour:
   loadingTexture: {fileID: 2800000, guid: e9ba0fd98b4ef4219a141973b7841077, type: 3}
   postName: right
   imageKey: image
+--- !u!114 &551169310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 551169304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5dbde7d12134aa9a1718b8c37029e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &555334935
 GameObject:
   m_ObjectHideFlags: 0
@@ -7769,6 +7851,7 @@ GameObject:
   - 33: {fileID: 613809618}
   - 23: {fileID: 613809617}
   - 95: {fileID: 613809616}
+  - 114: {fileID: 613809619}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -7834,6 +7917,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 256769245}
   m_GameObject: {fileID: 613809614}
   m_Mesh: {fileID: 4300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
+--- !u!114 &613809619
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 613809614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c04c8c8796754f44bec27d03f63f33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &614449793
 Prefab:
   m_ObjectHideFlags: 0
@@ -7904,6 +7998,7 @@ GameObject:
   - 4: {fileID: 627200188}
   - 33: {fileID: 627200190}
   - 23: {fileID: 627200189}
+  - 114: {fileID: 627200191}
   m_Layer: 0
   m_Name: LightArray3
   m_TagString: Untagged
@@ -7952,6 +8047,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1605189162}
   m_GameObject: {fileID: 627200187}
   m_Mesh: {fileID: 4300004, guid: 248134a766f578d48bfbf91ebf9b73fa, type: 3}
+--- !u!114 &627200191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 627200187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e1aed7f4ecb3a419cadb9030e32ee596, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &628429362
 GameObject:
   m_ObjectHideFlags: 0
@@ -10123,7 +10229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172337b2c9c744a93a531c06ab175079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powerSwitch: {fileID: 0}
 --- !u!1 &781767777
 GameObject:
   m_ObjectHideFlags: 0
@@ -10593,6 +10698,7 @@ GameObject:
   - 4: {fileID: 812549726}
   - 33: {fileID: 812549728}
   - 23: {fileID: 812549727}
+  - 114: {fileID: 812549729}
   m_Layer: 0
   m_Name: Lights Array Straight
   m_TagString: Untagged
@@ -10641,6 +10747,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 985646133}
   m_GameObject: {fileID: 812549725}
   m_Mesh: {fileID: 4300000, guid: e96f7a0f74a451e4890b2243bc68dc31, type: 3}
+--- !u!114 &812549729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 812549725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdcc249ff366f46d79b9532ad5fc9dc6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerSwitch: {fileID: 500144723}
 --- !u!1 &818068212
 GameObject:
   m_ObjectHideFlags: 0
@@ -17669,6 +17787,7 @@ GameObject:
   - 33: {fileID: 1375426503}
   - 23: {fileID: 1375426502}
   - 95: {fileID: 1375426501}
+  - 114: {fileID: 1375426504}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -17734,6 +17853,17 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1250423689}
   m_GameObject: {fileID: 1375426499}
   m_Mesh: {fileID: 4300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
+--- !u!114 &1375426504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1375426499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c04c8c8796754f44bec27d03f63f33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1377503495
 GameObject:
   m_ObjectHideFlags: 0
@@ -18341,6 +18471,7 @@ GameObject:
   - 23: {fileID: 1420604590}
   - 95: {fileID: 1420604589}
   - 114: {fileID: 1420604592}
+  - 114: {fileID: 1420604593}
   m_Layer: 0
   m_Name: NASA_Control_SmallScreen_Actual_Left
   m_TagString: Untagged
@@ -18419,6 +18550,17 @@ MonoBehaviour:
   loadingTexture: {fileID: 2800000, guid: e9ba0fd98b4ef4219a141973b7841077, type: 3}
   postName: left
   imageKey: image
+--- !u!114 &1420604593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1420604587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5dbde7d12134aa9a1718b8c37029e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1423993343
 Prefab:
   m_ObjectHideFlags: 0
