@@ -2,17 +2,15 @@
 using System.Collections;
 
 public class LightArray : MonoBehaviour {
-
-	public PowerSwitch powerSwitch;
+	
 	private Material targetMaterial;
 	private Color onColor;
 	// Use this for initialization
 	void Start () {
 
-		powerSwitch.OnPowerUp += onPowerUp;
-		powerSwitch.OnPowerDown += onPowerDown;
 		targetMaterial = gameObject.renderer.material;
-		targetMaterial.SetFloat ("_FlashTime", 1000);
+		onColor = targetMaterial.GetColor ("_LightColor_Brightness");
+		targetMaterial.SetColor("_LightColor_Brightness", Color.black);
 	}
 	
 	// Update is called once per frame
@@ -20,10 +18,11 @@ public class LightArray : MonoBehaviour {
 
 	}
 	
-	void onPowerUp() {
-
+	void OnPowerUp() {
+		targetMaterial.SetColor("_LightColor_Brightness", onColor);
 	}
 	
-	void onPowerDown() {
+	void OnPowerDown() {
+		targetMaterial.SetColor("_LightColor_Brightness", Color.black);
 	}
 }
