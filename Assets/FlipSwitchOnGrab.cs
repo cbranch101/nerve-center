@@ -10,7 +10,7 @@ public class FlipSwitchOnGrab : MonoBehaviour {
 	public event FlipAction OnFlipDown;
 	public GrabTarget grabTarget;
 	public string clickSoundName;
-	private bool flipped = true;
+	private bool flipped = false;
 	
 	// Use this for initialization
 	void Start () {

@@ -392,6 +392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b6ea7c5c2b5a464e802fc5e2973cd89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flipSoundName: PowerSwitchLock
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1

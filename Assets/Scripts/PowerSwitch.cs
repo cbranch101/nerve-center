@@ -9,6 +9,7 @@ public class PowerSwitch : MonoBehaviour {
 	public event PowerAction OnPowerDown;
 	private bool isPowered = false;
 	private LockingMechanism lockingMechanism;
+	public string flipSoundName = "none";
 
 	// Use this for initialization
 	void Start () {
@@ -26,6 +27,7 @@ public class PowerSwitch : MonoBehaviour {
 		isPowered = isPowered ? false : true;
 		if(isPowered) {
 			if(OnPowerUp != null) {
+				AudioController.Play (flipSoundName, gameObject.transform);
 				OnPowerUp();
 			}
 

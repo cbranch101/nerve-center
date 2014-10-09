@@ -7,6 +7,8 @@ public class StatusLight : MonoBehaviour, IPowerable {
 	private Color offColor;
 	private Color onColor;
 	private Material onMaterial;
+	private bool powered = false;
+
 	// Use this for initialization
 	void Start () {
 		setMaterials();
@@ -32,11 +34,28 @@ public class StatusLight : MonoBehaviour, IPowerable {
 		
 	}
 
+	public void setStandby() {
+		if(powered) {
+			offMaterial.color = offColor;
+			onMaterial.color = Color.black;
+		}
+	}
+	
+	public void setActive() {
+		if(powered) {
+			offMaterial.color = Color.black;
+			onMaterial.color = onColor;
+		}
+	}
+
 	public void OnPowerUp() {
+		powered = true;
 		offMaterial.color = offColor;
 	}
 
 	public void OnPowerDown() {
+		powered = false;
 		offMaterial.color = Color.black;
+		onMaterial.color = Color.black;
 	}
 }

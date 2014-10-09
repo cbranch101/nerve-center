@@ -493,6 +493,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 172337b2c9c744a93a531c06ab175079, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statusLight: {fileID: 11400002}
+  powerSound: MonitorTurnOn
+  powerSwitch: {fileID: 11400004}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
