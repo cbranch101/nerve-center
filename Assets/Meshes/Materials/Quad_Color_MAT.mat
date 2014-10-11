@@ -39,11 +39,27 @@ Material:
         first:
           name: _Shininess
         second: .206653789
+      data:
+        first:
+          name: _node_222
+        second: 0
+      data:
+        first:
+          name: _FresnelExponent
+        second: 1.85000014
+      data:
+        first:
+          name: _FresnelIntensity
+        second: .541071355
     m_Colors:
       data:
         first:
           name: _Color
         second: {r: .244827583, g: .244827583, b: .244827583, a: 1}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: .631034493, g: .631034493, b: .631034493, a: 1}
       data:
         first:
           name: _Color1
@@ -71,15 +87,11 @@ Material:
       data:
         first:
           name: _Color4
-        second: {r: .176424459, g: .183399111, b: .188235298, a: 1}
+        second: {r: .239169568, g: .24614422, b: .250980407, a: 1}
       data:
         first:
           name: _Specular4
         second: {r: .874509811, g: .877306223, b: 1, a: .250980407}
-      data:
-        first:
-          name: _SpecColor
-        second: {r: .631034493, g: .631034493, b: .631034493, a: 1}
       data:
         first:
           name: _Color5
