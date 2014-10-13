@@ -1,16 +1,26 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class PoteniometerLevel : MonoBehaviour, IPowerable {
 
 
 	private float currentLevel = 0f;
-	private Material levelMaterial;
+	private List<Material> levelMaterials;
 	// Use this for initialization
 	void Start () {
-		levelMaterial = gameObject.renderer.materials[0];
-		levelMaterial.SetFloat("_BulbBrightness", 0f);
+		setLevelMaterials();
+		OnPowerDown();
+	}
 
+	void setLevelMaterials() {
+		levelMaterials = new List<Material>();
+		foreach(Transform child in gameObject.transform) {
+			Material levelMaterial = child.gameObject.renderer.material;
+			if(levelMaterial != null) {
+				levelMaterials.Add (levelMaterial);
+			}
+		}
 	}
 	
 	// Update is called once per frame
@@ -24,15 +34,22 @@ public class PoteniometerLevel : MonoBehaviour, IPowerable {
 	}
 
 	public void OnPowerUp() {
-		levelMaterial.SetFloat("_BulbBrightness", 2f);
+		setFloatInLevelMaterials("_BulbBrightness", 2f);
+		increaseByOne();
 	}
 
 	public void OnPowerDown() {
-		levelMaterial.SetFloat("_BulbBrightness", 0f);
+		setFloatInLevelMaterials("_BulbBrightness", 0f);
 	}
 
+	public void setFloatInLevelMaterials(string floatName, float value) {
+		foreach(Material levelMaterial in levelMaterials) {
+			levelMaterial.SetFloat (floatName, value);
+		}
+	} 
+
 	public void setLightLevel(float levelToSet) {
-		levelMaterial.SetFloat("_node_106", levelToSet);
+		setFloatInLevelMaterials("_BulbsIlluminated", levelToSet);
 		currentLevel = levelToSet;
 	}
 

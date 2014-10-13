@@ -3,11 +3,10 @@ using System.Collections;
 
 public class IncreasePotentiometerLevelOnGuess : MonoBehaviour {
 
-	private PoteniometerLevel level;
+	public PoteniometerLevel level;
 
 	// Use this for initialization
 	void Start () {
-		level = GameObject.Find ("GeoSphere401").GetComponent<PoteniometerLevel>();
 		PostGuesser.OnPostGuess += onGuess;
 	}
 	
