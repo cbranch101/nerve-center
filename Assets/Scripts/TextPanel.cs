@@ -45,10 +45,12 @@ public class TextPanel : MonoBehaviour, IPowerable {
 
 	public void OnPowerUp() {
 		powered = true;
+		statusLight.setStandby();
 	}
 
 	public void OnPowerDown() {
 		powered = false;
+		statusLight.setFullyOff();
 		screenMaterial.SetFloat("_ScanLinesIntensity", 0f);
 		screenMaterial.SetFloat("_ScreenImageBrightness", 0f);
 	}

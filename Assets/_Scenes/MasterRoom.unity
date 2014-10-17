@@ -8157,6 +8157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flipSoundName: PowerSwitchLock
+  statusLight: {fileID: 2099793108}
+  spotlight: {fileID: 311458562}
 --- !u!114 &700730199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8269,6 +8271,33 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1013962904}
   m_GameObject: {fileID: 700730196}
   m_Mesh: {fileID: 4300000, guid: 473b3f06b2e8bf54491a1f870e804073, type: 3}
+--- !u!1 &708049273
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 708049274}
+  m_Layer: 0
+  m_Name: SwitchPosition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &708049274
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 708049273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.4696627, y: .13002634, z: -1.134233}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
 --- !u!1 &711445875
 GameObject:
   m_ObjectHideFlags: 0
@@ -18845,6 +18874,49 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1659669792}
   m_Mesh: {fileID: 4300022, guid: 08159e5439adb3b42ae46bc4a75895c6, type: 3}
+--- !u!1 &1665921268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1665921270}
+  - 114: {fileID: 1665921269}
+  m_Layer: 0
+  m_Name: TestObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1665921269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665921268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fb0fd12117004f86a40a944dfc3253a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  machinePowerIsOn: 0
+  roomPowerIsOn: 0
+  rightMonitorIsOn: 0
+  leftMonitorIsOn: 0
+--- !u!4 &1665921270
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1665921268}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
 --- !u!1 &1671811858
 GameObject:
   m_ObjectHideFlags: 0
@@ -19909,6 +19981,7 @@ GameObject:
   - 4: {fileID: 1773324839}
   - 33: {fileID: 1773324842}
   - 23: {fileID: 1773324841}
+  - 114: {fileID: 1773324840}
   m_Layer: 0
   m_Name: Fusebox
   m_TagString: Untagged
@@ -19931,6 +20004,19 @@ Transform:
   - {fileID: 700730197}
   m_Father: {fileID: 24416258}
   m_RootOrder: 0
+--- !u!114 &1773324840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1773324838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d366858cc96644f8fbb810d07a15f639, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSwitch: {fileID: 700730198}
+  rightSwitch: {fileID: 1913411419}
 --- !u!23 &1773324841
 Renderer:
   m_ObjectHideFlags: 0
@@ -21790,6 +21876,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   flipSoundName: PowerSwitchLock
+  statusLight: {fileID: 2040552051}
+  spotlight: {fileID: 1165811586}
 --- !u!114 &1913411420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23019,6 +23107,7 @@ GameObject:
   - 4: {fileID: 2040552050}
   - 33: {fileID: 2040552053}
   - 23: {fileID: 2040552052}
+  - 114: {fileID: 2040552051}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -23032,8 +23121,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
   m_PrefabInternal: {fileID: 1885035467}
   m_GameObject: {fileID: 2040552049}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
-  m_LocalPosition: {x: -.000103953163, y: -2.24709656e-05, z: .0222506542}
+  m_LocalRotation: {x: 0, y: -7.45057971e-09, z: 1, w: -3.72528994e-08}
+  m_LocalPosition: {x: -.000103924925, y: -2.24932937e-05, z: .0222505331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1934226740}
@@ -23041,6 +23130,18 @@ Transform:
   - {fileID: 1165811585}
   m_Father: {fileID: 1913411414}
   m_RootOrder: 0
+--- !u!114 &2040552051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: aa8c46be3337f6944948c8f00b4666bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1885035467}
+  m_GameObject: {fileID: 2040552049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c04c8c8796754f44bec27d03f63f33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &2040552052
 Renderer:
   m_ObjectHideFlags: 0
@@ -23418,6 +23519,7 @@ GameObject:
   - 4: {fileID: 2099793105}
   - 33: {fileID: 2099793107}
   - 23: {fileID: 2099793106}
+  - 114: {fileID: 2099793108}
   m_Layer: 0
   m_Name: NASA_Control_StatusLight
   m_TagString: Untagged
@@ -23431,8 +23533,8 @@ Transform:
   m_PrefabParentObject: {fileID: 400010, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
   m_PrefabInternal: {fileID: 1013962904}
   m_GameObject: {fileID: 2099793104}
-  m_LocalRotation: {x: 0, y: 0, z: 1, w: -4.37113883e-08}
-  m_LocalPosition: {x: -.000103953163, y: -2.24709656e-05, z: .0222506542}
+  m_LocalRotation: {x: 0, y: -7.45057971e-09, z: 1, w: -3.72528994e-08}
+  m_LocalPosition: {x: -.000103924925, y: -2.24932937e-05, z: .0222505331}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1688025760}
@@ -23469,6 +23571,18 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1013962904}
   m_GameObject: {fileID: 2099793104}
   m_Mesh: {fileID: 4300000, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
+--- !u!114 &2099793108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: aa8c46be3337f6944948c8f00b4666bd,
+    type: 2}
+  m_PrefabInternal: {fileID: 1013962904}
+  m_GameObject: {fileID: 2099793104}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c04c8c8796754f44bec27d03f63f33f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2108439760
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class StatusLight : MonoBehaviour, IPowerable {
+public class StatusLight : MonoBehaviour{
 
 	private Material offMaterial;
 	private Color offColor;
@@ -10,8 +10,13 @@ public class StatusLight : MonoBehaviour, IPowerable {
 	private bool powered = false;
 
 	// Use this for initialization
-	void Start () {
+	void Awake() {
 		setMaterials();
+	}
+
+
+	void Start () {
+
 	}
 
 	void setMaterials (){
@@ -35,27 +40,22 @@ public class StatusLight : MonoBehaviour, IPowerable {
 	}
 
 	public void setStandby() {
-		if(powered) {
-			offMaterial.color = offColor;
-			onMaterial.color = Color.black;
+		if(offMaterial == null) {
+			Debug.Log (gameObject.name);
 		}
-	}
-	
-	public void setActive() {
-		if(powered) {
-			offMaterial.color = Color.black;
-			onMaterial.color = onColor;
-		}
-	}
 
-	public void OnPowerUp() {
-		powered = true;
 		offMaterial.color = offColor;
+		onMaterial.color = Color.black;
 	}
 
-	public void OnPowerDown() {
-		powered = false;
+	public void setFullyOff() {
 		offMaterial.color = Color.black;
 		onMaterial.color = Color.black;
 	}
+
+	
+	public void setActive() {
+		offMaterial.color = Color.black;
+		onMaterial.color = onColor;
+	}	
 }
