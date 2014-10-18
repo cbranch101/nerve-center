@@ -10,19 +10,22 @@ public class MainPower : MonoBehaviour {
 		mainSwitch.toggleEnabled();
 		mainSwitch.OnPowerUp += rightSwitch.toggleEnabled;
 		mainSwitch.OnPowerDown += rightSwitch.toggleEnabled;
+		mainSwitch.OnPowerUp += onPowerUp;
+		mainSwitch.OnPowerDown += onPowerDown;
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
-	}
-
-	void onPowerUp() {
 		
 	}
 
-	void onPowerDown() {
+	void onPowerUp() {
+		AudioController.Play("MainPowerBootup");
+		AudioController.Play("BackgroundRumble");
+	}
 
+	void onPowerDown() {
+		AudioController.Stop ("BackgroundRumble");
 	}
 
 }
