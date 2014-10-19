@@ -46,11 +46,11 @@ Material:
       data:
         first:
           name: _FresnelExponent
-        second: 1.85000014
+        second: 2.55000019
       data:
         first:
           name: _FresnelIntensity
-        second: .541071355
+        second: .507142782
     m_Colors:
       data:
         first:
