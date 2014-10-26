@@ -72,7 +72,7 @@ Material:
       data:
         first:
           name: _BulbsIlluminated
-        second: 0
+        second: 2
       data:
         first:
           name: _node_122

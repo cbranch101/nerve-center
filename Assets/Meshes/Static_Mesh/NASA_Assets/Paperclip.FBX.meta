@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2e9f08af6be9a1044a51839691dc42ed
+guid: 9d9e4141a48b7f449b4281a34894739f
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
@@ -7,7 +7,7 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Vent
+    4300000: Paperclip
     9500000: //RootNode
   materials:
     importMaterials: 1
