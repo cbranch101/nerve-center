@@ -9,33 +9,23 @@ public class FinalSwitchIndicator : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		material = gameObject.renderer.material;
-		turnOff();
+		onColor = material.GetColor ("_SelfIllumination");
+		setInactive();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
-	void OnPowerUp() {
-		turnOn();
-	}
-
-	void OnPowerDown() {
-		turnOff();
-	}
-
-	void turnOff() {
+	public void setInactive () {
 		material.SetColor ("_SelfIllumination", Color.black);
 		material.SetFloat("_SIBrightness", 0f);
-
 	}
 
-	void turnOn() {
+	public void setActive() {
 		material.SetColor ("_SelfIllumination", onColor);
 		material.SetFloat("_SIBrightness", 1.4f);
-
 	}
-
 
 }

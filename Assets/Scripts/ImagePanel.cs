@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class ImagePanel : MonoBehaviour, IPowerable {
+public class ImagePanel : MonoBehaviour {
 
 	private Material screenMaterial;
 	// Use this for initialization

@@ -266,72 +266,6 @@ Transform:
   - {fileID: 1773324839}
   m_Father: {fileID: 519502586}
   m_RootOrder: 1
---- !u!1 &27555396
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 27555397}
-  - 114: {fileID: 27555398}
-  m_Layer: 0
-  m_Name: Lock3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &27555397
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 27555396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434234888}
-  m_RootOrder: 3
---- !u!114 &27555398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 27555396}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPositionParameter: Lock3_Pulled
-  xStart: 0
-  invertXParamater: 0
-  yPositionParameter: none
-  yStart: 0
-  invertYParameter: 0
-  movementRate: 3
-  hasColorChange: 0
-  isTwoDimensional: 0
-  controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 1171864999}
-  objectWithMechanimController: {fileID: 134931666}
-  movementCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    - time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &29060134
 GameObject:
   m_ObjectHideFlags: 0
@@ -1353,84 +1287,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1885035467}
   m_GameObject: {fileID: 168310440}
   m_Mesh: {fileID: 4300004, guid: 37cdb53437c844d40b0ac760765b0656, type: 3}
---- !u!1 &172779715
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 172779716}
-  - 114: {fileID: 172779718}
-  - 114: {fileID: 172779717}
-  m_Layer: 0
-  m_Name: FInalSwitch
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &172779716
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172779715}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434234888}
-  m_RootOrder: 0
---- !u!114 &172779717
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172779715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPositionParameter: none
-  xStart: 0
-  invertXParamater: 0
-  yPositionParameter: Cyl_Pulled
-  yStart: 0
-  invertYParameter: 1
-  movementRate: 5
-  hasColorChange: 0
-  isTwoDimensional: 0
-  controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 642975186}
-  objectWithMechanimController: {fileID: 134931666}
-  movementCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - time: 1
-      value: 1
-      inSlope: 2
-      outSlope: 2
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
---- !u!114 &172779718
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 172779715}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a8ffeecc7a53e4c3480380387dac7195, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &177236810
 GameObject:
   m_ObjectHideFlags: 0
@@ -1758,6 +1614,22 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400058, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: levelDependentComponents.Array.data[0]
+      value: 
+      objectReference: {fileID: 1879216824}
+    - target: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: levelDependentComponents.Array.data[1]
+      value: 
+      objectReference: {fileID: 798363432}
+    - target: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: subLevels.Array.data[0]
+      value: 
+      objectReference: {fileID: 177236814}
+    - target: {fileID: 11400002, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: minimumLevel
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4289,38 +4161,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 418347863}
   m_GameObject: {fileID: 432473129}
   m_Mesh: {fileID: 4300000, guid: efa285fa988af2641a24620dea995017, type: 3}
---- !u!1 &434234887
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 434234888}
-  m_Layer: 0
-  m_Name: Controls
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &434234888
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 434234887}
-  m_LocalRotation: {x: .707106829, y: 0, z: 0, w: .707106829}
-  m_LocalPosition: {x: 13.3836069, y: 17.8495846, z: -3.5038178}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 172779716}
-  - {fileID: 831361277}
-  - {fileID: 1857026501}
-  - {fileID: 27555397}
-  - {fileID: 996651563}
-  m_Father: {fileID: 1015914320}
-  m_RootOrder: 0
 --- !u!1 &436686124
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,6 +4763,13 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 477784864}
+  - 114: {fileID: 477784871}
+  - 114: {fileID: 477784870}
+  - 114: {fileID: 477784869}
+  - 114: {fileID: 477784868}
+  - 114: {fileID: 477784867}
+  - 114: {fileID: 477784866}
+  - 114: {fileID: 477784865}
   m_Layer: 0
   m_Name: FinalSwitch
   m_TagString: Untagged
@@ -4941,8 +4788,238 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 134931667}
+  - {fileID: 726826810}
   m_Father: {fileID: 654937753}
   m_RootOrder: 1
+--- !u!114 &477784865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7881f6beeac0469f9ef954d953df339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerableComponent: {fileID: 477784871}
+  minimumLevel: 1
+--- !u!114 &477784866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400004, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: none
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: Lever_Pulled
+  yStart: 0
+  invertYParameter: 0
+  movementRate: 3
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 1981714589}
+  objectWithMechanimController: {fileID: 134931666}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1.41827536
+      outSlope: 1.41827536
+      tangentMode: 0
+    - time: .300900668
+      value: -.00028771162
+      inSlope: -1.41063297
+      outSlope: .0290253758
+      tangentMode: 1
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &477784867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400006, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: Lock3_Pulled
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: none
+  yStart: 0
+  invertYParameter: 0
+  movementRate: 3
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 1171864999}
+  objectWithMechanimController: {fileID: 134931666}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &477784868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400008, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: Lock2_Pulled
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: none
+  yStart: 0
+  invertYParameter: 0
+  movementRate: 3
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 2137324175}
+  objectWithMechanimController: {fileID: 134931666}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &477784869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400010, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: Lock1_Pulled
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: none
+  yStart: 0
+  invertYParameter: 0
+  movementRate: 3
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 2022604880}
+  objectWithMechanimController: {fileID: 134931666}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &477784870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400012, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  xPositionParameter: none
+  xStart: 0
+  invertXParamater: 0
+  yPositionParameter: Cyl_Pulled
+  yStart: 0
+  invertYParameter: 1
+  movementRate: 5
+  hasColorChange: 0
+  isTwoDimensional: 0
+  controlledMesh: {fileID: 0}
+  objectWithCollider: {fileID: 642975186}
+  objectWithMechanimController: {fileID: 134931666}
+  movementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+--- !u!114 &477784871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400014, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 477784863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8ffeecc7a53e4c3480380387dac7195, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  switchAnimator: {fileID: 134931668}
+  switchLight: {fileID: 1527571659}
+  switchIndicator: {fileID: 1523799752}
 --- !u!1001 &484313369
 Prefab:
   m_ObjectHideFlags: 0
@@ -7696,7 +7773,7 @@ Transform:
   - {fileID: 670812462}
   - {fileID: 2086317559}
   m_Father: {fileID: 1015914320}
-  m_RootOrder: 1
+  m_RootOrder: 0
 --- !u!114 &654937754
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8887,6 +8964,52 @@ SkinnedMeshRenderer:
     m_Center: {x: 1.49011612e-08, y: -.0950485021, z: -6.92903996e-07}
     m_Extent: {x: .150350839, y: .095048666, z: .0467633381}
   m_DirtyAABB: 0
+--- !u!1 &726826809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100062, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 726826810}
+  - 114: {fileID: 726826811}
+  m_Layer: 0
+  m_Name: EnergyLevel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &726826810
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400062, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 726826809}
+  m_LocalRotation: {x: 0, y: .382683456, z: 0, w: .923879623}
+  m_LocalPosition: {x: -14.7413845, y: 1.73858941, z: -11.4818306}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 477784864}
+  m_RootOrder: 1
+--- !u!114 &726826811
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604,
+    type: 2}
+  m_PrefabInternal: {fileID: 212075355}
+  m_GameObject: {fileID: 726826809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cd6116f5bd194eac847a6263c5ce90b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subLevels:
+  - {fileID: 177236814}
+  levelDependentComponents:
+  - {fileID: 1879216824}
+  - {fileID: 798363432}
+  - {fileID: 477784865}
 --- !u!1 &734590630
 GameObject:
   m_ObjectHideFlags: 0
@@ -9512,6 +9635,8 @@ GameObject:
   - 4: {fileID: 798363428}
   - 33: {fileID: 798363431}
   - 23: {fileID: 798363430}
+  - 114: {fileID: 798363433}
+  - 114: {fileID: 798363432}
   - 114: {fileID: 798363429}
   m_Layer: 0
   m_Name: LightsArraySquare
@@ -9572,6 +9697,32 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1817425119}
   m_GameObject: {fileID: 798363427}
   m_Mesh: {fileID: 4300000, guid: 17db28a20e2c384428b13b115050185b, type: 3}
+--- !u!114 &798363432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: ebe6f1d7f4cf8aa48a9fa4ae800ba288,
+    type: 2}
+  m_PrefabInternal: {fileID: 1817425119}
+  m_GameObject: {fileID: 798363427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7881f6beeac0469f9ef954d953df339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerableComponent: {fileID: 798363433}
+  minimumLevel: 2
+--- !u!114 &798363433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: ebe6f1d7f4cf8aa48a9fa4ae800ba288,
+    type: 2}
+  m_PrefabInternal: {fileID: 1817425119}
+  m_GameObject: {fileID: 798363427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4110aeb72cda44f91a7eb6bb6de4b2b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &799040135
 GameObject:
   m_ObjectHideFlags: 0
@@ -10147,72 +10298,6 @@ Prefab:
   m_RootGameObject: {fileID: 1508088873}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &831361276
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 831361277}
-  - 114: {fileID: 831361278}
-  m_Layer: 0
-  m_Name: Lock1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &831361277
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 831361276}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434234888}
-  m_RootOrder: 1
---- !u!114 &831361278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 831361276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPositionParameter: Lock1_Pulled
-  xStart: 0
-  invertXParamater: 0
-  yPositionParameter: none
-  yStart: 0
-  invertYParameter: 0
-  movementRate: 3
-  hasColorChange: 0
-  isTwoDimensional: 0
-  controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 2022604880}
-  objectWithMechanimController: {fileID: 134931666}
-  movementCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    - time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &832492842
 GameObject:
   m_ObjectHideFlags: 0
@@ -12971,77 +13056,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 846414096}
   m_GameObject: {fileID: 986619780}
   m_Mesh: {fileID: 4300000, guid: 2aa586cdf5bfbee48a9bf9013c69a6de, type: 3}
---- !u!1 &996651562
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 996651563}
-  - 114: {fileID: 996651564}
-  m_Layer: 0
-  m_Name: FinalLever
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &996651563
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 996651562}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434234888}
-  m_RootOrder: 4
---- !u!114 &996651564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 996651562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPositionParameter: none
-  xStart: 0
-  invertXParamater: 0
-  yPositionParameter: Lever_Pulled
-  yStart: 0
-  invertYParameter: 0
-  movementRate: 3
-  hasColorChange: 0
-  isTwoDimensional: 0
-  controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 1981714589}
-  objectWithMechanimController: {fileID: 134931666}
-  movementCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 1.41827536
-      outSlope: 1.41827536
-      tangentMode: 0
-    - time: .300900668
-      value: -.00028771162
-      inSlope: -1.41063297
-      outSlope: .0290253758
-      tangentMode: 1
-    - time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &998095147
 GameObject:
   m_ObjectHideFlags: 0
@@ -13281,7 +13295,6 @@ Transform:
   m_LocalPosition: {x: 1.5, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 434234888}
   - {fileID: 654937753}
   m_Father: {fileID: 971489865}
   m_RootOrder: 3
@@ -21596,72 +21609,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 1094587899}
   m_GameObject: {fileID: 1841114151}
   m_Mesh: {fileID: 4300000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
---- !u!1 &1857026500
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1857026501}
-  - 114: {fileID: 1857026502}
-  m_Layer: 0
-  m_Name: Lock2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1857026501
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857026500}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 434234888}
-  m_RootOrder: 2
---- !u!114 &1857026502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1857026500}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f1d6dd252929648c38716decbd4c23f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  xPositionParameter: Lock2_Pulled
-  xStart: 0
-  invertXParamater: 0
-  yPositionParameter: none
-  yStart: 0
-  invertYParameter: 0
-  movementRate: 3
-  hasColorChange: 0
-  isTwoDimensional: 0
-  controlledMesh: {fileID: 0}
-  objectWithCollider: {fileID: 2137324175}
-  objectWithMechanimController: {fileID: 134931666}
-  movementCurve:
-    serializedVersion: 2
-    m_Curve:
-    - time: 0
-      value: 0
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    - time: 1
-      value: 1
-      inSlope: 1
-      outSlope: 1
-      tangentMode: 10
-    m_PreInfinity: 2
-    m_PostInfinity: 2
 --- !u!1 &1858056391
 GameObject:
   m_ObjectHideFlags: 0
@@ -22063,6 +22010,7 @@ GameObject:
   - 4: {fileID: 1879216821}
   - 95: {fileID: 1879216823}
   - 114: {fileID: 1879216822}
+  - 114: {fileID: 1879216824}
   m_Layer: 0
   m_Name: ReelToReel
   m_TagString: Untagged
@@ -22111,6 +22059,20 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &1879216824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400002, guid: 5a7c93dc0af2d9443879711e55dba770,
+    type: 2}
+  m_PrefabInternal: {fileID: 1139674222}
+  m_GameObject: {fileID: 1879216820}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7881f6beeac0469f9ef954d953df339, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerableComponent: {fileID: 1879216822}
+  minimumLevel: 1
 --- !u!1 &1879645090
 GameObject:
   m_ObjectHideFlags: 0

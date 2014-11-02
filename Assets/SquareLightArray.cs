@@ -1,15 +1,17 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SquareLightArray : MonoBehaviour {
+public class SquareLightArray : MonoBehaviour, IPowerable {
 
 	Material material;
 	Color onColor;
+	bool powered = false;
+	bool isOn = false;
 	// Use this for initialization
 	void Start () {
 		material = gameObject.renderer.material;
 		onColor = material.GetColor("_LightColor_Brightness");
-		turnOff();
+		TurnOff();
 
 	}
 	
@@ -19,19 +21,30 @@ public class SquareLightArray : MonoBehaviour {
 	}
 
 	void OnPowerUp() {
-		turnOn();
+		powered = true;
 	}
 
 	void OnPowerDown() {
-		turnOff();
+		powered = false;
+		TurnOff();
 	}
 
-	void turnOff() {
+	public void TurnOn() {
+		if(powered) {
+			material.SetColor("_LightColor_Brightness", onColor);
+			isOn = true;
+		}
+	}
+
+	public void TurnOff() {
 		material.SetColor("_LightColor_Brightness", Color.black);
+		isOn = false;
 	}
 
-	void turnOn() {
-		material.SetColor("_LightColor_Brightness", onColor);
+	public bool IsOn() {
+		return isOn;
 	}
+
+
 
 }

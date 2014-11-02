@@ -2,7 +2,10 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class PoteniometerLevel : MonoBehaviour, IPowerable {
+public class PoteniometerLevel : MonoBehaviour {
+
+	public delegate void ChangeAction();
+	public event ChangeAction OnLevelChange;
 
 
 	private float currentLevel = 0f;
@@ -11,6 +14,10 @@ public class PoteniometerLevel : MonoBehaviour, IPowerable {
 	void Start () {
 		setLevelMaterials();
 		OnPowerDown();
+	}
+
+	public float getLevel() {
+		return currentLevel;
 	}
 
 	void setLevelMaterials() {
@@ -35,11 +42,11 @@ public class PoteniometerLevel : MonoBehaviour, IPowerable {
 
 	public void OnPowerUp() {
 		setFloatInLevelMaterials("_BulbBrightness", 2f);
-		increaseByOne();
 	}
 
 	public void OnPowerDown() {
 		setFloatInLevelMaterials("_BulbBrightness", 0f);
+		setFloatInLevelMaterials("_BulbsIlluminated", 0f);
 	}
 
 	public void setFloatInLevelMaterials(string floatName, float value) {
@@ -51,6 +58,7 @@ public class PoteniometerLevel : MonoBehaviour, IPowerable {
 	public void setLightLevel(float levelToSet) {
 		setFloatInLevelMaterials("_BulbsIlluminated", levelToSet);
 		currentLevel = levelToSet;
+		OnLevelChange();
 	}
 
 

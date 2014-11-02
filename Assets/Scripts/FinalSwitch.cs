@@ -1,19 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class FinalSwitch : MonoBehaviour {
+public class FinalSwitch : MonoBehaviour, IPowerable{
 
-	private Animator switchAnimator;
-	private Light switchLight;
+	public Animator switchAnimator;
+	public Light switchLight;
+	public FinalSwitchIndicator switchIndicator;
+	bool powered = false;
+	bool isOn = false;
 
 	// Use this for initialization
 	void Start () {
-		switchAnimator = GameObject.Find ("NASA_Control_FinalSwitch").GetComponent<Animator>();
-		switchAnimator.SetBool("Cyl_Started", true);
 		switchAnimator.SetFloat("Cyl_Pulled", 0);
-		switchLight = GameObject.Find ("FinalSwitchLight").GetComponent<Light>();
 	}
-	
+
+	void enableSwitch() {
+		switchAnimator.SetBool("Cyl_Started", true);
+	}
+
+	void disableSwitch() {
+		switchAnimator.SetBool("Cyl_Started", false);
+	}
+
 	// Update is called once per frame
 	void Update () {
 		setLightIntensity();
@@ -23,5 +31,31 @@ public class FinalSwitch : MonoBehaviour {
 		float lightIntensityNormalized = Mathf.Clamp01( (switchAnimator.GetFloat("Cyl_Pulled") - 0.6f) * 20 );
 		switchLight.intensity = lightIntensityNormalized * 2.5f;
 	}
+
+	void OnPowerUp() {
+		powered = true;
+	}
+
+	void OnPowerDown() {
+		powered = false;
+	}
+
+	public void TurnOn() {
+		if(powered) {
+			enableSwitch();
+			switchIndicator.setActive();
+		}
+	}
+
+	public void TurnOff() {
+		disableSwitch();
+		switchIndicator.setInactive();
+	}
+
+	public bool IsOn() {
+		return isOn;
+	}
+
+
 	
 }

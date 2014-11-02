@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TextPanel : MonoBehaviour, IPowerable {
+public class TextPanel : MonoBehaviour {
 	
 	private Material screenMaterial;
 	private bool powered;
@@ -56,10 +56,4 @@ public class TextPanel : MonoBehaviour, IPowerable {
 	}
 
 
-}
-
-public interface IPowerable {
-	void OnPowerUp();
-
-	void OnPowerDown();
 }
