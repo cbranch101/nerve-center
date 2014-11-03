@@ -435,7 +435,22 @@ MonoBehaviour:
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100006}
   objectWithMechanimController: {fileID: 100006}
-  movementCurve:
+  xMovementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0

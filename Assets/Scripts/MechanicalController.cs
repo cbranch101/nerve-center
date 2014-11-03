@@ -8,7 +8,8 @@ public class MechanicalController : MonoBehaviour {
 	public string xPositionParameter = "none";
 	public string yPositionParameter = "none";
 	public bool isTwoDimensional = false;
-	public AnimationCurve curve;
+	public AnimationCurve xCurve;
+	public AnimationCurve yCurve;
 	// Use this for initialization
 	void Start () {
 		mechanicalMove.OnMechanicalMove += onMechanicalMove;
@@ -22,11 +23,14 @@ public class MechanicalController : MonoBehaviour {
 	public void onMechanicalMove(Vector2 position, Vector2 speed) {
 		float xPosition = position.x;
 		float yPosition = position.y;
-		if(curve != null) {
-			xPosition = curve.Evaluate(xPosition);
+		if(xCurve != null) {
+			xPosition = xCurve.Evaluate(xPosition);
+		}
+		if(yCurve != null) {
+			yPosition = yCurve.Evaluate(yPosition);
 		}
 		animator.SetFloat(xPositionParameter, xPosition);
-		animator.SetFloat (yPositionParameter, yPosition);
+		animator.SetFloat(yPositionParameter, yPosition);
 		if(isTwoDimensional) {
 			animator.SetFloat(yPositionParameter, position.y);
 		}

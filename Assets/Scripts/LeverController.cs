@@ -15,7 +15,8 @@ public class LeverController : MonoBehaviour {
 	public Renderer controlledMesh;
 	public GameObject objectWithCollider;
 	public GameObject objectWithMechanimController;
-	public AnimationCurve movementCurve;
+	public AnimationCurve xMovementCurve;
+	public AnimationCurve yMovementCurve;
 	// Use this for initialization
 	void Awake() {
 		MouseOverTarget mouseOverTarget = objectWithCollider.AddComponent<MouseOverTarget>();
@@ -65,7 +66,8 @@ public class LeverController : MonoBehaviour {
 		mechanicalController.xPositionParameter = xPositionParameter;
 		mechanicalController.yPositionParameter = yPositionParameter;
 		mechanicalController.isTwoDimensional = isTwoDimensional;
-		mechanicalController.curve = movementCurve;
+		mechanicalController.xCurve = xMovementCurve;
+		mechanicalController.yCurve = yMovementCurve;
 	}
 
 
