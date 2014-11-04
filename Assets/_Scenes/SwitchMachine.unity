@@ -958,6 +958,10 @@ Prefab:
       propertyPath: level
       value: 
       objectReference: {fileID: 1623312877}
+    - target: {fileID: 11400006, guid: 9ca3a2e7801b78f45980987ae4b297f4, type: 2}
+      propertyPath: postGuesser
+      value: 
+      objectReference: {fileID: 1644761600}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca3a2e7801b78f45980987ae4b297f4, type: 2}
   m_RootGameObject: {fileID: 476604414}
@@ -2656,6 +2660,10 @@ Prefab:
       propertyPath: xMovementCurve.m_Curve.Array.data[1].tangentMode
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 1a7c4d39d570a454b911dc9933447e53, type: 2}
+      propertyPath: postDataHandler
+      value: 
+      objectReference: {fileID: 1638183060}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1a7c4d39d570a454b911dc9933447e53, type: 2}
   m_RootGameObject: {fileID: 675123507}
@@ -5752,6 +5760,10 @@ Prefab:
       propertyPath: level
       value: 
       objectReference: {fileID: 1214457128}
+    - target: {fileID: 11400006, guid: 9ca3a2e7801b78f45980987ae4b297f4, type: 2}
+      propertyPath: postGuesser
+      value: 
+      objectReference: {fileID: 675123510}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ca3a2e7801b78f45980987ae4b297f4, type: 2}
   m_RootGameObject: {fileID: 604868181}
@@ -5953,6 +5965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 1623312877}
+  postGuesser: {fileID: 1644761600}
 --- !u!95 &476604419
 Animator:
   serializedVersion: 3
@@ -7838,6 +7851,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: {fileID: 1214457128}
+  postGuesser: {fileID: 675123510}
 --- !u!1 &611271036
 GameObject:
   m_ObjectHideFlags: 0
@@ -8629,7 +8643,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetButton: {fileID: 604868184}
   targetMechanism: {fileID: 675123514}
-  postDataHandler: {fileID: 0}
+  postDataHandler: {fileID: 1638183060}
 --- !u!114 &675123511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12318,8 +12332,8 @@ MonoBehaviour:
   postDataURL: http://dev.fbdev.me/apps/clay/post_picker_api/test?dashboard_id=rangers
   rightImage: {fileID: 2087207864}
   leftImage: {fileID: 1913329103}
-  rightText: {fileID: 904646991}
-  leftText: {fileID: 1823473273}
+  rightText: {fileID: 1269018016}
+  leftText: {fileID: 596642090}
   guesser: {fileID: 1644761600}
 --- !u!1 &970632208
 GameObject:
@@ -12882,6 +12896,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 971615981}
     m_Modifications:
+    - target: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: subLevels.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 11400012, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
       propertyPath: xMovementCurve.m_Curve.Array.size
       value: 2
@@ -13170,6 +13188,10 @@ Prefab:
       propertyPath: minimumLevel
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11400016, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
+      propertyPath: subLevels.Array.data[1]
+      value: 
+      objectReference: {fileID: 1623312877}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b97bd813d1b630d4fbe203f03c64e604, type: 2}
   m_RootGameObject: {fileID: 1747119672}
@@ -20230,8 +20252,8 @@ MonoBehaviour:
   postDataURL: http://dev.fbdev.me/apps/clay/post_picker_api/test?dashboard_id=usa_today
   rightImage: {fileID: 551169309}
   leftImage: {fileID: 1420604592}
-  rightText: {fileID: 1269018016}
-  leftText: {fileID: 596642090}
+  rightText: {fileID: 904646991}
+  leftText: {fileID: 1823473273}
   guesser: {fileID: 675123510}
 --- !u!1 &1644761597
 GameObject:
@@ -26267,6 +26289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   subLevels:
   - {fileID: 1214457128}
+  - {fileID: 1623312877}
   levelDependentComponents:
   - {fileID: 1082914376}
   - {fileID: 553290119}
