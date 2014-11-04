@@ -8,12 +8,11 @@ public class PostDataText : MonoBehaviour {
 	private CCText textMesh;
 	// Use this for initialization
 	void Start () {
-		PostDataHandler.OnPostDataReceived += updateText;
 		textMesh = GetComponent<CCText>();
 
 	}
 	
-	void updateText(Hashtable postData) {
+	public void updateText(Hashtable postData) {
 		Hashtable post = (Hashtable)postData[postName];
 		string postText = (string)post[textKey];
 		StartCoroutine("TypeOutText", postText);

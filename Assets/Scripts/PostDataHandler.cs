@@ -8,11 +8,31 @@ public class PostDataHandler : MonoBehaviour {
 	private Hashtable postData = new Hashtable();
 	public delegate void PostDataAction(Hashtable postData);
 	public delegate void UpdateStartAction();
+	public PostDataImage rightImage;
+	public PostDataImage leftImage;
+	public PostDataText rightText;
+	public PostDataText leftText;
+	public PostGuesser guesser;
 
-	public static event PostDataAction OnPostDataReceived;
-	public static event UpdateStartAction OnPostDataUpdateEnter;
+	public event PostDataAction OnPostDataReceived;
+	public event UpdateStartAction OnPostDataUpdateEnter;
 
 	// Use this for initialization
+	void Awake() {
+		OnPostDataReceived += rightImage.updateImage;
+		OnPostDataUpdateEnter += rightImage.onPostDataUpdateEnter;
+		OnPostDataReceived += leftImage.updateImage;
+		OnPostDataUpdateEnter += leftImage.onPostDataUpdateEnter;
+		OnPostDataReceived += rightText.updateText;
+		OnPostDataReceived += leftText.updateText;
+		OnPostDataReceived += guesser.updatePostData;
+		guesser.postDataHandler = this;
+	}
+
+	void registerEvents() {
+
+	}
+
 	void Start () {
 		startPostUpdate();
 	}

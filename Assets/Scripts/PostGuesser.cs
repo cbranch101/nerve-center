@@ -4,16 +4,14 @@ using System.Collections;
 public class PostGuesser : MonoBehaviour {
 
 	public ClickButtonOnGrab targetButton;
-	private PostDataHandler postDataHandler;
 	public LockingMechanism targetMechanism;
+	public PostDataHandler postDataHandler;
 	private Hashtable postData;
 	private string selectedPost = null;
 	public delegate void GuessAction(bool isCorrect);
 	public static event GuessAction OnPostGuess;
 	// Use this for initialization
 	void Start () {
-		postDataHandler = GameObject.Find ("PostDataHandler").GetComponent<PostDataHandler>();
-		PostDataHandler.OnPostDataReceived += updatePostData;
 		targetButton.OnClick += respondToButtonClick;
 		targetMechanism.OnLockEnter += selectPost;
 		targetMechanism.OnLockExit += deselectPost;
@@ -24,8 +22,9 @@ public class PostGuesser : MonoBehaviour {
 		
 	}
 
-	void updatePostData(Hashtable updatedPostData) {
+	public void updatePostData(Hashtable updatedPostData) {
 		postData = updatedPostData;
+		Debug.Log (postData);
 	}
 
 	void selectPost(bool isRight) {

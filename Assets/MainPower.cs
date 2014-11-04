@@ -4,8 +4,9 @@ using System.Collections;
 public class MainPower : MonoBehaviour {
 
 	public PowerSwitch mainSwitch;
-	public PowerSwitch rightSwitch;
+	public PowerSwitch leftSwitch;
 	public PowerSwitch centralSwitch;
+	public PowerSwitch rightSwitch;
 	// Use this for initialization
 	void Start () {
 		mainSwitch.toggleEnabled();
@@ -13,6 +14,9 @@ public class MainPower : MonoBehaviour {
 		mainSwitch.OnPowerDown += rightSwitch.toggleEnabled;
 		mainSwitch.OnPowerUp += centralSwitch.toggleEnabled;
 		mainSwitch.OnPowerDown += centralSwitch.toggleEnabled;
+		mainSwitch.OnPowerUp += leftSwitch.toggleEnabled;
+		mainSwitch.OnPowerDown += leftSwitch.toggleEnabled;
+
 
 		mainSwitch.OnPowerUp += onPowerUp;
 		mainSwitch.OnPowerDown += onPowerDown;
