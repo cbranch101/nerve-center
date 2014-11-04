@@ -4,10 +4,11 @@ using System.Collections;
 public class IncreasePotentiometerLevelOnGuess : MonoBehaviour {
 
 	public PoteniometerLevel level;
+	public PostGuesser postGuesser;
 
 	// Use this for initialization
 	void Start () {
-		PostGuesser.OnPostGuess += onGuess;
+		postGuesser.OnPostGuess += onGuess;
 	}
 	
 	// Update is called once per frame

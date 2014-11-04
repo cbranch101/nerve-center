@@ -10,7 +10,7 @@ public class StreakMode : MonoBehaviour, GameMode {
 	// Use this for initialization
 	void Start () {
 		statusMessage = "test";
-		PostGuesser.OnPostGuess += onPostGuess;
+//		PostGuesser.OnPostGuess += onPostGuess;
 	}
 	
 	// Update is called once per frame

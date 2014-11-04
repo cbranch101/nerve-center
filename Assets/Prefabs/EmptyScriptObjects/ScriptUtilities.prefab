@@ -188,6 +188,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   postDataURL: http://dev.fbdev.me/apps/clay/social_control_api/posts.php
+  rightImage: {fileID: 0}
+  leftImage: {fileID: 0}
+  rightText: {fileID: 0}
+  leftText: {fileID: 0}
+  guesser: {fileID: 0}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1

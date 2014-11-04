@@ -9,7 +9,7 @@ public class PostGuesser : MonoBehaviour {
 	private Hashtable postData;
 	private string selectedPost = null;
 	public delegate void GuessAction(bool isCorrect);
-	public static event GuessAction OnPostGuess;
+	public event GuessAction OnPostGuess;
 	// Use this for initialization
 	void Start () {
 		targetButton.OnClick += respondToButtonClick;
