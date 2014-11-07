@@ -18,7 +18,7 @@ RenderSettings:
   m_FogDensity: .0500000007
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientLight: {r: 1, g: 1, b: 1, a: 1}
+  m_AmbientLight: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 4c3ed12d336e3894faf849ddd2219353, type: 2}
   m_HaloStrength: .5
   m_FlareStrength: 1
@@ -10351,7 +10351,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: 71c3b0507610d43249f5905a0786d3e9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 11400010, guid: 71c3b0507610d43249f5905a0786d3e9, type: 2}
@@ -18360,7 +18360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1508088874
 Transform:
   m_ObjectHideFlags: 0
