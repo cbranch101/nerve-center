@@ -1,7 +1,7 @@
-// Shader created with Shader Forge Beta 0.31 
+// Shader created with Shader Forge Beta 0.36 
 // Shader Forge (c) Joachim Holmer - http://www.acegikmo.com/shaderforge/
 // Note: Manually altering this data may prevent you from opening it in Shader Forge
-/*SF_DATA;ver:0.31;sub:START;pass:START;ps:flbk:,lico:1,lgpr:1,nrmq:1,limd:1,uamb:True,mssp:True,lmpd:False,lprd:False,enco:False,frtr:True,vitr:True,dbil:False,rmgx:True,hqsc:True,hqlp:False,blpr:0,bsrc:0,bdst:0,culm:0,dpts:2,wrdp:True,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,ofsf:0,ofsu:0,f2p0:False;n:type:ShaderForge.SFN_Final,id:1,x:32240,y:32690|diff-171-OUT,spec-242-OUT,gloss-254-OUT;n:type:ShaderForge.SFN_ChannelBlend,id:117,x:34272,y:32276|M-135-OUT,R-118-RGB,G-120-RGB,B-122-RGB,A-124-RGB;n:type:ShaderForge.SFN_Color,id:118,x:34658,y:32208,ptlb:Color 1,ptin:_Color1,glob:False,c1:1,c2:0,c3:0,c4:0;n:type:ShaderForge.SFN_Color,id:120,x:34786,y:32357,ptlb:Color 2,ptin:_Color2,glob:False,c1:0,c2:1,c3:0,c4:0;n:type:ShaderForge.SFN_Color,id:122,x:34660,y:32492,ptlb:Color 3,ptin:_Color3,glob:False,c1:0,c2:0,c3:1,c4:0;n:type:ShaderForge.SFN_Color,id:124,x:34515,y:32570,ptlb:Color 4,ptin:_Color4,glob:False,c1:0.5,c2:0,c3:0.5,c4:1;n:type:ShaderForge.SFN_Tex2d,id:126,x:34991,y:31855,tex:a218b580352f84845ae45f90a10a98ca,ntxv:0,isnm:False|TEX-141-TEX;n:type:ShaderForge.SFN_ChannelBlend,id:133,x:33832,y:32873|M-135-OUT,R-143-RGB,G-145-RGB,B-147-RGB,A-149-RGB;n:type:ShaderForge.SFN_Append,id:135,x:34780,y:31855|A-126-RGB,B-126-A;n:type:ShaderForge.SFN_Tex2dAsset,id:141,x:34991,y:31690,ptlb:Quad Shader IMG,ptin:_QuadShaderIMG,glob:False,tex:a218b580352f84845ae45f90a10a98ca;n:type:ShaderForge.SFN_Color,id:143,x:34151,y:32730,ptlb:Specular 1,ptin:_Specular1,glob:False,c1:1,c2:0.5,c3:0.5,c4:0;n:type:ShaderForge.SFN_Color,id:145,x:34256,y:32875,ptlb:Specular 2,ptin:_Specular2,glob:False,c1:0.5,c2:1,c3:0.5,c4:0;n:type:ShaderForge.SFN_Color,id:147,x:34256,y:33062,ptlb:Specular 3,ptin:_Specular3,glob:False,c1:0.5,c2:0.5,c3:1,c4:0;n:type:ShaderForge.SFN_Color,id:149,x:34102,y:33175,ptlb:Specular 4,ptin:_Specular4,glob:False,c1:0.75,c2:0.25,c3:0.75,c4:1;n:type:ShaderForge.SFN_ChannelBlend,id:156,x:33722,y:33112|M-135-OUT,R-143-A,G-145-A,B-147-A,A-149-A;n:type:ShaderForge.SFN_Fresnel,id:163,x:33574,y:32489|EXP-222-OUT;n:type:ShaderForge.SFN_Multiply,id:165,x:33167,y:32418|A-117-OUT,B-229-OUT;n:type:ShaderForge.SFN_Subtract,id:171,x:32902,y:32326|A-117-OUT,B-165-OUT;n:type:ShaderForge.SFN_Slider,id:222,x:33739,y:32489,ptlb:Fresnel Exponent,ptin:_FresnelExponent,min:0.1,cur:0.8000001,max:5;n:type:ShaderForge.SFN_Multiply,id:229,x:33385,y:32489|A-163-OUT,B-231-OUT;n:type:ShaderForge.SFN_Slider,id:231,x:33424,y:32655,ptlb:Fresnel Intensity,ptin:_FresnelIntensity,min:0.1,cur:0.8571429,max:2;n:type:ShaderForge.SFN_Add,id:241,x:33102,y:32800|A-229-OUT,B-133-OUT;n:type:ShaderForge.SFN_Add,id:242,x:32863,y:32728|A-133-OUT,B-241-OUT;n:type:ShaderForge.SFN_Add,id:254,x:33102,y:33014|A-229-OUT,B-156-OUT;proporder:141-118-143-120-145-122-147-124-149-222-231;pass:END;sub:END;*/
+/*SF_DATA;ver:0.36;sub:START;pass:START;ps:flbk:,lico:1,lgpr:1,nrmq:1,limd:1,uamb:True,mssp:True,lmpd:False,lprd:False,enco:False,frtr:True,vitr:True,dbil:False,rmgx:True,rpth:0,hqsc:True,hqlp:False,tesm:0,blpr:0,bsrc:0,bdst:0,culm:0,dpts:2,wrdp:True,ufog:True,aust:True,igpj:False,qofs:0,qpre:1,rntp:1,fgom:False,fgoc:False,fgod:False,fgor:False,fgmd:0,fgcr:0.5,fgcg:0.5,fgcb:0.5,fgca:1,fgde:0.01,fgrn:0,fgrf:300,ofsf:0,ofsu:0,f2p0:False;n:type:ShaderForge.SFN_Final,id:1,x:32240,y:32690|diff-171-OUT,spec-242-OUT,gloss-254-OUT;n:type:ShaderForge.SFN_ChannelBlend,id:117,x:34272,y:32276,chbt:0|M-135-OUT,R-118-RGB,G-120-RGB,B-122-RGB,A-124-RGB;n:type:ShaderForge.SFN_Color,id:118,x:34658,y:32208,ptlb:Color 1,ptin:_Color1,glob:False,c1:1,c2:0,c3:0,c4:0;n:type:ShaderForge.SFN_Color,id:120,x:34786,y:32357,ptlb:Color 2,ptin:_Color2,glob:False,c1:0,c2:1,c3:0,c4:0;n:type:ShaderForge.SFN_Color,id:122,x:34660,y:32492,ptlb:Color 3,ptin:_Color3,glob:False,c1:0,c2:0,c3:1,c4:0;n:type:ShaderForge.SFN_Color,id:124,x:34515,y:32570,ptlb:Color 4,ptin:_Color4,glob:False,c1:0.5,c2:0,c3:0.5,c4:1;n:type:ShaderForge.SFN_Tex2d,id:126,x:34991,y:31855,tex:a218b580352f84845ae45f90a10a98ca,ntxv:0,isnm:False|TEX-141-TEX;n:type:ShaderForge.SFN_ChannelBlend,id:133,x:33832,y:32873,chbt:0|M-135-OUT,R-143-RGB,G-145-RGB,B-147-RGB,A-149-RGB;n:type:ShaderForge.SFN_Append,id:135,x:34780,y:31855|A-126-RGB,B-126-A;n:type:ShaderForge.SFN_Tex2dAsset,id:141,x:34991,y:31690,ptlb:Quad Shader IMG,ptin:_QuadShaderIMG,glob:False,tex:a218b580352f84845ae45f90a10a98ca;n:type:ShaderForge.SFN_Color,id:143,x:34151,y:32730,ptlb:Specular 1,ptin:_Specular1,glob:False,c1:1,c2:0.5,c3:0.5,c4:0;n:type:ShaderForge.SFN_Color,id:145,x:34256,y:32875,ptlb:Specular 2,ptin:_Specular2,glob:False,c1:0.5,c2:1,c3:0.5,c4:0;n:type:ShaderForge.SFN_Color,id:147,x:34256,y:33062,ptlb:Specular 3,ptin:_Specular3,glob:False,c1:0.5,c2:0.5,c3:1,c4:0;n:type:ShaderForge.SFN_Color,id:149,x:34102,y:33175,ptlb:Specular 4,ptin:_Specular4,glob:False,c1:0.75,c2:0.25,c3:0.75,c4:1;n:type:ShaderForge.SFN_ChannelBlend,id:156,x:33722,y:33112,chbt:0|M-135-OUT,R-143-A,G-145-A,B-147-A,A-149-A;n:type:ShaderForge.SFN_Fresnel,id:163,x:33574,y:32489|EXP-222-OUT;n:type:ShaderForge.SFN_Multiply,id:165,x:33167,y:32418|A-117-OUT,B-229-OUT;n:type:ShaderForge.SFN_Subtract,id:171,x:32902,y:32326|A-117-OUT,B-165-OUT;n:type:ShaderForge.SFN_Slider,id:222,x:33739,y:32489,ptlb:Fresnel Exponent,ptin:_FresnelExponent,min:0.1,cur:0.8000001,max:5;n:type:ShaderForge.SFN_Multiply,id:229,x:33385,y:32489|A-163-OUT,B-231-OUT;n:type:ShaderForge.SFN_Slider,id:231,x:33424,y:32655,ptlb:Fresnel Intensity,ptin:_FresnelIntensity,min:0.1,cur:0.8571429,max:2;n:type:ShaderForge.SFN_Add,id:241,x:33102,y:32800|A-229-OUT,B-133-OUT;n:type:ShaderForge.SFN_Add,id:242,x:32863,y:32728|A-133-OUT,B-241-OUT;n:type:ShaderForge.SFN_Add,id:254,x:33102,y:33014|A-229-OUT,B-156-OUT;proporder:141-118-143-120-145-122-147-124-149-222-231;pass:END;sub:END;*/
 
 Shader "Custom/NewShader" {
     Properties {
@@ -53,18 +53,18 @@ Shader "Custom/NewShader" {
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
-                float4 uv0 : TEXCOORD0;
+                float2 texcoord0 : TEXCOORD0;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
-                float4 uv0 : TEXCOORD0;
+                float2 uv0 : TEXCOORD0;
                 float4 posWorld : TEXCOORD1;
                 float3 normalDir : TEXCOORD2;
                 LIGHTING_COORDS(3,4)
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o;
-                o.uv0 = v.uv0;
+                o.uv0 = v.texcoord0;
                 o.normalDir = mul(float4(v.normal,0), _World2Object).xyz;
                 o.posWorld = mul(_Object2World, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
@@ -83,11 +83,11 @@ Shader "Custom/NewShader" {
                 float3 attenColor = attenuation * _LightColor0.xyz;
 /////// Diffuse:
                 float NdotL = dot( normalDirection, lightDirection );
-                float3 diffuse = max( 0.0, NdotL) * attenColor + UNITY_LIGHTMODEL_AMBIENT.xyz;
+                float3 diffuse = max( 0.0, NdotL) * attenColor + UNITY_LIGHTMODEL_AMBIENT.rgb;
 ///////// Gloss:
                 float node_229 = (pow(1.0-max(0,dot(normalDirection, viewDirection)),_FresnelExponent)*_FresnelIntensity);
-                float2 node_268 = i.uv0;
-                float4 node_126 = tex2D(_QuadShaderIMG,TRANSFORM_TEX(node_268.rg, _QuadShaderIMG));
+                float2 node_262 = i.uv0;
+                float4 node_126 = tex2D(_QuadShaderIMG,TRANSFORM_TEX(node_262.rg, _QuadShaderIMG));
                 float4 node_135 = float4(node_126.rgb,node_126.a);
                 float gloss = (node_229+(node_135.r*_Specular1.a + node_135.g*_Specular2.a + node_135.b*_Specular3.a + node_135.a*_Specular4.a));
                 float specPow = exp2( gloss * 10.0+1.0);
@@ -139,18 +139,18 @@ Shader "Custom/NewShader" {
             struct VertexInput {
                 float4 vertex : POSITION;
                 float3 normal : NORMAL;
-                float4 uv0 : TEXCOORD0;
+                float2 texcoord0 : TEXCOORD0;
             };
             struct VertexOutput {
                 float4 pos : SV_POSITION;
-                float4 uv0 : TEXCOORD0;
+                float2 uv0 : TEXCOORD0;
                 float4 posWorld : TEXCOORD1;
                 float3 normalDir : TEXCOORD2;
                 LIGHTING_COORDS(3,4)
             };
             VertexOutput vert (VertexInput v) {
                 VertexOutput o;
-                o.uv0 = v.uv0;
+                o.uv0 = v.texcoord0;
                 o.normalDir = mul(float4(v.normal,0), _World2Object).xyz;
                 o.posWorld = mul(_Object2World, v.vertex);
                 o.pos = mul(UNITY_MATRIX_MVP, v.vertex);
@@ -172,8 +172,8 @@ Shader "Custom/NewShader" {
                 float3 diffuse = max( 0.0, NdotL) * attenColor;
 ///////// Gloss:
                 float node_229 = (pow(1.0-max(0,dot(normalDirection, viewDirection)),_FresnelExponent)*_FresnelIntensity);
-                float2 node_269 = i.uv0;
-                float4 node_126 = tex2D(_QuadShaderIMG,TRANSFORM_TEX(node_269.rg, _QuadShaderIMG));
+                float2 node_263 = i.uv0;
+                float4 node_126 = tex2D(_QuadShaderIMG,TRANSFORM_TEX(node_263.rg, _QuadShaderIMG));
                 float4 node_135 = float4(node_126.rgb,node_126.a);
                 float gloss = (node_229+(node_135.r*_Specular1.a + node_135.g*_Specular2.a + node_135.b*_Specular3.a + node_135.a*_Specular4.a));
                 float specPow = exp2( gloss * 10.0+1.0);
