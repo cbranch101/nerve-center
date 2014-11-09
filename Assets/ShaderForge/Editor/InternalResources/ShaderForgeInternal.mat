@@ -29,6 +29,10 @@ Material:
         first:
           name: _FresnelIntensity
         second: .857142925
+      data:
+        first:
+          name: _FresnelGloss
+        second: 0
     m_Colors:
       data:
         first:

@@ -2715,7 +2715,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &311458561
 Transform:
   m_ObjectHideFlags: 0
@@ -5993,7 +5993,7 @@ GameObject:
   - 4: {fileID: 549507424}
   - 114: {fileID: 549507423}
   m_Layer: 0
-  m_Name: Sky
+  m_Name: Sky Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6005,17 +6005,17 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 549507422}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c992e8fbb96f7b3498a28a9e664f95df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   specularCube: {fileID: 8900000, guid: 6e72be964043eae4cb83362f20ed2fe2, type: 2}
   skyboxCube: {fileID: 0}
-  IsProbe: 0
+  IsProbe: 1
   dimensions:
-    m_Center: {x: 0, y: .999999642, z: 0}
-    m_Extent: {x: 6, y: 2.5, z: 6}
+    m_Center: {x: 0, y: .670586586, z: 0}
+    m_Extent: {x: 6, y: 1.82941341, z: 6}
   masterIntensity: 1
   skyIntensity: 1
   specIntensity: 1
@@ -6030,43 +6030,43 @@ MonoBehaviour:
   hasDimensions: 1
   SH:
     c:
-    - .103337392
-    - .102546252
-    - .103861444
-    - -.0107155051
-    - -.00587513112
-    - .000336785422
-    - -.00050702889
-    - -.000324370543
-    - .000148843726
-    - -3.52159113e-05
-    - -3.49989496e-05
-    - -.000250508776
-    - -.000116203322
-    - -.000130514643
-    - -.000164822777
-    - .000261458452
-    - .000278243242
-    - .000307533628
-    - -.000735897105
-    - -.000213415493
-    - .000531097176
-    - -.000204371245
-    - -.000201067931
-    - -.000128699772
-    - -.002094995
-    - -.00107201212
-    - .000346418266
+    - .103989229
+    - .101239234
+    - .100946501
+    - -.0300254412
+    - -.0262912214
+    - -.0220772587
+    - -.00130366976
+    - -.00110246823
+    - -.000648124376
+    - .000343151332
+    - .000258812652
+    - .000182913485
+    - -.000196627094
+    - -.000191578802
+    - -.000194265012
+    - .000246301439
+    - .000242670751
+    - .000256605475
+    - -.00155625155
+    - -.00124699483
+    - -.000886622991
+    - -.000469231454
+    - -.000425165636
+    - -.000396369607
+    - -.00377214467
+    - -.00314224185
+    - -.00225967704
     cBuffer:
-    - {x: .0291509386, y: .0289277621, z: .0292987712, w: 0}
-    - {x: -.00523562264, y: -.0028706037, z: .000164554192, w: 0}
-    - {x: -.000247735588, y: -.000158488256, z: 7.27254155e-05, w: 0}
-    - {x: -1.72065811e-05, y: -1.7100574e-05, z: -.000122399215, w: 0}
-    - {x: -.000126957762, y: -.000142593577, z: -.00018007688, w: 0}
-    - {x: .000285656046, y: .000303994224, z: .000335995399, w: 0}
-    - {x: -.000232095743, y: -6.73094473e-05, z: .000167503575, w: 0}
-    - {x: -.000223285489, y: -.000219676469, z: -.000140610748, w: 0}
-    - {x: -.00114444178, y: -.000585612608, z: .000189239378, w: 0}
+    - {x: .0293348189, y: .0285590589, z: .0284764804, w: 0}
+    - {x: -.0146705052, y: -.0128459558, z: -.0107870037, w: 0}
+    - {x: -.00063697627, y: -.000538668712, z: -.00031667517, w: 0}
+    - {x: .000167664592, y: .000126456507, z: 8.93719844e-05, w: 0}
+    - {x: -.000214824628, y: -.000209309132, z: -.000212243947, w: 0}
+    - {x: .000269096257, y: .000265129551, z: .000280353939, w: 0}
+    - {x: -.000490828592, y: -.000393291644, z: -.000279633416, w: 0}
+    - {x: -.000512658095, y: -.000464514073, z: -.000433053006, w: 0}
+    - {x: -.00206062547, y: -.00171652576, z: -.00123440335, w: 0}
   CustomSH: {fileID: 0}
   _blackCube: {fileID: 8900000, guid: 66c9e910645ad634ea34349969052a88, type: 2}
   _SkyboxMaterial: {fileID: 0}
@@ -6080,8 +6080,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_Father: {fileID: 1468182532}
+  m_RootOrder: 0
 --- !u!1 &551169304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6736,7 +6736,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 4076c5a98adb93d4599a4e196be73ea4, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4076c5a98adb93d4599a4e196be73ea4, type: 2}
@@ -11310,7 +11310,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 893792893}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b80761b669fcde24da55cd3a471c8c2a, type: 3}
   m_Name: 
@@ -11335,7 +11335,7 @@ MonoBehaviour:
   ProbeCamera: {fileID: 0}
   SkiesToProbe:
   - {fileID: 549507423}
-  ProbeExposures: {x: 0, y: 0, z: 0, w: 0}
+  ProbeExposures: {x: 1, y: 1, z: 1, w: 1}
   ProbeWithCubeRT: 1
   ProbeOnlyStatic: 0
 --- !u!4 &893792895
@@ -11348,8 +11348,8 @@ Transform:
   m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_Father: {fileID: 1468182532}
+  m_RootOrder: 1
 --- !u!1001 &895054818
 Prefab:
   m_ObjectHideFlags: 0
@@ -13383,7 +13383,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
@@ -13936,7 +13936,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1090692702
 Transform:
   m_ObjectHideFlags: 0
@@ -14093,7 +14093,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1099706885
 Transform:
   m_ObjectHideFlags: 0
@@ -14695,7 +14695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1165811585
 Transform:
   m_ObjectHideFlags: 0
@@ -17975,6 +17975,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 418347863}
   m_GameObject: {fileID: 1467491324}
   m_Mesh: {fileID: 4300000, guid: 9e373dc54c25fab4dadc12b56dbce10f, type: 3}
+--- !u!1 &1468182531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1468182532}
+  m_Layer: 0
+  m_Name: Skyshop Lighting
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1468182532
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1468182531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 549507424}
+  - {fileID: 893792895}
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
 --- !u!1 &1471262361
 GameObject:
   m_ObjectHideFlags: 0
@@ -19945,7 +19974,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1672104522
 Transform:
   m_ObjectHideFlags: 0
@@ -20439,7 +20468,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
@@ -20487,7 +20516,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: b652cc47d8213014eb6e627080da30b4, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b652cc47d8213014eb6e627080da30b4, type: 2}
@@ -22359,7 +22388,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100004, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: aa8c46be3337f6944948c8f00b4666bd, type: 2}
