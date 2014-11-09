@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powerableComponent: {fileID: 11400014}
-  minimumLevel: 3
+  minimumLevel: 0
 --- !u!114 &11400004
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1506,30 +1506,30 @@ MonoBehaviour:
   yPositionParameter: Lever_Pulled
   yStart: 0
   invertYParameter: 0
-  movementRate: 3
+  movementRate: 300
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100006}
   objectWithMechanimController: {fileID: 100030}
-  movementCurve:
+  xMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
-      inSlope: 1.41827536
-      outSlope: 1.41827536
-      tangentMode: 0
-    - time: .300900668
-      value: -.00028771162
-      inSlope: -1.41063297
-      outSlope: .0290253758
-      tangentMode: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
     - time: 1
       value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
+    serializedVersion: 2
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!114 &11400006
@@ -1549,13 +1549,13 @@ MonoBehaviour:
   yPositionParameter: none
   yStart: 0
   invertYParameter: 0
-  movementRate: 3
+  movementRate: 300
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100054}
   objectWithMechanimController: {fileID: 100030}
-  movementCurve:
+  xMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
@@ -1568,6 +1568,11 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
+    serializedVersion: 2
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!114 &11400008
@@ -1587,13 +1592,13 @@ MonoBehaviour:
   yPositionParameter: none
   yStart: 0
   invertYParameter: 0
-  movementRate: 3
+  movementRate: 300
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100022}
   objectWithMechanimController: {fileID: 100030}
-  movementCurve:
+  xMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
@@ -1606,6 +1611,11 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
+    serializedVersion: 2
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!114 &11400010
@@ -1625,13 +1635,13 @@ MonoBehaviour:
   yPositionParameter: none
   yStart: 0
   invertYParameter: 0
-  movementRate: 3
+  movementRate: 300
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100028}
   objectWithMechanimController: {fileID: 100030}
-  movementCurve:
+  xMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
@@ -1644,6 +1654,11 @@ MonoBehaviour:
       inSlope: 1
       outSlope: 1
       tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
+    serializedVersion: 2
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!114 &11400012
@@ -1663,13 +1678,28 @@ MonoBehaviour:
   yPositionParameter: Cyl_Pulled
   yStart: 0
   invertYParameter: 1
-  movementRate: 5
+  movementRate: 200
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100026}
   objectWithMechanimController: {fileID: 100030}
-  movementCurve:
+  xMovementCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
@@ -1677,10 +1707,15 @@ MonoBehaviour:
       inSlope: 0
       outSlope: 0
       tangentMode: 0
+    - time: .510166943
+      value: .515248299
+      inSlope: 2.98846102
+      outSlope: 2.98846102
+      tangentMode: 0
     - time: 1
       value: 1
-      inSlope: 2
-      outSlope: 2
+      inSlope: 0
+      outSlope: 0
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
@@ -1710,6 +1745,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   subLevels:
+  - {fileID: 0}
   - {fileID: 0}
   levelDependentComponents:
   - {fileID: 0}

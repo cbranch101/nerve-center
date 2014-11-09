@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   targetButton: {fileID: 0}
   targetMechanism: {fileID: 11400008}
+  postDataHandler: {fileID: 0}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -218,40 +219,30 @@ MonoBehaviour:
   yPositionParameter: none
   yStart: 0
   invertYParameter: 0
-  movementRate: .75
+  movementRate: 600
   hasColorChange: 0
   isTwoDimensional: 0
   controlledMesh: {fileID: 0}
   objectWithCollider: {fileID: 100006}
   objectWithMechanimController: {fileID: 100000}
-  movementCurve:
+  xMovementCurve:
     serializedVersion: 2
     m_Curve:
     - time: 0
       value: 0
-      inSlope: 0
-      outSlope: 4.13166046
-      tangentMode: 21
-    - time: .0244519655
-      value: .10102722
-      inSlope: 4.13166046
-      outSlope: -.0453701988
-      tangentMode: 5
-    - time: .497434586
-      value: .497434586
-      inSlope: 2.05331969
-      outSlope: 2.05331969
-      tangentMode: 0
-    - time: .974375129
-      value: .898968756
-      inSlope: .0284024999
-      outSlope: 3.23424077
-      tangentMode: 17
-    - time: 1.00814664
-      value: 1.00819397
-      inSlope: 3.23424077
-      outSlope: .905788362
-      tangentMode: 21
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    - time: 1
+      value: 1
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 10
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+  yMovementCurve:
+    serializedVersion: 2
+    m_Curve: []
     m_PreInfinity: 2
     m_PostInfinity: 2
 --- !u!114 &11400012
