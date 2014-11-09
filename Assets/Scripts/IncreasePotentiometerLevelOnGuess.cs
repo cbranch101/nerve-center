@@ -20,7 +20,7 @@ public class IncreasePotentiometerLevelOnGuess : MonoBehaviour {
 		if(isCorrect) {
 			level.increaseByOne();
 		}  else {
-			level.setLightLevel(0f);
+			level.setLightLevel(0);
 		}
 	} 
 }
