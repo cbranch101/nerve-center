@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShaderForgeInternal
-  m_Shader: {fileID: 4800000, guid: e570c2adf90d6a24b8634788025bb2bb, type: 3}
+  m_Shader: {fileID: 4800000, guid: 7f0978bc6c4c82b4db085a0737eea938, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -15,29 +15,66 @@ Material:
     m_TexEnvs:
       data:
         first:
-          name: _Diffuse
+          name: _Vignetting
         second:
-          m_Texture: {fileID: 2800000, guid: 8993b617f08498f43adcbd90697f1c5d, type: 3}
+          m_Texture: {fileID: 2800000, guid: 4416db42cf2b3cd48a38e51a55ca0bd9, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
       data:
         first:
-          name: _Normals
+          name: _GradientGreenChannel
         second:
-          m_Texture: {fileID: 2800000, guid: c6dfb00dbee6bc044a8a3bb22e56e064, type: 3}
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _ScanLinesRedChannel
+        second:
+          m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DOSText
+        second:
+          m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _DOSTextBlink
+        second:
+          m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
-          name: _Gloss
-        second: 4.50427341
+          name: _ScreenImageBrightness
+        second: 1.25
       data:
         first:
-          name: _Bands
-        second: 8
+          name: _ScanLinesIntensity
+        second: .25
+      data:
+        first:
+          name: _ScanLinesSpeed
+        second: 1
+      data:
+        first:
+          name: _VignettingIntensity
+        second: .5
     m_Colors:
       data:
         first:
-          name: _Color
-        second: {r: .654411793, g: .842697799, b: 1, a: 1}
+          name: _ScreenColorOff
+        second: {r: .050999999, g: .00999999978, b: .00999999978, a: 1}
+      data:
+        first:
+          name: _Specularity
+        second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+      data:
+        first:
+          name: _ScreenImageTint
+        second: {r: .34117651, g: 1, b: .344846696, a: 1}

@@ -46,11 +46,15 @@ Material:
       data:
         first:
           name: _FresnelExponent
-        second: 2.55000019
+        second: 1.32499993
       data:
         first:
           name: _FresnelIntensity
-        second: .507142782
+        second: .303571433
+      data:
+        first:
+          name: _FresnelGloss
+        second: .0535714366
     m_Colors:
       data:
         first:
@@ -63,11 +67,11 @@ Material:
       data:
         first:
           name: _Color1
-        second: {r: 1, g: 0, b: 0, a: 0}
+        second: {r: 1, g: .247058809, b: .247058809, a: 0}
       data:
         first:
           name: _Specular1
-        second: {r: 0, g: .640668392, b: 1, a: .219607845}
+        second: {r: .250980407, g: .0620069206, b: .0620069206, a: .909803927}
       data:
         first:
           name: _Color2
@@ -75,23 +79,23 @@ Material:
       data:
         first:
           name: _Specular2
-        second: {r: .37597847, g: .418791413, b: .501960814, a: .352941185}
+        second: {r: .0469973087, g: .0523489267, b: .0627451017, a: .490196079}
       data:
         first:
           name: _Color3
-        second: {r: .796078444, g: .865377665, b: 1, a: 0}
+        second: {r: .399600178, g: .434385687, b: .501960814, a: .270588249}
       data:
         first:
           name: _Specular3
-        second: {r: .910874426, g: .839215696, b: 1, a: .623529434}
+        second: {r: .363376677, g: .352848917, b: .376470596, a: .423529416}
       data:
         first:
           name: _Color4
-        second: {r: .239169568, g: .24614422, b: .250980407, a: 1}
+        second: {r: .113679357, g: .120654009, b: .125490203, a: 1}
       data:
         first:
           name: _Specular4
-        second: {r: .874509811, g: .877306223, b: 1, a: .250980407}
+        second: {r: .0548712052, g: .0550466701, b: .0627451017, a: .0627451017}
       data:
         first:
           name: _Color5

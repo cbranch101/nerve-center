@@ -98,7 +98,7 @@ Material:
       data:
         first:
           name: _Specularity
-        second: {r: .691176474, g: .645436823, b: .645436823, a: .494117588}
+        second: {r: .250980407, g: .234248385, b: .234248385, a: .909803927}
       data:
         first:
           name: _ScreenImageTint
