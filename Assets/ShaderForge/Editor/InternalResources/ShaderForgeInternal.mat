@@ -7,12 +7,19 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: ShaderForgeInternal
-  m_Shader: {fileID: 4800000, guid: 7f0978bc6c4c82b4db085a0737eea938, type: 3}
+  m_Shader: {fileID: 4800000, guid: b50cb2d3ac0f2b84d91e38a831c034a1, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
+      data:
+        first:
+          name: _ScreenImage
+        second:
+          m_Texture: {fileID: 2800000, guid: efd7e021c4f31ee4894f0df711cc9a94, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _Vignetting
@@ -34,20 +41,6 @@ Material:
           m_Texture: {fileID: 2800000, guid: f5f09cf8c1c80984dbf03fde029b55ae, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _DOSText
-        second:
-          m_Texture: {fileID: 2800000, guid: 3cb4d9496949be647880a41c7b8c07f3, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
-      data:
-        first:
-          name: _DOSTextBlink
-        second:
-          m_Texture: {fileID: 2800000, guid: 099b94d5c825bef46a4afc330e61244b, type: 3}
-          m_Scale: {x: 1, y: 1}
-          m_Offset: {x: 0, y: 0}
     m_Floats:
       data:
         first:
@@ -56,7 +49,7 @@ Material:
       data:
         first:
           name: _ScanLinesIntensity
-        second: .25
+        second: .5
       data:
         first:
           name: _ScanLinesSpeed
@@ -64,7 +57,11 @@ Material:
       data:
         first:
           name: _VignettingIntensity
-        second: .5
+        second: 1
+      data:
+        first:
+          name: _ScanGradientIntensity
+        second: .100000001
     m_Colors:
       data:
         first:
@@ -77,4 +74,4 @@ Material:
       data:
         first:
           name: _ScreenImageTint
-        second: {r: .34117651, g: 1, b: .344846696, a: 1}
+        second: {r: 1, g: 1, b: 1, a: 1}

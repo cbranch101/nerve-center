@@ -46,15 +46,15 @@ Material:
       data:
         first:
           name: _FresnelExponent
-        second: 1.32499993
+        second: 1.4124999
       data:
         first:
           name: _FresnelIntensity
-        second: .303571433
+        second: .473214298
       data:
         first:
           name: _FresnelGloss
-        second: .0535714366
+        second: .107142866
     m_Colors:
       data:
         first:
@@ -79,7 +79,7 @@ Material:
       data:
         first:
           name: _Specular2
-        second: {r: .0469973087, g: .0523489267, b: .0627451017, a: .490196079}
+        second: {r: .0469973087, g: .0523489267, b: .0627451017, a: .87843138}
       data:
         first:
           name: _Color3
