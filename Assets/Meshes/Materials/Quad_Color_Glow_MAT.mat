@@ -6,13 +6,20 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: ShaderForgeInternal
+  m_Name: Quad_Color_Glow_MAT
   m_Shader: {fileID: 4800000, guid: 62eeefc011ae007409a9f2456b6eb4e7, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
       data:
         first:
           name: _QuadShaderIMG
@@ -36,41 +43,45 @@ Material:
       data:
         first:
           name: _GlwoBrightness
-        second: 3.44121695
+        second: 1.60714281
       data:
         first:
           name: _GlowBrightness
-        second: 3
+        second: 1.5
     m_Colors:
       data:
         first:
+          name: _Color
+        second: {r: 1, g: 1, b: 1, a: 1}
+      data:
+        first:
           name: _Color1
-        second: {r: 1, g: 0, b: 0, a: 0}
+        second: {r: 1, g: .247058809, b: .247058809, a: 0}
       data:
         first:
           name: _Specular1
-        second: {r: 1, g: .5, b: .5, a: 0}
+        second: {r: .250980407, g: .0620069206, b: .0620069206, a: .909803927}
       data:
         first:
           name: _Color2
-        second: {r: 0, g: 1, b: 0, a: 0}
+        second: {r: .376470596, g: .359988064, b: .341038078, a: 0}
       data:
         first:
           name: _Specular2
-        second: {r: .5, g: 1, b: .5, a: 0}
+        second: {r: .0469973087, g: .0523489267, b: .0627451017, a: .87843138}
       data:
         first:
           name: _Color3
-        second: {r: 0, g: 0, b: 1, a: 0}
+        second: {r: .399600178, g: .434385687, b: .501960814, a: .270588249}
       data:
         first:
           name: _Specular3
-        second: {r: .5, g: .5, b: 1, a: 0}
+        second: {r: .363376677, g: .352848917, b: .376470596, a: .423529416}
       data:
         first:
           name: _Color4
-        second: {r: .5, g: 0, b: .5, a: 1}
+        second: {r: .113679357, g: .120654009, b: .125490203, a: 1}
       data:
         first:
           name: _Specular4
-        second: {r: .75, g: .25, b: .75, a: 1}
+        second: {r: .0548712052, g: .0550466701, b: .0627451017, a: .0627451017}

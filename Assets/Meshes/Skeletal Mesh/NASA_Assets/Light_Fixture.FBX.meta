@@ -1,0 +1,188 @@
+fileFormatVersion: 2
+guid: 982cedc3def65ee44962ecb820ce55ff
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: BN_LightFixture_Chain_LF1
+    100002: BN_LightFixture_Chain_LF2
+    100004: BN_LightFixture_Chain_LFnub
+    100006: BN_LightFixture_Chain_Rt1
+    100008: BN_LightFixture_Chain_RT2
+    100010: BN_LightFixture_Chain_RTnub
+    100012: BN_LightFixture_Light
+    100014: BN_LightFixture_Rig_Rotates
+    100016: BN_LightFixture_Root
+    100018: DMY_LightFixture_Light_intermediary
+    100020: //RootNode
+    100022: LightFixture_Mesh
+    400000: BN_LightFixture_Chain_LF1
+    400002: BN_LightFixture_Chain_LF2
+    400004: BN_LightFixture_Chain_LFnub
+    400006: BN_LightFixture_Chain_Rt1
+    400008: BN_LightFixture_Chain_RT2
+    400010: BN_LightFixture_Chain_RTnub
+    400012: BN_LightFixture_Light
+    400014: BN_LightFixture_Rig_Rotates
+    400016: BN_LightFixture_Root
+    400018: DMY_LightFixture_Light_intermediary
+    400020: //RootNode
+    400022: LightFixture_Mesh
+    4300000: LightFixture_Mesh
+    7400000: Light Swinging
+    7400002: Light Static
+    9500000: //RootNode
+    13700000: LightFixture_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Light Swinging
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BN_LightFixture_Root
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1/BN_LightFixture_Chain_LF2
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1/BN_LightFixture_Chain_LF2/BN_LightFixture_Chain_LFnub
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1/BN_LightFixture_Chain_RT2
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1/BN_LightFixture_Chain_RT2/BN_LightFixture_Chain_RTnub
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates/DMY_LightFixture_Light_intermediary
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates/DMY_LightFixture_Light_intermediary/BN_LightFixture_Light
+        weight: 1
+      - path: LightFixture_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Light Static
+      takeName: Take 001
+      firstFrame: 15
+      lastFrame: 15.1000004
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: BN_LightFixture_Root
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1/BN_LightFixture_Chain_LF2
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_LF1/BN_LightFixture_Chain_LF2/BN_LightFixture_Chain_LFnub
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1/BN_LightFixture_Chain_RT2
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Chain_Rt1/BN_LightFixture_Chain_RT2/BN_LightFixture_Chain_RTnub
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates/DMY_LightFixture_Light_intermediary
+        weight: 1
+      - path: BN_LightFixture_Root/BN_LightFixture_Rig_Rotates/DMY_LightFixture_Light_intermediary/BN_LightFixture_Light
+        weight: 1
+      - path: LightFixture_Mesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
