@@ -101,8 +101,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Light Static
       takeName: Take 001
-      firstFrame: 15
-      lastFrame: 15.1000004
+      firstFrame: 0
+      lastFrame: .100000001
       wrapMode: 0
       orientationOffsetY: 0
       level: 0

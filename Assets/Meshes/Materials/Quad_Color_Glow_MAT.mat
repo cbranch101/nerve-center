@@ -42,12 +42,12 @@ Material:
         second: 0
       data:
         first:
-          name: _GlwoBrightness
-        second: 1.60714281
+          name: _GlowBrightness
+        second: 2
       data:
         first:
-          name: _GlowBrightness
-        second: 1.5
+          name: _GlwoBrightness
+        second: 1.60714281
     m_Colors:
       data:
         first:

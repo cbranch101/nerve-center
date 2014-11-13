@@ -55,6 +55,10 @@ Material:
         first:
           name: _FresnelGloss
         second: .107142866
+      data:
+        first:
+          name: _GlowBrightness
+        second: 0
     m_Colors:
       data:
         first:
