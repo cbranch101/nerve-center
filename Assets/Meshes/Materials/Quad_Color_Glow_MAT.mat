@@ -43,7 +43,7 @@ Material:
       data:
         first:
           name: _GlowBrightness
-        second: 2
+        second: 1.5
       data:
         first:
           name: _GlwoBrightness

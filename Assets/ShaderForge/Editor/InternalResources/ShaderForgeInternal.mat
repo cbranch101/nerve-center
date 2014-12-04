@@ -24,19 +24,15 @@ Material:
       data:
         first:
           name: _FresnelExponent
-        second: .800000072
+        second: 1
       data:
         first:
           name: _FresnelIntensity
-        second: .857142925
+        second: 1
       data:
         first:
           name: _FresnelGloss
         second: 0
-      data:
-        first:
-          name: _GlwoBrightness
-        second: 3.44121695
       data:
         first:
           name: _GlowBrightness
